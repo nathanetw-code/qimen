@@ -38,6 +38,7 @@
         "@chakra-ui/react": "^2.7.1",
         "@emotion/react": "^11.11.1",
         "@emotion/styled": "^11.11.0",
+        "@supabase/supabase-js": "^2.106.2",
         "framer-motion": "^10.12.17",
         "lunar-typescript": "^1.6.6",
         "moment": "^2.29.4",
