@@ -5,7 +5,7 @@ import {
 } from '@chakra-ui/react'
 import { supabase } from '../lib/supabase'
 import { saveUserProfile } from '../lib/auth'
-import { buildThreePalaces } from '../palaces/threePalaceCalculator'
+import { buildThreePalaces, buildEngineChartFromDate } from '../palaces/threePalaceCalculator'
 import type { Gender } from '../types'
 
 interface Props { onComplete: () => void }
@@ -28,12 +28,7 @@ export function OnboardingPage({ onComplete }: Props) {
       if (!session) throw new Error('Not authenticated')
 
       const birthDateTime = new Date(`${birthDate}T${birthTime}`)
-      // TODO after Task 10: replace mockNatalChart() with actual engine call
-      const natalChart = {
-        heavenStems: ['戊','乙','丙','丁','己','庚','辛','壬','癸'],
-        gates: ['開門','休門','生門','傷門','杜門','景門','死門','驚門','開門'],
-        deities: ['值符','腾蛇','太陰','六合','白虎','玄武','九地','九天','值符'],
-      }
+      const natalChart = buildEngineChartFromDate(birthDateTime)
       const threePalaces = buildThreePalaces(birthDateTime, natalChart)
       await saveUserProfile(session.user.id, birthDate, birthTime, gender, threePalaces)
       onComplete()

@@ -1,5 +1,7 @@
 import type { HeavenlyStem, PalaceNumber, GateKey, DeityKey, ThreePalaces } from '../types'
 import { PALACE_DIRECTION, STEM_ELEMENT } from '../types'
+import { Lunar } from 'lunar-typescript'
+import { QimenUtil } from '../../qimen/QimenUtil'
 
 const STEMS: HeavenlyStem[] = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸']
 
@@ -46,6 +48,30 @@ export function findDeityPalace(chart: EngineChart): { palaceNumber: PalaceNumbe
   const idx = chart.deities.findIndex(d => d === '值符')
   const palaceNumber = idx === -1 ? 1 : ((idx + 1) as PalaceNumber)
   return { palaceNumber, deity: chart.deities[idx === -1 ? 0 : idx] as DeityKey }
+}
+
+// Normalize traditional characters to simplified (engine uses 騰蛇, app uses 腾蛇)
+function normalizeDeity(deity: string): string {
+  return deity.replace('騰蛇', '腾蛇')
+}
+
+export function buildEngineChartFromDate(date: Date): EngineChart {
+  const lunar = Lunar.fromYmdHms(
+    date.getFullYear(),
+    date.getMonth() + 1,
+    date.getDate(),
+    date.getHours(),
+    date.getMinutes(),
+    date.getSeconds(),
+  )
+  const pan = QimenUtil.create(lunar)
+  const cells = pan.九宮  // array of 9 QimenCell
+
+  return {
+    heavenStems: cells.map(c => (c.天盤干[0] ?? '') as string),
+    gates: cells.map(c => c.八門 as string),
+    deities: cells.map(c => normalizeDeity(c.八神 as string)),
+  }
 }
 
 export function buildThreePalaces(

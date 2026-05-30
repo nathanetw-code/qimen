@@ -5,6 +5,7 @@ import {
 import { useCurrentChart } from '../hooks/useCurrentChart'
 import { DEITY_INFO, GATE_INFO } from '../types'
 import type { UserProfile } from '../types'
+import type { EngineChart } from '../palaces/threePalaceCalculator'
 
 interface Props { profile: UserProfile }
 
@@ -80,29 +81,38 @@ export function DashboardPage({ profile: { threePalaces: tp } }: Props) {
 
 // 3x3 grid showing 9 palaces — Luoshu arrangement
 // Row 1: 4 9 2 | Row 2: 3 5 7 | Row 3: 8 1 6
-function QimenChartGrid({ highlightPalace }: { chart: unknown; highlightPalace: number }) {
+function QimenChartGrid({ chart, highlightPalace }: { chart: EngineChart | null; highlightPalace: number }) {
   const palaceOrder = [4, 9, 2, 3, 5, 7, 8, 1, 6]
   return (
     <Grid templateColumns="repeat(3, 1fr)" gap={1}>
-      {palaceOrder.map(p => (
-        <GridItem
-          key={p}
-          p={2}
-          borderWidth={1}
-          borderRadius="md"
-          bg={p === highlightPalace ? 'purple.50' : 'gray.50'}
-          borderColor={p === highlightPalace ? 'purple.400' : 'gray.200'}
-          textAlign="center"
-          minH="60px"
-        >
-          <Text fontSize="xs" fontWeight="bold" color="gray.600">
-            วัง {p}
-          </Text>
-          {p === highlightPalace && (
-            <Badge colorScheme="purple" fontSize="9px">ชะตา</Badge>
-          )}
-        </GridItem>
-      ))}
+      {palaceOrder.map((p) => {
+        const cellIdx = p - 1  // palace 1 is at index 0
+        return (
+          <GridItem
+            key={p}
+            p={2}
+            borderWidth={1}
+            borderRadius="md"
+            bg={p === highlightPalace ? 'purple.50' : 'gray.50'}
+            borderColor={p === highlightPalace ? 'purple.400' : 'gray.200'}
+            textAlign="center"
+            minH="60px"
+          >
+            <Text fontSize="xs" fontWeight="bold" color="gray.600">
+              วัง {p}
+            </Text>
+            {chart && (
+              <>
+                <Text fontSize="9px" color="teal.600">{chart.gates[cellIdx]}</Text>
+                <Text fontSize="9px" color="orange.500">{chart.deities[cellIdx]}</Text>
+              </>
+            )}
+            {p === highlightPalace && (
+              <Badge colorScheme="purple" fontSize="9px">ชะตา</Badge>
+            )}
+          </GridItem>
+        )
+      })}
     </Grid>
   )
 }
