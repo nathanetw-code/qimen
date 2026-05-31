@@ -52,6 +52,7 @@ export default function App() {
           <Route path="/dashboard" element={<DashboardPage profile={profile} />} />
           <Route path="/timing" element={<AuspiciousTimingPage profile={profile} />} />
           <Route path="/profile" element={<ProfilePage profile={profile} onSignOut={() => setProfile(null)} />} />
+          <Route path="/onboarding" element={<OnboardingPage onComplete={() => window.location.href = '/profile'} />} />
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
         </ErrorBoundary>
