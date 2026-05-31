@@ -8,6 +8,19 @@ export function useUserProfile() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    // Fast initial load — clears loading immediately
+    supabase.auth.getSession().then(({ data }) => {
+      if (data.session?.user) {
+        loadUserProfile(data.session.user.id).then(p => {
+          setProfile(p)
+          setLoading(false)
+        })
+      } else {
+        setLoading(false)
+      }
+    })
+
+    // Listen for OAuth callback / sign out
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (_event, session) => {
         if (session?.user) {
@@ -19,6 +32,7 @@ export function useUserProfile() {
         setLoading(false)
       }
     )
+
     return () => subscription.unsubscribe()
   }, [])
 
