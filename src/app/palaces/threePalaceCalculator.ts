@@ -1,6 +1,6 @@
 import type { HeavenlyStem, PalaceNumber, GateKey, DeityKey, ThreePalaces } from '../types'
 import { PALACE_DIRECTION, STEM_ELEMENT } from '../types'
-import { Lunar } from 'lunar-typescript'
+import { Solar } from 'lunar-typescript'
 import { QimenUtil } from '../../qimen/QimenUtil'
 
 const STEMS: HeavenlyStem[] = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸']
@@ -64,7 +64,7 @@ function normalizeDeity(deity: string | undefined): string {
 }
 
 export function buildEngineChartFromDate(date: Date): EngineChart {
-  const lunar = Lunar.fromYmdHms(
+  const solar = Solar.fromYmdHms(
     date.getFullYear(),
     date.getMonth() + 1,
     date.getDate(),
@@ -72,6 +72,7 @@ export function buildEngineChartFromDate(date: Date): EngineChart {
     date.getMinutes(),
     date.getSeconds(),
   )
+  const lunar = solar.getLunar()
   const pan = QimenUtil.create(lunar)
   const cells = pan.九宮  // array of 9 QimenCell
 
