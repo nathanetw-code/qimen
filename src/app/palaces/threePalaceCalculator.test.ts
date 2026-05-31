@@ -49,14 +49,21 @@ describe('buildThreePalaces', () => {
   })
 })
 
-// Helper: minimal mock chart where 乙 is in palace 3
+const EMPTY_9 = Array(9).fill('')
+const FALSE_9 = Array(9).fill(false)
+
+// Helper: minimal mock chart where 乙 is in palace 2 (index 1)
 function mockNatalChart() {
-  // Structure matches the engine's chart output
-  // heavenStems[palaceIndex] = stem in that palace (heaven plate)
   return {
     heavenStems: ['戊', '乙', '丙', '丁', '己', '庚', '辛', '壬', '癸'],
-    gates: ['開門', '休門', '生門', '傷門', '杜門', '景門', '死門', '驚門'],
-    deities: ['值符', '腾蛇', '太陰', '六合', '白虎', '玄武', '九地', '九天'],
-    // palace index 0=palace1, 1=palace2, ... 8=palace9
+    earthStems:  [...EMPTY_9],
+    stars:       [...EMPTY_9],
+    gates:       ['開門', '休門', '生門', '傷門', '杜門', '景門', '死門', '驚門', '休門'],
+    deities:     ['值符', '腾蛇', '太陰', '六合', '白虎', '玄武', '九地', '九天', '值符'],
+    isVoid:      [...FALSE_9],
+    isHorse:     [...FALSE_9],
+    dun:         '陽遁',
+    formation:   1,
+    leadStem:    '戊',
   }
 }

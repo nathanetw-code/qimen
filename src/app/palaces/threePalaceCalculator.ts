@@ -21,11 +21,18 @@ export function isYangYear(year: number): boolean {
   return stemIndex % 2 === 0
 }
 
-// Engine chart shape — adjust property names after inspecting actual engine output
+// Engine chart shape — index 0 = palace 1, ..., index 8 = palace 9
 export interface EngineChart {
-  heavenStems: string[]  // index 0 = palace 1, ..., index 8 = palace 9
-  gates: string[]
-  deities: string[]
+  heavenStems: string[]   // 天盤干 — heaven plate stem per palace
+  earthStems: string[]    // 地盤干 — earth plate stem per palace
+  stars: string[]         // 九星 — nine stars
+  gates: string[]         // 八門 — eight gates
+  deities: string[]       // 八神 — eight deities (normalized to simplified chars)
+  isVoid: boolean[]       // 是否空亡 — is void?
+  isHorse: boolean[]      // 是否驛馬 — is travelling horse?
+  dun: string             // 陽遁 | 陰遁
+  formation: number       // 局數 1–9
+  leadStem: string        // 遁干 (chief hidden stem)
 }
 
 export function findDestinyPalace(dayStem: HeavenlyStem, chart: EngineChart): PalaceNumber {
@@ -69,8 +76,15 @@ export function buildEngineChartFromDate(date: Date): EngineChart {
 
   return {
     heavenStems: cells.map(c => (c.天盤干[0] ?? '') as string),
-    gates: cells.map(c => c.八門 as string),
-    deities: cells.map(c => normalizeDeity(c.八神 as string)),
+    earthStems:  cells.map(c => (c.地盤干[0] ?? '') as string),
+    stars:       cells.map(c => c.九星 as string),
+    gates:       cells.map(c => c.八門 as string),
+    deities:     cells.map(c => normalizeDeity(c.八神 as string)),
+    isVoid:      cells.map(c => c.是否空亡),
+    isHorse:     cells.map(c => c.是否驛馬),
+    dun:         pan.遁 as string,
+    formation:   pan.局數 as number,
+    leadStem:    pan.遁干 as string,
   }
 }
 

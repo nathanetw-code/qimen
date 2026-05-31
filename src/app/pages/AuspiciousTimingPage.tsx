@@ -6,6 +6,7 @@ import {
   AccordionButton, AccordionPanel, AccordionIcon,
 } from '@chakra-ui/react'
 import { scoreHour, getLevel, getChineseHours } from '../scorer/auspiciousScorer'
+import { buildEngineChartFromDate } from '../palaces/threePalaceCalculator'
 import { ACTIVITY_LABEL } from '../types'
 import type { ActivityType, AuspiciousHour, TimingSearchParams, UserProfile } from '../types'
 
@@ -54,17 +55,19 @@ export function AuspiciousTimingPage({ profile }: Props) {
           if (params.timeRange === 'afternoon' && (hr < 12 || hr >= 18)) continue
           if (params.timeRange === 'evening' && (hr < 18 || hr >= 23)) continue
         }
-        // Mock palace snapshot — replace with real engine lookup in Task 10
-        const mockPalace = {
-          gate: '開門' as const,
-          deity: '九天' as const,
-          star: '天心',
-          heavenStem: '丁',
-          earthStem: '乙',
-          hasVoid: false,
+        // Real palace snapshot from Qimen engine for this hour
+        const hourChart = buildEngineChartFromDate(h)
+        const dIdx = profile.threePalaces.destinyPalaceNumber - 1
+        const realPalace = {
+          gate:       hourChart.gates[dIdx]       ?? '',
+          deity:      hourChart.deities[dIdx]     ?? '',
+          star:       hourChart.stars[dIdx]       ?? '',
+          heavenStem: hourChart.heavenStems[dIdx] ?? '',
+          earthStem:  hourChart.earthStems[dIdx]  ?? '',
+          hasVoid:    hourChart.isVoid[dIdx]      ?? false,
         }
         const { total, reasons, warnings } = scoreHour(
-          mockPalace,
+          realPalace,
           params.activity,
           profile.threePalaces.destinyPalaceNumber,
         )

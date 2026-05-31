@@ -1,11 +1,12 @@
 import {
-  VStack, Heading, Box, Text, Grid, GridItem,
-  Badge, Divider, HStack, Spinner,
+  VStack, Heading, Box, Text,
+  Badge, Divider, HStack, Spinner, Tabs, TabList,
+  Tab, TabPanels, TabPanel, Grid, GridItem,
 } from '@chakra-ui/react'
 import { useCurrentChart } from '../hooks/useCurrentChart'
-import { DEITY_INFO, GATE_INFO } from '../types'
-import type { UserProfile } from '../types'
-import type { EngineChart } from '../palaces/threePalaceCalculator'
+import { DEITY_INFO, GATE_INFO, STAR_INFO } from '../types'
+import type { UserProfile, StarKey } from '../types'
+import { QimenChartGrid } from '../components/QimenChartGrid'
 
 interface Props { profile: UserProfile }
 
@@ -13,106 +14,135 @@ export function DashboardPage({ profile: { threePalaces: tp } }: Props) {
   const { chart, currentHour } = useCurrentChart()
 
   const hourLabel = currentHour.toLocaleTimeString('th-TH', {
-    hour: '2-digit', minute: '2-digit'
+    hour: '2-digit', minute: '2-digit',
   })
 
+  // Current info for user's destiny palace
+  const destinyIdx = tp.destinyPalaceNumber - 1
+  const currentGate   = chart?.gates[destinyIdx]   ?? null
+  const currentDeity  = chart?.deities[destinyIdx] ?? null
+  const currentStar   = chart?.stars[destinyIdx]   ?? null
+  const currentIsVoid = chart?.isVoid[destinyIdx]  ?? false
+
   return (
-    <VStack spacing={6} p={6} align="stretch" maxW="md" mx="auto">
+    <VStack spacing={4} p={4} align="stretch" maxW="md" mx="auto">
       <HStack justify="space-between">
         <Heading size="md">แผนผัง Qimen</Heading>
         <Badge colorScheme="green">{hourLabel}</Badge>
       </HStack>
 
-      {/* Current Qimen Chart */}
-      <Box p={4} borderWidth={1} borderRadius="lg">
-        <Text fontWeight="bold" mb={3}>ผัง Qimen ปัจจุบัน</Text>
-        {chart ? (
-          <QimenChartGrid chart={chart} highlightPalace={tp.destinyPalaceNumber} />
-        ) : (
-          <Spinner />
-        )}
-      </Box>
+      <Tabs variant="soft-rounded" colorScheme="purple" size="sm">
+        <TabList>
+          <Tab>ผัง 9 วัง</Tab>
+          <Tab>3 วังของฉัน</Tab>
+        </TabList>
 
-      {/* Natal Chart */}
-      <Box p={4} borderWidth={1} borderRadius="lg">
-        <Text fontWeight="bold" mb={3}>ผัง Destiny ของคุณ</Text>
-        <Text fontSize="sm" color="gray.500">วังโชคชะตา: วังที่ {tp.destinyPalaceNumber}</Text>
-      </Box>
+        <TabPanels>
+          {/* ── Tab 1: Full 9-palace chart ── */}
+          <TabPanel px={0}>
+            <Box p={3} borderWidth={1} borderRadius="lg">
+              {chart ? (
+                <QimenChartGrid
+                  chart={chart}
+                  highlightPalace={tp.destinyPalaceNumber}
+                />
+              ) : (
+                <VStack py={8}><Spinner /><Text fontSize="sm" color="gray.400">กำลังโหลดผัง...</Text></VStack>
+              )}
+            </Box>
+          </TabPanel>
 
-      <Divider />
+          {/* ── Tab 2: User's three palaces ── */}
+          <TabPanel px={0}>
+            <VStack spacing={3} align="stretch">
+              {/* Destiny palace summary */}
+              <Box p={4} borderWidth={2} borderColor="purple.300" borderRadius="lg" bg="purple.50">
+                <Text fontWeight="bold" mb={2} color="purple.700">
+                  วังโชคชะตา — วังที่ {tp.destinyPalaceNumber}
+                </Text>
+                <HStack spacing={2} flexWrap="wrap">
+                  <Badge colorScheme="purple">{tp.dayStem} (Day Stem)</Badge>
+                  <Badge colorScheme="teal">{tp.element}</Badge>
+                  <Badge colorScheme="blue">{tp.destinyDirection}</Badge>
+                </HStack>
 
-      {/* Direction + Deity */}
-      <Grid templateColumns="1fr 1fr" gap={4}>
-        <GridItem>
-          <Box p={4} borderWidth={1} borderRadius="lg" h="full">
-            <Text fontWeight="bold" mb={2}>ทิศประจำตัว</Text>
-            <Text fontSize="lg" color="purple.600">{tp.destinyDirection}</Text>
-            <Text fontSize="xs" color="gray.500" mt={1}>
-              หันหน้าทิศนี้ขณะไหว้เจ้า
-            </Text>
-          </Box>
-        </GridItem>
-        <GridItem>
-          <Box p={4} borderWidth={1} borderRadius="lg" h="full">
-            <Text fontWeight="bold" mb={2}>เทพประจำตัว</Text>
-            <Text fontSize="sm" color="orange.600">
-              {DEITY_INFO[tp.destinyDeity]?.nameThai ?? tp.destinyDeity}
-            </Text>
-            <Text fontSize="xs" color="gray.500" mt={1}>
-              {DEITY_INFO[tp.destinyDeity]?.power}
-            </Text>
-          </Box>
-        </GridItem>
-      </Grid>
+                {/* What's in destiny palace RIGHT NOW */}
+                {chart && (
+                  <>
+                    <Divider my={3} />
+                    <Text fontSize="xs" color="gray.500" mb={2}>ในวังนี้ตอนนี้:</Text>
+                    <HStack spacing={2} flexWrap="wrap">
+                      {currentGate && (
+                        <Badge
+                          colorScheme={GATE_INFO[currentGate as keyof typeof GATE_INFO]?.auspicious ? 'green' : 'red'}
+                        >
+                          {GATE_INFO[currentGate as keyof typeof GATE_INFO]?.nameThai ?? currentGate}
+                        </Badge>
+                      )}
+                      {currentDeity && (
+                        <Badge colorScheme="orange">
+                          {DEITY_INFO[currentDeity as keyof typeof DEITY_INFO]?.nameThai ?? currentDeity}
+                        </Badge>
+                      )}
+                      {currentStar && (
+                        <Badge colorScheme={STAR_INFO[currentStar as StarKey]?.auspicious ? 'teal' : 'gray'}>
+                          {STAR_INFO[currentStar as StarKey]?.nameThai ?? currentStar}
+                        </Badge>
+                      )}
+                      {currentIsVoid && <Badge colorScheme="gray">⚠ Void</Badge>}
+                    </HStack>
+                  </>
+                )}
+              </Box>
 
-      {/* Destiny Door */}
-      <Box p={4} borderWidth={1} borderRadius="lg">
-        <Text fontWeight="bold" mb={2}>ประตูประจำตัว</Text>
-        <HStack>
-          <Text>{GATE_INFO[tp.destinyDoor]?.nameThai ?? tp.destinyDoor}</Text>
-          {GATE_INFO[tp.destinyDoor]?.auspicious && (
-            <Badge colorScheme="green">มงคล</Badge>
-          )}
-        </HStack>
-      </Box>
+              <Divider />
+
+              {/* Direction & Deity cards */}
+              <Grid templateColumns="1fr 1fr" gap={3}>
+                <GridItem>
+                  <Box p={4} borderWidth={1} borderRadius="lg" h="full">
+                    <Text fontWeight="bold" mb={2} fontSize="sm">ทิศประจำตัว</Text>
+                    <Text fontSize="lg" color="purple.600" fontWeight="bold">
+                      {tp.destinyDirection.split(' ')[0]}
+                    </Text>
+                    <Text fontSize="xs" color="gray.500" mt={1}>
+                      {tp.destinyDirection}
+                    </Text>
+                    <Text fontSize="xs" color="gray.400" mt={2}>
+                      หันหน้าทิศนี้ขณะไหว้เจ้า
+                    </Text>
+                  </Box>
+                </GridItem>
+                <GridItem>
+                  <Box p={4} borderWidth={1} borderRadius="lg" h="full">
+                    <Text fontWeight="bold" mb={2} fontSize="sm">เทพประจำตัว</Text>
+                    <Text fontSize="sm" color="orange.600" fontWeight="bold">
+                      {DEITY_INFO[tp.destinyDeity]?.nameThai ?? tp.destinyDeity}
+                    </Text>
+                    <Text fontSize="xs" color="gray.500" mt={2}>
+                      {DEITY_INFO[tp.destinyDeity]?.power}
+                    </Text>
+                  </Box>
+                </GridItem>
+              </Grid>
+
+              {/* Destiny Door */}
+              <Box p={4} borderWidth={1} borderRadius="lg">
+                <Text fontWeight="bold" mb={2} fontSize="sm">ประตูประจำตัว (Natal)</Text>
+                <HStack>
+                  <Text>{GATE_INFO[tp.destinyDoor]?.nameThai ?? tp.destinyDoor}</Text>
+                  {GATE_INFO[tp.destinyDoor]?.auspicious && (
+                    <Badge colorScheme="green">มงคล</Badge>
+                  )}
+                </HStack>
+                <Text fontSize="xs" color="gray.400" mt={1}>
+                  ประตูในวังชะตาตอนเกิด
+                </Text>
+              </Box>
+            </VStack>
+          </TabPanel>
+        </TabPanels>
+      </Tabs>
     </VStack>
-  )
-}
-
-// 3x3 grid showing 9 palaces — Luoshu arrangement
-// Row 1: 4 9 2 | Row 2: 3 5 7 | Row 3: 8 1 6
-function QimenChartGrid({ chart, highlightPalace }: { chart: EngineChart | null; highlightPalace: number }) {
-  const palaceOrder = [4, 9, 2, 3, 5, 7, 8, 1, 6]
-  return (
-    <Grid templateColumns="repeat(3, 1fr)" gap={1}>
-      {palaceOrder.map((p) => {
-        const cellIdx = p - 1  // palace 1 is at index 0
-        return (
-          <GridItem
-            key={p}
-            p={2}
-            borderWidth={1}
-            borderRadius="md"
-            bg={p === highlightPalace ? 'purple.50' : 'gray.50'}
-            borderColor={p === highlightPalace ? 'purple.400' : 'gray.200'}
-            textAlign="center"
-            minH="60px"
-          >
-            <Text fontSize="xs" fontWeight="bold" color="gray.600">
-              วัง {p}
-            </Text>
-            {chart && (
-              <>
-                <Text fontSize="9px" color="teal.600">{chart.gates[cellIdx]}</Text>
-                <Text fontSize="9px" color="orange.500">{chart.deities[cellIdx]}</Text>
-              </>
-            )}
-            {p === highlightPalace && (
-              <Badge colorScheme="purple" fontSize="9px">ชะตา</Badge>
-            )}
-          </GridItem>
-        )
-      })}
-    </Grid>
   )
 }

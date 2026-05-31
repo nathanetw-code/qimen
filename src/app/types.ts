@@ -85,6 +85,32 @@ export const GATE_INFO: Record<GateKey, { nameThai: string; auspicious: boolean 
   '景門': { nameThai: 'ประตูทิวทัศน์ (Scenery)', auspicious: false },
 }
 
+export type StarKey =
+  | '天蓬' | '天任' | '天冲' | '天輔' | '天英'
+  | '天芮' | '天柱' | '天心' | '天禽'
+
+export const STAR_INFO: Record<StarKey, { nameThai: string; auspicious: boolean }> = {
+  '天蓬': { nameThai: 'เทียนเผิง', auspicious: false },
+  '天任': { nameThai: 'เทียนเริ้น', auspicious: true },
+  '天冲': { nameThai: 'เทียนชง', auspicious: true },
+  '天輔': { nameThai: 'เทียนฝู่', auspicious: true },
+  '天英': { nameThai: 'เทียนอิง', auspicious: false },
+  '天芮': { nameThai: 'เทียนรุ่ย', auspicious: false },
+  '天柱': { nameThai: 'เทียนจู้', auspicious: false },
+  '天心': { nameThai: 'เทียนซิน', auspicious: true },
+  '天禽': { nameThai: 'เทียนฉิน', auspicious: true },
+}
+
+export const PALACE_DIR_SHORT: Record<PalaceNumber, string> = {
+  1: 'N', 2: 'SW', 3: 'E', 4: 'SE', 5: '中',
+  6: 'NW', 7: 'W', 8: 'NE', 9: 'S',
+}
+
+export const PALACE_TRIGRAM: Record<PalaceNumber, string> = {
+  1: '坎', 2: '坤', 3: '震', 4: '巽', 5: '中',
+  6: '乾', 7: '兌', 8: '艮', 9: '離',
+}
+
 export type ActivityType = 'worship' | 'chanting' | 'meditation' | 'general'
 
 export const ACTIVITY_LABEL: Record<ActivityType, string> = {
