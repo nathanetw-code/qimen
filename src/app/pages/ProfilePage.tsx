@@ -43,7 +43,17 @@ export function ProfilePage({ profile, onSignOut }: Props) {
       </Box>
 
       <Box p={4} borderWidth={1} borderRadius="lg">
-        <Text fontWeight="bold" mb={2}>ข้อมูลวันเกิด</Text>
+        <HStack justify="space-between" mb={2}>
+          <Text fontWeight="bold">ข้อมูลวันเกิด</Text>
+          <Button
+            size="xs"
+            colorScheme="purple"
+            variant="outline"
+            onClick={() => window.location.href = '/onboarding'}
+          >
+            แก้ไข
+          </Button>
+        </HStack>
         <Text>วันเกิด: {profile.birthDate}</Text>
         <Text>เวลาเกิด: {profile.birthTime}</Text>
         <Text>กิ่งฟ้าวันเกิด: {tp.dayStem}</Text>

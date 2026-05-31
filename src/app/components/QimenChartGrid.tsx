@@ -22,6 +22,21 @@ const PALACE_BG: Record<PalaceNumber, string> = {
   9: 'red.50',     // 離 Fire
 }
 
+// Direction header bar color (matching reference chart)
+const DIR_HEADER_BG: Record<PalaceNumber, string> = {
+  1: 'blue.500',    // N  水
+  2: 'yellow.600',  // SW 土
+  3: 'green.600',   // E  木
+  4: 'teal.600',    // SE 木
+  5: 'orange.500',  // 中 土
+  6: 'gray.600',    // NW 金
+  7: 'gray.400',    // W  金
+  8: 'brown',       // NE 土 — fallback to yellow.700
+  9: 'red.500',     // S  火
+}
+// Chakra doesn't have 'brown' — use yellow.800 for NE
+const DIR_HEADER_FINAL: Record<PalaceNumber, string> = { ...DIR_HEADER_BG, 8: 'yellow.700' }
+
 // Heaven stem colors by element
 const STEM_COLOR: Record<string, string> = {
   '甲': 'green.700', '乙': 'green.600',
@@ -129,16 +144,25 @@ export function QimenChartGrid({ chart, highlightPalace }: Props) {
                 minH="120px"
                 position="relative"
               >
-                {/* Palace header */}
-                <HStack justify="center" spacing={0.5} mb={0.5}>
-                  <Text fontSize="7px" color="gray.500" fontWeight="bold">
-                    {PALACE_DIR_SHORT[p]}
-                  </Text>
-                  <Text fontSize="7px" color="gray.400">
-                    {PALACE_TRIGRAM[p]}
-                  </Text>
-                  <Text fontSize="7px" color="gray.300">{p}</Text>
-                </HStack>
+                {/* ── Direction header bar ── */}
+                <Box
+                  mx={-1}
+                  mt={-1.5}
+                  mb={1}
+                  px={1}
+                  py={0.5}
+                  bg={isDestiny ? 'purple.500' : DIR_HEADER_FINAL[p]}
+                  borderTopRadius="md"
+                >
+                  <HStack justify="space-between" px={0.5}>
+                    <Text fontSize="7px" color="white" fontWeight="bold">
+                      {PALACE_DIR_SHORT[p]}
+                    </Text>
+                    <Text fontSize="7px" color="whiteAlpha.800">
+                      {PALACE_TRIGRAM[p]}{p}
+                    </Text>
+                  </HStack>
+                </Box>
 
                 {/* Heaven stem — large */}
                 <Text
