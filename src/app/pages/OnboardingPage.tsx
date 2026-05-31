@@ -32,7 +32,8 @@ export function OnboardingPage({ onComplete }: Props) {
       const threePalaces = buildThreePalaces(birthDateTime, natalChart)
       await saveUserProfile(session.user.id, birthDate, birthTime, gender, threePalaces)
       onComplete()
-    } catch {
+    } catch (err) {
+      console.error('Onboarding save error:', err)
       toast({ title: 'เกิดข้อผิดพลาด กรุณาลองใหม่', status: 'error' })
     } finally {
       setSaving(false)
