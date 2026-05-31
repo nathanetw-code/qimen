@@ -9,7 +9,7 @@ import { ProfilePage } from './app/pages/ProfilePage'
 import { BottomNav } from './app/components/BottomNav'
 
 export default function App() {
-  const { profile, loading, setProfile } = useUserProfile()
+  const { profile, user, loading, setProfile } = useUserProfile()
 
   if (loading) return null
 
@@ -18,7 +18,8 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/onboarding" element={<OnboardingPage onComplete={() => window.location.href = '/dashboard'} />} />
-          <Route path="*" element={<LoginPage />} />
+          {/* Logged in but no profile yet → go to onboarding */}
+          <Route path="*" element={user ? <Navigate to="/onboarding" replace /> : <LoginPage />} />
         </Routes>
       </BrowserRouter>
     )

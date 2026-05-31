@@ -1,17 +1,20 @@
 import { useState, useEffect } from 'react'
+import type { User } from '@supabase/supabase-js'
 import { supabase } from '../lib/supabase'
 import { loadUserProfile } from '../lib/auth'
 import type { UserProfile } from '../types'
 
 export function useUserProfile() {
   const [profile, setProfile] = useState<UserProfile | null>(null)
+  const [user, setUser] = useState<User | null>(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Fast initial load — clears loading immediately
     supabase.auth.getSession().then(({ data }) => {
-      if (data.session?.user) {
-        loadUserProfile(data.session.user.id).then(p => {
+      const u = data.session?.user ?? null
+      setUser(u)
+      if (u) {
+        loadUserProfile(u.id).then(p => {
           setProfile(p)
           setLoading(false)
         })
@@ -20,11 +23,12 @@ export function useUserProfile() {
       }
     })
 
-    // Listen for OAuth callback / sign out
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (_event, session) => {
-        if (session?.user) {
-          const p = await loadUserProfile(session.user.id)
+        const u = session?.user ?? null
+        setUser(u)
+        if (u) {
+          const p = await loadUserProfile(u.id)
           setProfile(p)
         } else {
           setProfile(null)
@@ -36,5 +40,5 @@ export function useUserProfile() {
     return () => subscription.unsubscribe()
   }, [])
 
-  return { profile, loading, setProfile }
+  return { profile, user, loading, setProfile }
 }
