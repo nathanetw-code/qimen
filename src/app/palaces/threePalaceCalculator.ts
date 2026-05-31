@@ -58,7 +58,8 @@ export function findDeityPalace(chart: EngineChart): { palaceNumber: PalaceNumbe
 }
 
 // Normalize traditional characters to simplified (engine uses 騰蛇, app uses 腾蛇)
-function normalizeDeity(deity: string): string {
+function normalizeDeity(deity: string | undefined): string {
+  if (!deity) return ''
   return deity.replace('騰蛇', '腾蛇')
 }
 
@@ -78,8 +79,8 @@ export function buildEngineChartFromDate(date: Date): EngineChart {
     heavenStems: cells.map(c => (c.天盤干[0] ?? '') as string),
     earthStems:  cells.map(c => (c.地盤干[0] ?? '') as string),
     stars:       cells.map(c => c.九星 as string),
-    gates:       cells.map(c => c.八門 as string),
-    deities:     cells.map(c => normalizeDeity(c.八神 as string)),
+    gates:       cells.map(c => (c.八門 as string) ?? ''),
+    deities:     cells.map(c => normalizeDeity(c.八神 as string | undefined)),
     isVoid:      cells.map(c => c.是否空亡),
     isHorse:     cells.map(c => c.是否驛馬),
     dun:         pan.遁 as string,
