@@ -2,7 +2,12 @@ import { supabase } from './supabase'
 import type { UserProfile, ThreePalaces } from '../types'
 
 export async function signInWithGoogle() {
-  return supabase.auth.signInWithOAuth({ provider: 'google' })
+  return supabase.auth.signInWithOAuth({
+    provider: 'google',
+    options: {
+      redirectTo: `${window.location.origin}/dashboard`,
+    },
+  })
 }
 
 export async function signOut() {
