@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { Box, Text, VStack, Button } from '@chakra-ui/react'
+import { Box, Text, VStack, Button, Spinner, Center } from '@chakra-ui/react'
 import { Component, type ReactNode } from 'react'
 import { useUserProfile } from './app/hooks/useUserProfile'
 import { GuestPage } from './app/pages/GuestPage'
@@ -30,7 +30,11 @@ class ErrorBoundary extends Component<{ children: ReactNode }, { error: Error | 
 export default function App() {
   const { profile, user, loading, setProfile } = useUserProfile()
 
-  if (loading) return null
+  if (loading) return (
+    <Center h="100vh">
+      <Spinner size="xl" color="purple.500" thickness="3px" />
+    </Center>
+  )
 
   // Not logged in → guest home page (no login required)
   if (!user) {
