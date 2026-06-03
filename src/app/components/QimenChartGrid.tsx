@@ -1,11 +1,12 @@
 // src/app/components/QimenChartGrid.tsx
 // Full 9-palace Qimen chart display — shows all 4 layers (stem/star/gate/deity)
 
-import { Box, Grid, GridItem, Text, VStack, HStack, Badge } from '@chakra-ui/react'
+import { Box, Grid, GridItem, Text, VStack, HStack, Badge, Tooltip } from '@chakra-ui/react'
 import type { EngineChart } from '../palaces/threePalaceCalculator'
 import type { PalaceNumber, GateKey } from '../types'
 import { PALACE_DIR_SHORT, PALACE_TRIGRAM, GATE_INFO } from '../types'
 import { StrengthUtil } from '../../util/StrengthUtil'
+import { qmPatternTranslation } from '../../util/QmPatternTranslation'
 import type { 宮位, 九星, 八門 } from '../../qimen/type'
 
 const PALACE_NAME: Record<PalaceNumber, 宮位> = {
@@ -68,6 +69,16 @@ const STAR_COLOR: Record<string, string> = {
   '天芮': 'red.500',
   '天柱': 'gray.600',
   '天蓬': 'blue.700',
+}
+
+// Special formation highlight colors (4 inauspicious + 2 auspicious key structures)
+const PATTERN_COLOR: Record<string, string> = {
+  'Green Dragon Returns':                 'green.600',
+  'Flying Bird Lands in Auspicious Cave': 'green.600',
+  'Green Dragon Escape':    'red.500',
+  'Ferocious White Tiger':  'red.500',
+  'Demon Snake':            'red.500',
+  'Red Phoenix Diving River': 'red.500',
 }
 
 // Deity display colors
@@ -140,6 +151,12 @@ export function QimenChartGrid({ chart, highlightPalace }: Props) {
             const palaceName = PALACE_NAME[p]
             const starStr = star ? StrengthUtil.starStrength(star as 九星, palaceName) : null
             const doorStr = gate ? StrengthUtil.doorStrength(gate as 八門, palaceName) : null
+            const pattern = heavenStem && earthStem
+              ? qmPatternTranslation[heavenStem + earthStem]
+              : null
+            const patternColor = pattern
+              ? (PATTERN_COLOR[pattern.nameEn] ?? 'gray.500')
+              : 'gray.500'
 
             return (
               <GridItem
@@ -193,10 +210,27 @@ export function QimenChartGrid({ chart, highlightPalace }: Props) {
                 <Text
                   fontSize="9px"
                   color={STEM_COLOR[earthStem] ?? 'gray.500'}
-                  mb={1}
+                  mb={0.5}
                 >
                   地 {earthStem}
                 </Text>
+
+                {/* Stem combination name */}
+                {pattern && (
+                  <Tooltip label={pattern.descTh} fontSize="xs" placement="top" hasArrow>
+                    <Text
+                      fontSize="7px"
+                      color={patternColor}
+                      fontWeight={PATTERN_COLOR[pattern.nameEn] ? 'bold' : 'normal'}
+                      lineHeight="1.3"
+                      mb={0.5}
+                      cursor="default"
+                      noOfLines={1}
+                    >
+                      {pattern.nameTh}
+                    </Text>
+                  </Tooltip>
+                )}
 
                 {/* Nine star + strength */}
                 <HStack justify="center" spacing={0.5}>
