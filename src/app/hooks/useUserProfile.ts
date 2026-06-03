@@ -14,14 +14,14 @@ export function useUserProfile() {
       const u = data.session?.user ?? null
       setUser(u)
       if (u) {
-        loadUserProfile(u.id).then(p => {
-          setProfile(p)
-          setLoading(false)
-        })
+        loadUserProfile(u.id)
+          .then(p => setProfile(p))
+          .catch(() => setProfile(null))
+          .finally(() => setLoading(false))
       } else {
         setLoading(false)
       }
-    })
+    }).catch(() => setLoading(false))
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (_event, session) => {

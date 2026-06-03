@@ -1,0 +1,140 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - row "English » My Account | Log In Chinese Metasoft Fb" [ref=e4]:
+      - cell "English » My Account | Log In Chinese Metasoft Fb" [ref=e5]:
+        - generic [ref=e6]:
+          - table [ref=e7]:
+            - rowgroup [ref=e8]:
+              - row "English » My Account | Log In" [ref=e9]:
+                - cell "English »" [ref=e10]:
+                  - link "English »" [ref=e14] [cursor=pointer]:
+                    - /url: "#"
+                    - text: English
+                    - generic [ref=e15]: »
+                - cell "My Account | Log In" [ref=e16]:
+                  - generic [ref=e17]:
+                    - link "My Account" [ref=e18] [cursor=pointer]:
+                      - /url: /User/MyDetails
+                    - generic [ref=e19]: "|"
+                    - link "Log In" [ref=e20] [cursor=pointer]:
+                      - /url: /Authentication/LogIn
+          - table [ref=e22]:
+            - rowgroup [ref=e23]:
+              - row "Chinese Metasoft Fb" [ref=e24]:
+                - cell [ref=e25]:
+                  - img [ref=e26]
+                - cell "Chinese Metasoft" [ref=e27]:
+                  - link "Chinese Metasoft" [ref=e28] [cursor=pointer]:
+                    - /url: /
+                - cell "Fb" [ref=e29]:
+                  - link "Fb":
+                    - /url: https://facebook.com/chinese.metasoft
+                    - img "Fb" [ref=e30] [cursor=pointer]
+    - row [ref=e31]
+    - row [ref=e32]:
+      - cell [ref=e33]:
+        - generic [ref=e34]:
+          - navigation:
+            - list:
+              - listitem [ref=e35]:
+                - link "Home" [ref=e36] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e37]:
+                - link "Products" [ref=e38] [cursor=pointer]:
+                  - /url: /Info/Products
+              - listitem [ref=e39]:
+                - link "Da Liu Ren" [ref=e40] [cursor=pointer]:
+                  - /url: /LiuRen/Current
+              - listitem [ref=e41]:
+                - link "Ba Zi" [ref=e42] [cursor=pointer]:
+                  - /url: /BaZi/Calculator
+              - listitem [ref=e43]:
+                - link "QMDJ" [ref=e44] [cursor=pointer]:
+                  - /url: /QiMenDunJia/Chart
+              - listitem [ref=e45]:
+                - link "Tong Shu" [ref=e46] [cursor=pointer]:
+                  - /url: /TongShu/Chart
+              - listitem [ref=e47]:
+                - link "Feng Shui" [ref=e48] [cursor=pointer]:
+                  - /url: /FengShui/FlyingStar
+              - listitem [ref=e49]:
+                - link "Ze Ri" [ref=e50] [cursor=pointer]:
+                  - /url: /ZeRi/TongShu
+              - listitem [ref=e51]:
+                - link "ZWDS" [ref=e52] [cursor=pointer]:
+                  - /url: /ZiWeiDouShu/Chart
+    - row [ref=e53]
+    - row "Log In Sign Up Username Reminder Password Reset" [ref=e54]:
+      - cell "Log In Sign Up Username Reminder Password Reset" [ref=e55]:
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - link "Log In" [ref=e59] [cursor=pointer]:
+              - /url: /Authentication/LogIn
+          - listitem [ref=e60]:
+            - link "Sign Up" [ref=e61] [cursor=pointer]:
+              - /url: /Authentication/Register
+          - listitem [ref=e62]:
+            - link "Username Reminder" [ref=e63] [cursor=pointer]:
+              - /url: /Authentication/RemindUsername
+          - listitem [ref=e64]:
+            - link "Password Reset" [ref=e65] [cursor=pointer]:
+              - /url: /Authentication/PasswordResetEmail
+    - row "This functionality is available from the Bronze package onwards. Please login below or sign up if you do not have an account yet. Log In Please enter your user name and password. Sign Up if you don't have an account. Account Information" [ref=e66]:
+      - cell "This functionality is available from the Bronze package onwards. Please login below or sign up if you do not have an account yet. Log In Please enter your user name and password. Sign Up if you don't have an account. Account Information" [ref=e67]:
+        - paragraph [ref=e69]: This functionality is available from the Bronze package onwards. Please login below or sign up if you do not have an account yet.
+        - generic [ref=e70]:
+          - heading "Log In" [level=2] [ref=e71]
+          - paragraph [ref=e72]:
+            - text: Please enter your user name and password.
+            - link "Sign Up" [ref=e73] [cursor=pointer]:
+              - /url: /Authentication/Register
+            - text: if you don't have an account.
+          - group "Account Information" [ref=e76]:
+            - generic [ref=e77]: Account Information
+            - generic [ref=e78]: User Name
+            - textbox "User Name" [active] [ref=e80]:
+              - /placeholder: ""
+            - generic [ref=e81]: Password
+            - textbox "Password" [ref=e83]
+            - paragraph [ref=e84]:
+              - button "Log In" [ref=e85] [cursor=pointer]
+            - link "Forgotten your user name?" [ref=e87] [cursor=pointer]:
+              - /url: /Authentication/RemindUsername
+            - link "Forgotten your password?" [ref=e89] [cursor=pointer]:
+              - /url: /Authentication/PasswordResetEmail
+            - generic [ref=e90]:
+              - text: "If you have trouble logging in, please contact:"
+              - link "office@chinesemetasoft.uk" [ref=e91] [cursor=pointer]:
+                - /url: mailto:office@chinesemetasoft.uk
+    - row "ZWDS | Tables | QMDJ Tables | Resources Privacy Policy | Cookies Contact | Paypal | FAQ | Wiki Copyright @ 2014-2026 by Chinese Metasoft. All rights reserved worldwide." [ref=e92]:
+      - cell "ZWDS | Tables | QMDJ Tables | Resources Privacy Policy | Cookies Contact | Paypal | FAQ | Wiki Copyright @ 2014-2026 by Chinese Metasoft. All rights reserved worldwide." [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e97]:
+            - link "ZWDS" [ref=e98] [cursor=pointer]:
+              - /url: /ZiWeiDouShu/Chart
+            - generic [ref=e99]: "|"
+            - link "Tables" [ref=e100] [cursor=pointer]:
+              - /url: /Table/Mountains
+            - generic [ref=e101]: "|"
+            - link "QMDJ Tables" [ref=e102] [cursor=pointer]:
+              - /url: /Table/PPStratagemsAndHexagrams
+            - generic [ref=e103]: "|"
+            - link "Resources" [ref=e104] [cursor=pointer]:
+              - /url: /Resources/Download
+            - link "Privacy Policy" [ref=e105] [cursor=pointer]:
+              - /url: /Info/PrivacyPolicy
+            - text: "|"
+            - link "Cookies" [ref=e106] [cursor=pointer]:
+              - /url: /Info/Cookies
+            - link "Contact" [ref=e107] [cursor=pointer]:
+              - /url: /Info/Contact
+            - generic [ref=e108]: "|"
+            - link "Paypal" [ref=e109] [cursor=pointer]:
+              - /url: /Info/Paypal
+            - generic [ref=e110]: "|"
+            - link "FAQ" [ref=e111] [cursor=pointer]:
+              - /url: /Info/FAQ
+            - generic [ref=e112]: "|"
+            - link "Wiki" [ref=e113] [cursor=pointer]:
+              - /url: /Wiki/Astro
+          - paragraph [ref=e115]: Copyright @ 2014-2026 by Chinese Metasoft. All rights reserved worldwide.

@@ -65,8 +65,11 @@ export function AuspiciousTimingPage({ profile }: Props) {
           heavenStem: hourChart.heavenStems[dIdx] ?? '',
           earthStem:  hourChart.earthStems[dIdx]  ?? '',
           hasVoid:    hourChart.isVoid[dIdx]      ?? false,
+          dayStem:    hourChart.dayStem,
+          hourStem:   hourChart.hourStem,
+          hourBranch: hourChart.hourBranch,
         }
-        const { total, reasons, warnings } = scoreHour(
+        const { total, reasons, warnings, timeType } = scoreHour(
           realPalace,
           params.activity,
           profile.threePalaces.destinyPalaceNumber,
@@ -83,6 +86,7 @@ export function AuspiciousTimingPage({ profile }: Props) {
           recommendedDirection: profile.threePalaces.destinyDirection,
           reasons,
           warnings,
+          timeType,
         })
       }
       cursor.setDate(cursor.getDate() + 1)
@@ -172,10 +176,15 @@ export function AuspiciousTimingPage({ profile }: Props) {
                 <AccordionItem key={i} mb={2} border="1px" borderColor="gray.200" borderRadius="md">
                   <AccordionButton>
                     <HStack flex={1} justify="space-between">
-                      <Text fontWeight="semibold">
-                        {r.datetime.toLocaleDateString('th-TH')}{' '}
-                        {r.datetime.toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' })}
-                      </Text>
+                      <VStack align="start" spacing={0}>
+                        <Text fontWeight="semibold" fontSize="sm">
+                          {r.datetime.toLocaleDateString('th-TH')}{' '}
+                          {r.datetime.toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' })}
+                        </Text>
+                        {r.timeType === '天顯時格' && (
+                          <Badge colorScheme="yellow" fontSize="9px">天顯時格 ✨</Badge>
+                        )}
+                      </VStack>
                       <HStack>
                         <Badge colorScheme={LEVEL_COLOR[r.level]}>{LEVEL_LABEL[r.level]}</Badge>
                         <Text fontSize="xs" color="gray.500">คะแนน {r.score}</Text>

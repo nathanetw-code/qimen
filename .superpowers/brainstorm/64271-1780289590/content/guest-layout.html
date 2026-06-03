@@ -1,0 +1,169 @@
+<h2>Guest Mode — หน้าแรกควรเป็นแบบไหน?</h2>
+<p class="subtitle">ผู้ใช้ที่ยังไม่ login จะเห็นหน้านี้ก่อน</p>
+
+<div class="cards">
+
+  <!-- Option A -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#f7f7fb;border-radius:8px;padding:12px;font-family:sans-serif;font-size:11px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+          <span style="font-weight:bold;font-size:13px;">🔯 QimenAPP</span>
+          <span style="background:#4299e1;color:white;padding:3px 8px;border-radius:4px;font-size:10px;">เข้าสู่ระบบ</span>
+        </div>
+        <div style="background:white;border-radius:6px;padding:10px;margin-bottom:8px;">
+          <div style="font-size:10px;color:#888;margin-bottom:6px;">ใส่วันเวลาเกิดเพื่อดูดวง</div>
+          <div style="display:flex;gap:4px;margin-bottom:6px;">
+            <div style="flex:1;background:#eee;border-radius:3px;padding:4px;text-align:center;">วันที่</div>
+            <div style="flex:2;background:#eee;border-radius:3px;padding:4px;text-align:center;">เดือน</div>
+          </div>
+          <div style="display:flex;gap:4px;margin-bottom:8px;">
+            <div style="flex:1;background:#eee;border-radius:3px;padding:4px;text-align:center;">ปี</div>
+            <div style="flex:1;background:#eee;border-radius:3px;padding:4px;text-align:center;">ชั่วโมง</div>
+            <div style="flex:1;background:#eee;border-radius:3px;padding:4px;text-align:center;">นาที</div>
+          </div>
+          <div style="background:#553c9a;color:white;border-radius:4px;padding:5px;text-align:center;font-size:10px;">คำนวณดวง</div>
+        </div>
+        <!-- Results section -->
+        <div style="background:white;border-radius:6px;padding:10px;margin-bottom:6px;">
+          <div style="font-size:10px;color:#888;margin-bottom:4px;">八字 BAZI</div>
+          <div style="display:flex;gap:4px;justify-content:center;">
+            <div style="text-align:center;background:#f0f0f0;border-radius:4px;padding:4px 6px;">
+              <div style="font-size:8px;color:#888;">時</div>
+              <div style="font-size:14px;color:#c53030;font-weight:bold;">甲</div>
+              <div style="font-size:11px;color:#c53030;">午</div>
+            </div>
+            <div style="text-align:center;background:#f0f0f0;border-radius:4px;padding:4px 6px;">
+              <div style="font-size:8px;color:#888;">日</div>
+              <div style="font-size:14px;color:#276749;font-weight:bold;">乙</div>
+              <div style="font-size:11px;color:#276749;">卯</div>
+            </div>
+            <div style="text-align:center;background:#f0f0f0;border-radius:4px;padding:4px 6px;">
+              <div style="font-size:8px;color:#888;">月</div>
+              <div style="font-size:14px;color:#2c5282;font-weight:bold;">壬</div>
+              <div style="font-size:11px;color:#2c5282;">子</div>
+            </div>
+            <div style="text-align:center;background:#f0f0f0;border-radius:4px;padding:4px 6px;">
+              <div style="font-size:8px;color:#888;">年</div>
+              <div style="font-size:14px;color:#c53030;font-weight:bold;">丙</div>
+              <div style="font-size:11px;color:#c53030;">午</div>
+            </div>
+          </div>
+        </div>
+        <!-- 9-palace preview -->
+        <div style="background:white;border-radius:6px;padding:8px;">
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;">
+            <div style="background:#e9f5ee;border-radius:3px;padding:4px;text-align:center;font-size:9px;">SE<br><b style="font-size:11px;color:#276749;">癸</b></div>
+            <div style="background:#fce8e8;border-radius:3px;padding:4px;text-align:center;font-size:9px;">S<br><b style="font-size:11px;color:#c53030;">己</b></div>
+            <div style="background:#fef3e2;border-radius:3px;padding:4px;text-align:center;font-size:9px;">SW<br><b style="font-size:11px;color:#b7791f;">辛</b></div>
+            <div style="background:#e9f5ee;border-radius:3px;padding:4px;text-align:center;font-size:9px;">E<br><b style="font-size:11px;color:#276749;">壬</b></div>
+            <div style="background:#fff5f5;border-radius:3px;padding:4px;text-align:center;font-size:9px;">中<br><b style="font-size:11px;">丁</b></div>
+            <div style="background:#e8eaf6;border-radius:3px;padding:4px;text-align:center;font-size:9px;">W<br><b style="font-size:11px;color:#553c9a;">乙</b></div>
+            <div style="background:#fef3e2;border-radius:3px;padding:4px;text-align:center;font-size:9px;">NE<br><b style="font-size:11px;color:#b7791f;">戊</b></div>
+            <div style="background:#ebf4ff;border-radius:3px;padding:4px;text-align:center;font-size:9px;border:2px solid #553c9a;">N ⭐<br><b style="font-size:11px;color:#2c5282;">庚</b></div>
+            <div style="background:#edf2f7;border-radius:3px;padding:4px;text-align:center;font-size:9px;">NW<br><b style="font-size:11px;color:#4a5568;">丙</b></div>
+          </div>
+        </div>
+        <div style="margin-top:8px;background:#ebf8ff;border-radius:4px;padding:6px;text-align:center;font-size:9px;color:#2c5282;">
+          🔒 Login เพื่อบันทึกข้อมูล + หาฤกษ์มงคล
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Single Page ทั้งหมด</h3>
+      <p>ฟอร์ม + ผลลัพธ์ + ผัง 9 วัง อยู่ในหน้าเดียว<br>ไม่ต้อง navigate ไปไหน เห็นผลทันที</p>
+    </div>
+  </div>
+
+  <!-- Option B -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#f7f7fb;border-radius:8px;padding:12px;font-family:sans-serif;font-size:11px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+          <span style="font-weight:bold;font-size:13px;">🔯 QimenAPP</span>
+          <span style="background:#4299e1;color:white;padding:3px 8px;border-radius:4px;font-size:10px;">เข้าสู่ระบบ</span>
+        </div>
+        <!-- Landing hero -->
+        <div style="text-align:center;padding:10px 0;border-bottom:1px solid #eee;margin-bottom:8px;">
+          <div style="font-size:13px;font-weight:bold;margin-bottom:4px;">ค้นพบดวงชะตาของคุณ</div>
+          <div style="font-size:9px;color:#888;margin-bottom:8px;">วิชาฉีเหมินตุ่นเจีย - ใส่วันเกิดเพื่อดูทันที</div>
+          <div style="display:flex;gap:4px;justify-content:center;margin-bottom:6px;">
+            <div style="background:#eee;border-radius:3px;padding:4px 6px;font-size:9px;">วัน</div>
+            <div style="background:#eee;border-radius:3px;padding:4px 8px;font-size:9px;">เดือน</div>
+            <div style="background:#eee;border-radius:3px;padding:4px 8px;font-size:9px;">ปี พ.ศ.</div>
+            <div style="background:#eee;border-radius:3px;padding:4px 6px;font-size:9px;">ชม.</div>
+            <div style="background:#eee;border-radius:3px;padding:4px 6px;font-size:9px;">นาที</div>
+          </div>
+          <div style="background:#553c9a;color:white;border-radius:4px;padding:4px 16px;display:inline-block;font-size:10px;">ดูผลทันที →</div>
+        </div>
+        <!-- Feature bullets for logged-in -->
+        <div style="font-size:9px;color:#888;margin-bottom:6px;text-align:center;">สมาชิกได้เพิ่มเติม:</div>
+        <div style="display:flex;gap:6px;justify-content:center;">
+          <div style="background:white;border-radius:4px;padding:5px;text-align:center;font-size:8px;flex:1;">
+            💾<br>บันทึกข้อมูล
+          </div>
+          <div style="background:white;border-radius:4px;padding:5px;text-align:center;font-size:8px;flex:1;">
+            🗓️<br>หาฤกษ์มงคล
+          </div>
+          <div style="background:white;border-radius:4px;padding:5px;text-align:center;font-size:8px;flex:1;">
+            🔔<br>แจ้งเตือน
+          </div>
+        </div>
+        <div style="margin-top:6px;text-align:center;">
+          <span style="font-size:9px;color:#553c9a;cursor:pointer;">เข้าสู่ระบบด้วย Google →</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Landing + ผลด้านล่าง</h3>
+      <p>หน้าแรกเป็น hero section พร้อมฟอร์มกลางหน้า<br>ผลลัพธ์ scroll ลงมาด้านล่างหลังกด คล้าย web app ทั่วไป</p>
+    </div>
+  </div>
+
+  <!-- Option C -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#f7f7fb;border-radius:8px;padding:12px;font-family:sans-serif;font-size:11px;">
+        <!-- Tab bar ด้านล่าง -->
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+          <span style="font-weight:bold;font-size:13px;">🔯 QimenAPP</span>
+        </div>
+        <!-- ผัง 9 วังปัจจุบัน (แสดงเลย) -->
+        <div style="background:white;border-radius:6px;padding:8px;margin-bottom:6px;">
+          <div style="font-size:9px;color:#888;margin-bottom:4px;">ผังชั่วโมงนี้ (ปัจจุบัน)</div>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;">
+            <div style="background:#e9f5ee;border-radius:3px;padding:3px;text-align:center;font-size:8px;">SE<br><b style="font-size:10px;color:#276749;">癸</b></div>
+            <div style="background:#fce8e8;border-radius:3px;padding:3px;text-align:center;font-size:8px;">S<br><b style="font-size:10px;color:#c53030;">己</b></div>
+            <div style="background:#fef3e2;border-radius:3px;padding:3px;text-align:center;font-size:8px;">SW<br><b style="font-size:10px;color:#b7791f;">辛</b></div>
+            <div style="background:#e9f5ee;border-radius:3px;padding:3px;text-align:center;font-size:8px;">E<br><b style="font-size:10px;color:#276749;">壬</b></div>
+            <div style="background:#fff5f5;border-radius:3px;padding:3px;text-align:center;font-size:8px;">中<br><b style="font-size:10px;">丁</b></div>
+            <div style="background:#e8eaf6;border-radius:3px;padding:3px;text-align:center;font-size:8px;">W<br><b style="font-size:10px;color:#553c9a;">乙</b></div>
+            <div style="background:#fef3e2;border-radius:3px;padding:3px;text-align:center;font-size:8px;">NE<br><b style="font-size:10px;color:#b7791f;">戊</b></div>
+            <div style="background:#ebf4ff;border-radius:3px;padding:3px;text-align:center;font-size:8px;">N<br><b style="font-size:10px;color:#2c5282;">庚</b></div>
+            <div style="background:#edf2f7;border-radius:3px;padding:3px;text-align:center;font-size:8px;">NW<br><b style="font-size:10px;color:#4a5568;">丙</b></div>
+          </div>
+        </div>
+        <!-- ฟอร์ม overlay / card -->
+        <div style="background:#553c9a;border-radius:6px;padding:8px;color:white;margin-bottom:6px;">
+          <div style="font-size:10px;margin-bottom:6px;">🔍 ใส่วันเกิดเพื่อดูวังชะตาของคุณ</div>
+          <div style="display:flex;gap:3px;margin-bottom:5px;">
+            <div style="background:rgba(255,255,255,0.2);border-radius:3px;padding:3px;text-align:center;flex:1;font-size:8px;">วัน</div>
+            <div style="background:rgba(255,255,255,0.2);border-radius:3px;padding:3px;text-align:center;flex:2;font-size:8px;">เดือน</div>
+            <div style="background:rgba(255,255,255,0.2);border-radius:3px;padding:3px;text-align:center;flex:1;font-size:8px;">ปี</div>
+          </div>
+          <div style="display:flex;gap:3px;">
+            <div style="background:rgba(255,255,255,0.2);border-radius:3px;padding:3px;text-align:center;flex:1;font-size:8px;">ชม.</div>
+            <div style="background:rgba(255,255,255,0.2);border-radius:3px;padding:3px;text-align:center;flex:1;font-size:8px;">นาที</div>
+            <div style="background:white;color:#553c9a;border-radius:3px;padding:3px;text-align:center;flex:1;font-size:8px;font-weight:bold;">คำนวณ</div>
+          </div>
+        </div>
+        <div style="text-align:center;font-size:9px;color:#553c9a;">เข้าสู่ระบบเพื่อบันทึก + หาฤกษ์ →</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — ผังปัจจุบัน + ฟอร์มซ้อน</h3>
+      <p>แสดงผัง 9 วังปัจจุบันทันทีโดยไม่ต้องกรอกอะไร<br>มีฟอร์มกรอกวันเกิดด้านล่างผัง เพื่อดูวังชะตาของตัวเอง</p>
+    </div>
+  </div>
+
+</div>

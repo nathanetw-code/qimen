@@ -1,0 +1,1681 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - row "English » Welcome Nathanet | My Account | Log Out Chinese Metasoft Fb" [ref=e4]:
+      - cell "English » Welcome Nathanet | My Account | Log Out Chinese Metasoft Fb" [ref=e5]:
+        - generic [ref=e6]:
+          - table [ref=e7]:
+            - rowgroup [ref=e8]:
+              - row "English » Welcome Nathanet | My Account | Log Out" [ref=e9]:
+                - cell "English »" [ref=e10]:
+                  - link "English »" [ref=e14] [cursor=pointer]:
+                    - /url: "#"
+                    - text: English
+                    - generic [ref=e15]: »
+                - cell "Welcome Nathanet | My Account | Log Out" [ref=e16]:
+                  - generic [ref=e17]:
+                    - generic [ref=e18]:
+                      - text: Welcome
+                      - strong [ref=e19]: Nathanet
+                    - generic [ref=e20]: "|"
+                    - link "My Account" [ref=e21] [cursor=pointer]:
+                      - /url: /User/MyDetails
+                    - generic [ref=e22]: "|"
+                    - link "Log Out" [ref=e23] [cursor=pointer]:
+                      - /url: /Authentication/LogOut
+          - table [ref=e25]:
+            - rowgroup [ref=e26]:
+              - row "Chinese Metasoft Fb" [ref=e27]:
+                - cell [ref=e28]:
+                  - img [ref=e29]
+                - cell "Chinese Metasoft" [ref=e30]:
+                  - link "Chinese Metasoft" [ref=e31] [cursor=pointer]:
+                    - /url: /
+                - cell "Fb" [ref=e32]:
+                  - link "Fb":
+                    - /url: https://facebook.com/chinese.metasoft
+                    - img "Fb" [ref=e33] [cursor=pointer]
+    - row [ref=e34]
+    - row [ref=e35]:
+      - cell [ref=e36]:
+        - generic [ref=e37]:
+          - navigation:
+            - list:
+              - listitem [ref=e38]:
+                - link "Home" [ref=e39] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e40]:
+                - link "Products" [ref=e41] [cursor=pointer]:
+                  - /url: /Info/Products
+              - listitem [ref=e42]:
+                - link "Da Liu Ren" [ref=e43] [cursor=pointer]:
+                  - /url: /LiuRen/Current
+              - listitem [ref=e44]:
+                - link "Ba Zi" [ref=e45] [cursor=pointer]:
+                  - /url: /BaZi/Calculator
+              - listitem [ref=e46]:
+                - link "QMDJ" [ref=e47] [cursor=pointer]:
+                  - /url: /QiMenDunJia/Chart
+              - listitem [ref=e48]:
+                - link "Tong Shu" [ref=e49] [cursor=pointer]:
+                  - /url: /TongShu/Chart
+              - listitem [ref=e50]:
+                - link "Feng Shui" [ref=e51] [cursor=pointer]:
+                  - /url: /FengShui/FlyingStar
+              - listitem [ref=e52]:
+                - link "Ze Ri" [ref=e53] [cursor=pointer]:
+                  - /url: /ZeRi/TongShu
+              - listitem [ref=e54]:
+                - link "易" [ref=e55] [cursor=pointer]:
+                  - /url: /YiJing/Cast
+              - listitem [ref=e56]:
+                - link "ZWDS" [ref=e57] [cursor=pointer]:
+                  - /url: /ZiWeiDouShu/Chart
+    - row [ref=e58]
+    - row "Chart 1080 Charts Monthly View Feng Shui 4D 12H Print Print Save My Records" [ref=e59]:
+      - cell "Chart 1080 Charts Monthly View Feng Shui 4D 12H Print Print Save My Records" [ref=e60]:
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - link "Chart" [ref=e64] [cursor=pointer]:
+              - /url: /QiMenDunJia/Chart
+          - listitem [ref=e65]:
+            - link "1080 Charts" [ref=e66] [cursor=pointer]:
+              - /url: /QiMenDunJia/Ju
+          - listitem [ref=e67]:
+            - link "Monthly View" [ref=e68] [cursor=pointer]:
+              - /url: /QiMenDunJia/Monthly
+          - listitem [ref=e69]:
+            - link "Feng Shui" [ref=e70] [cursor=pointer]:
+              - /url: /QiMenDunJia/FengShui
+          - listitem [ref=e71]:
+            - link "4D" [ref=e72] [cursor=pointer]:
+              - /url: /QiMenDunJia/FourCharts
+          - listitem [ref=e73]:
+            - link "12H" [ref=e74] [cursor=pointer]:
+              - /url: /QiMenDunJia/TwelveHourCharts
+          - listitem [ref=e75]:
+            - link "Print" [ref=e76] [cursor=pointer]:
+              - /url: /QiMenDunJia/Date?IsForPrint=True&ChartType=Hour&QmdjPan=Rotating&Method=ZhiRun
+              - img "Print" [ref=e77]
+          - listitem [ref=e78]:
+            - link "Print" [ref=e79] [cursor=pointer]:
+              - /url: /QiMenDunJia/Date?IsForPrintPdf=True&ChartType=Hour&QmdjPan=Rotating&Method=ZhiRun
+              - img "Print" [ref=e80]
+          - listitem [ref=e81]:
+            - img "Save" [ref=e83] [cursor=pointer]
+          - listitem [ref=e84]:
+            - link "My Records" [ref=e85] [cursor=pointer]:
+              - /url: /User/MyRecords?Application=Qi%20Men%20Dun%20Jia
+              - img "My Records" [ref=e86]
+    - row [ref=e87]:
+      - cell [ref=e88]:
+        - table [ref=e89]:
+          - rowgroup [ref=e90]:
+            - row [ref=e91]:
+              - cell [ref=e92]:
+                - table [ref=e93]:
+                  - rowgroup [ref=e94]:
+                    - 'row "Qi Men Dun Jia - Hourly Charts - Zhi Run Method Date: 1985-09-06 Local Time: 16 59 Chart: Hour Method: Zhi Run Chart -1 Now +1" [ref=e95]':
+                      - 'cell "Qi Men Dun Jia - Hourly Charts - Zhi Run Method Date: 1985-09-06 Local Time: 16 59 Chart: Hour Method: Zhi Run Chart -1 Now +1" [ref=e96]':
+                        - table [ref=e97]:
+                          - rowgroup [ref=e98]:
+                            - row "Qi Men Dun Jia - Hourly Charts - Zhi Run Method" [ref=e99]:
+                              - cell "Qi Men Dun Jia - Hourly Charts - Zhi Run Method" [ref=e100]
+                            - row [ref=e101]:
+                              - cell [ref=e102]
+                            - 'row "Date: 1985-09-06 Local Time: 16 59 Chart: Hour Method: Zhi Run Chart -1 Now +1" [ref=e103]':
+                              - 'cell "Date: 1985-09-06 Local Time: 16 59 Chart: Hour Method: Zhi Run Chart -1 Now +1" [ref=e104]':
+                                - table [ref=e105]:
+                                  - rowgroup [ref=e106]:
+                                    - 'row "Date: 1985-09-06 Local Time: 16 59 Chart: Hour Method: Zhi Run Chart -1 Now +1" [ref=e107]':
+                                      - 'cell "Date: 1985-09-06 Local Time: 16 59 Chart: Hour Method: Zhi Run Chart" [ref=e108]':
+                                        - table [ref=e109]:
+                                          - rowgroup [ref=e110]:
+                                            - 'row "Date: 1985-09-06 Local Time: 16 59 Chart: Hour Method: Zhi Run Chart" [ref=e111]':
+                                              - 'cell "Date: 1985-09-06" [ref=e112]':
+                                                - generic [ref=e113]: "Date:"
+                                                - textbox "1985-09-06" [ref=e115]
+                                              - 'cell "Local Time: 16 59" [ref=e116]':
+                                                - generic [ref=e117]: "Local Time:"
+                                                - generic [ref=e118]:
+                                                  - combobox [ref=e119]:
+                                                    - option "00"
+                                                    - option "01"
+                                                    - option "02"
+                                                    - option "03"
+                                                    - option "04"
+                                                    - option "05"
+                                                    - option "06"
+                                                    - option "07"
+                                                    - option "08"
+                                                    - option "09"
+                                                    - option "10"
+                                                    - option "11"
+                                                    - option "12"
+                                                    - option "13"
+                                                    - option "14"
+                                                    - option "15"
+                                                    - option "16" [selected]
+                                                    - option "17"
+                                                    - option "18"
+                                                    - option "19"
+                                                    - option "20"
+                                                    - option "21"
+                                                    - option "22"
+                                                    - option "23"
+                                                  - combobox [ref=e120]:
+                                                    - option "00"
+                                                    - option "01"
+                                                    - option "02"
+                                                    - option "03"
+                                                    - option "04"
+                                                    - option "05"
+                                                    - option "06"
+                                                    - option "07"
+                                                    - option "08"
+                                                    - option "09"
+                                                    - option "10"
+                                                    - option "11"
+                                                    - option "12"
+                                                    - option "13"
+                                                    - option "14"
+                                                    - option "15"
+                                                    - option "16"
+                                                    - option "17"
+                                                    - option "18"
+                                                    - option "19"
+                                                    - option "20"
+                                                    - option "21"
+                                                    - option "22"
+                                                    - option "23"
+                                                    - option "24"
+                                                    - option "25"
+                                                    - option "26"
+                                                    - option "27"
+                                                    - option "28"
+                                                    - option "29"
+                                                    - option "30"
+                                                    - option "31"
+                                                    - option "32"
+                                                    - option "33"
+                                                    - option "34"
+                                                    - option "35"
+                                                    - option "36"
+                                                    - option "37"
+                                                    - option "38"
+                                                    - option "39"
+                                                    - option "40"
+                                                    - option "41"
+                                                    - option "42"
+                                                    - option "43"
+                                                    - option "44"
+                                                    - option "45"
+                                                    - option "46"
+                                                    - option "47"
+                                                    - option "48"
+                                                    - option "49"
+                                                    - option "50"
+                                                    - option "51"
+                                                    - option "52"
+                                                    - option "53"
+                                                    - option "54"
+                                                    - option "55"
+                                                    - option "56"
+                                                    - option "57"
+                                                    - option "58"
+                                                    - option "59" [selected]
+                                              - 'cell "Chart: Hour" [ref=e121]':
+                                                - generic [ref=e122]: "Chart:"
+                                                - combobox [ref=e124]:
+                                                  - option "Hour" [selected]
+                                                  - option "Day"
+                                                  - option "Month"
+                                                  - option "Year"
+                                                  - option "Annual Forecast"
+                                                  - option "Destiny"
+                                                  - option "Five Charms - Hour"
+                                                  - option "Five Charms - Day"
+                                              - 'cell "Method: Zhi Run" [ref=e125]':
+                                                - generic [ref=e126]: "Method:"
+                                                - combobox [ref=e128]:
+                                                  - option "Chai Bu"
+                                                  - option "Zhi Run" [selected]
+                                                  - option "Lunar"
+                                              - cell "Chart" [ref=e129]:
+                                                - button "Chart" [ref=e130] [cursor=pointer]:
+                                                  - generic [ref=e131]: Chart
+                                      - cell "-1 Now +1" [ref=e132]:
+                                        - table [ref=e133]:
+                                          - rowgroup [ref=e134]:
+                                            - row "-1 Now +1" [ref=e135]:
+                                              - cell "-1" [ref=e136]:
+                                                - link "-1" [ref=e137] [cursor=pointer]:
+                                                  - /url: /QiMenDunJia/Select?IsPrevious=True&ChartType=Hour&Method=ZhiRun
+                                                  - button "-1" [ref=e138]
+                                              - cell "Now" [ref=e139]:
+                                                - link "Now" [ref=e140] [cursor=pointer]:
+                                                  - /url: /QiMenDunJia/Select?IsNow=True&ChartType=Hour&Method=ZhiRun
+                                                  - button "Now" [ref=e141]
+                                              - cell "+1" [ref=e142]:
+                                                - link "+1" [ref=e143] [cursor=pointer]:
+                                                  - /url: /QiMenDunJia/Select?IsNext=True&ChartType=Hour&Method=ZhiRun
+                                                  - button "+1" [ref=e144]
+                    - row [ref=e145]:
+                      - cell [ref=e146]
+                    - row [ref=e147]:
+                      - cell [ref=e148]:
+                        - table [ref=e149]:
+                          - rowgroup [ref=e150]:
+                            - row [ref=e151]:
+                              - cell [ref=e152]
+                            - 'row "Hour Day Month Year 16:59 06 09 1985 Geng Geng Yang Metal Wu Wu Yang Earth Jia Jia Yang Wood Yi Yi Yin Wood Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Chou Chou Ox Yin Earth Chart Id: 957 Structure Yin 7 Lead Stem 癸 Gui Envoy Death Door Lead Star Heavenly Grain 28 Constellations 23 - Ghost Hour Day Jia hides behind 癸 Gui 壬 Ren Sky Horse 寅 Yin (Tiger) 寅 Yin (Tiger) Death & Emptiness 子 Zi (Rat) 丑 Chou (Ox) 寅 Yin (Tiger) 卯 Mao (Rabbit) Nobleman 丑 Chou (Ox) 未 Wei (Goat) 丑 Chou (Ox) 未 Wei (Goat)" [ref=e153]':
+                              - 'cell "Hour Day Month Year 16:59 06 09 1985 Geng Geng Yang Metal Wu Wu Yang Earth Jia Jia Yang Wood Yi Yi Yin Wood Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Chou Chou Ox Yin Earth Chart Id: 957 Structure Yin 7 Lead Stem 癸 Gui Envoy Death Door Lead Star Heavenly Grain 28 Constellations 23 - Ghost Hour Day Jia hides behind 癸 Gui 壬 Ren Sky Horse 寅 Yin (Tiger) 寅 Yin (Tiger) Death & Emptiness 子 Zi (Rat) 丑 Chou (Ox) 寅 Yin (Tiger) 卯 Mao (Rabbit) Nobleman 丑 Chou (Ox) 未 Wei (Goat) 丑 Chou (Ox) 未 Wei (Goat)" [ref=e154]':
+                                - table [ref=e155]:
+                                  - rowgroup [ref=e156]:
+                                    - 'row "Hour Day Month Year 16:59 06 09 1985 Geng Geng Yang Metal Wu Wu Yang Earth Jia Jia Yang Wood Yi Yi Yin Wood Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Chou Chou Ox Yin Earth Chart Id: 957 Structure Yin 7 Lead Stem 癸 Gui Envoy Death Door Lead Star Heavenly Grain 28 Constellations 23 - Ghost Hour Day Jia hides behind 癸 Gui 壬 Ren Sky Horse 寅 Yin (Tiger) 寅 Yin (Tiger) Death & Emptiness 子 Zi (Rat) 丑 Chou (Ox) 寅 Yin (Tiger) 卯 Mao (Rabbit) Nobleman 丑 Chou (Ox) 未 Wei (Goat) 丑 Chou (Ox) 未 Wei (Goat)" [ref=e157]':
+                                      - cell "Hour Day Month Year 16:59 06 09 1985 Geng Geng Yang Metal Wu Wu Yang Earth Jia Jia Yang Wood Yi Yi Yin Wood Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Chou Chou Ox Yin Earth" [ref=e158]:
+                                        - table [ref=e159]:
+                                          - rowgroup [ref=e160]:
+                                            - row "Hour Day Month Year" [ref=e161]:
+                                              - columnheader "Hour" [ref=e162]
+                                              - columnheader "Day" [ref=e163]
+                                              - columnheader "Month" [ref=e164]
+                                              - columnheader "Year" [ref=e165]
+                                            - row "16:59 06 09 1985" [ref=e166]:
+                                              - cell "16:59" [ref=e167]
+                                              - cell "06" [ref=e168]
+                                              - cell "09" [ref=e169]
+                                              - cell "1985" [ref=e170]
+                                            - row "Geng Geng Yang Metal Wu Wu Yang Earth Jia Jia Yang Wood Yi Yi Yin Wood" [ref=e171]:
+                                              - cell "Geng Geng Yang Metal" [ref=e172]:
+                                                - table [ref=e173]:
+                                                  - rowgroup [ref=e174]:
+                                                    - row "Geng" [ref=e175]:
+                                                      - cell [ref=e176]
+                                                      - cell "Geng" [ref=e177]:
+                                                        - img "Geng" [ref=e178]
+                                                      - cell [ref=e179]
+                                                    - row "Geng" [ref=e180]:
+                                                      - cell "Geng" [ref=e181]
+                                                    - row "Yang Metal" [ref=e182]:
+                                                      - cell "Yang Metal" [ref=e183]
+                                              - cell "Wu Wu Yang Earth" [ref=e184]:
+                                                - table [ref=e185]:
+                                                  - rowgroup [ref=e186]:
+                                                    - row "Wu" [ref=e187]:
+                                                      - cell "Wu" [ref=e188]:
+                                                        - img "Wu" [ref=e189]
+                                                    - row "Wu" [ref=e190]:
+                                                      - cell "Wu" [ref=e191]
+                                                    - row "Yang Earth" [ref=e192]:
+                                                      - cell "Yang Earth" [ref=e193]
+                                              - cell "Jia Jia Yang Wood" [ref=e194]:
+                                                - table [ref=e195]:
+                                                  - rowgroup [ref=e196]:
+                                                    - row "Jia" [ref=e197]:
+                                                      - cell [ref=e198]
+                                                      - cell "Jia" [ref=e199]:
+                                                        - img "Jia" [ref=e200]
+                                                      - cell [ref=e201]
+                                                    - row "Jia" [ref=e202]:
+                                                      - cell "Jia" [ref=e203]
+                                                    - row "Yang Wood" [ref=e204]:
+                                                      - cell "Yang Wood" [ref=e205]
+                                              - cell "Yi Yi Yin Wood" [ref=e206]:
+                                                - table [ref=e207]:
+                                                  - rowgroup [ref=e208]:
+                                                    - row "Yi" [ref=e209]:
+                                                      - cell [ref=e210]
+                                                      - cell "Yi" [ref=e211]:
+                                                        - img "Yi" [ref=e212]
+                                                      - cell [ref=e213]
+                                                    - row "Yi" [ref=e214]:
+                                                      - cell "Yi" [ref=e215]
+                                                    - row "Yin Wood" [ref=e216]:
+                                                      - cell "Yin Wood" [ref=e217]
+                                            - row "Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Shen Shen Monkey Yang Metal Chou Chou Ox Yin Earth" [ref=e218]:
+                                              - cell "Shen Shen Monkey Yang Metal" [ref=e219]:
+                                                - table [ref=e220]:
+                                                  - rowgroup [ref=e221]:
+                                                    - row "Shen" [ref=e222]:
+                                                      - cell "Shen" [ref=e223]:
+                                                        - img "Shen" [ref=e224]
+                                                    - row "Shen" [ref=e225]:
+                                                      - cell "Shen" [ref=e226]
+                                                    - row "Monkey" [ref=e227]:
+                                                      - cell "Monkey" [ref=e228]
+                                                    - row "Yang Metal" [ref=e229]:
+                                                      - cell "Yang Metal" [ref=e230]
+                                              - cell "Shen Shen Monkey Yang Metal" [ref=e231]:
+                                                - table [ref=e232]:
+                                                  - rowgroup [ref=e233]:
+                                                    - row "Shen" [ref=e234]:
+                                                      - cell "Shen" [ref=e235]:
+                                                        - img "Shen" [ref=e236]
+                                                    - row "Shen" [ref=e237]:
+                                                      - cell "Shen" [ref=e238]
+                                                    - row "Monkey" [ref=e239]:
+                                                      - cell "Monkey" [ref=e240]
+                                                    - row "Yang Metal" [ref=e241]:
+                                                      - cell "Yang Metal" [ref=e242]
+                                              - cell "Shen Shen Monkey Yang Metal" [ref=e243]:
+                                                - table [ref=e244]:
+                                                  - rowgroup [ref=e245]:
+                                                    - row "Shen" [ref=e246]:
+                                                      - cell "Shen" [ref=e247]:
+                                                        - img "Shen" [ref=e248]
+                                                    - row "Shen" [ref=e249]:
+                                                      - cell "Shen" [ref=e250]
+                                                    - row "Monkey" [ref=e251]:
+                                                      - cell "Monkey" [ref=e252]
+                                                    - row "Yang Metal" [ref=e253]:
+                                                      - cell "Yang Metal" [ref=e254]
+                                              - cell "Chou Chou Ox Yin Earth" [ref=e255]:
+                                                - table [ref=e256]:
+                                                  - rowgroup [ref=e257]:
+                                                    - row "Chou" [ref=e258]:
+                                                      - cell "Chou" [ref=e259]:
+                                                        - img "Chou" [ref=e260]
+                                                    - row "Chou" [ref=e261]:
+                                                      - cell "Chou" [ref=e262]
+                                                    - row "Ox" [ref=e263]:
+                                                      - cell "Ox" [ref=e264]
+                                                    - row "Yin Earth" [ref=e265]:
+                                                      - cell "Yin Earth" [ref=e266]
+                                      - 'cell "Chart Id: 957 Structure Yin 7 Lead Stem 癸 Gui Envoy Death Door Lead Star Heavenly Grain 28 Constellations 23 - Ghost Hour Day Jia hides behind 癸 Gui 壬 Ren Sky Horse 寅 Yin (Tiger) 寅 Yin (Tiger) Death & Emptiness 子 Zi (Rat) 丑 Chou (Ox) 寅 Yin (Tiger) 卯 Mao (Rabbit) Nobleman 丑 Chou (Ox) 未 Wei (Goat) 丑 Chou (Ox) 未 Wei (Goat)" [ref=e267]':
+                                        - table [ref=e268]:
+                                          - rowgroup [ref=e269]:
+                                            - 'row "Chart Id: 957" [ref=e270]':
+                                              - 'cell "Chart Id: 957" [ref=e271]'
+                                            - row "Structure Yin 7" [ref=e272]:
+                                              - cell "Structure" [ref=e273]
+                                              - cell "Yin 7" [ref=e274]
+                                            - row "Lead Stem 癸 Gui" [ref=e275]:
+                                              - cell "Lead Stem" [ref=e276]
+                                              - cell "癸 Gui" [ref=e277]
+                                            - row "Envoy Death Door" [ref=e278]:
+                                              - cell "Envoy" [ref=e279]
+                                              - cell "Death Door" [ref=e280]
+                                            - row "Lead Star Heavenly Grain" [ref=e281]:
+                                              - cell "Lead Star" [ref=e282]
+                                              - cell "Heavenly Grain" [ref=e283]
+                                            - row "28 Constellations 23 - Ghost" [ref=e284]:
+                                              - cell "28 Constellations" [ref=e285]
+                                              - cell "23 - Ghost" [ref=e286]
+                                            - row "Hour Day" [ref=e287]:
+                                              - cell [ref=e288]
+                                              - cell "Hour" [ref=e289]
+                                              - cell "Day" [ref=e290]
+                                            - row "Jia hides behind 癸 Gui 壬 Ren" [ref=e291]:
+                                              - cell "Jia hides behind" [ref=e292]
+                                              - cell "癸 Gui" [ref=e293]
+                                              - cell "壬 Ren" [ref=e294]
+                                            - row "Sky Horse 寅 Yin (Tiger) 寅 Yin (Tiger)" [ref=e295]:
+                                              - cell "Sky Horse" [ref=e296]
+                                              - cell "寅 Yin (Tiger)" [ref=e297]
+                                              - cell "寅 Yin (Tiger)" [ref=e298]
+                                            - row "Death & Emptiness 子 Zi (Rat) 丑 Chou (Ox) 寅 Yin (Tiger) 卯 Mao (Rabbit)" [ref=e299]:
+                                              - cell "Death & Emptiness" [ref=e300]
+                                              - cell "子 Zi (Rat) 丑 Chou (Ox)" [ref=e301]:
+                                                - text: 子 Zi (Rat)
+                                                - text: 丑 Chou (Ox)
+                                              - cell "寅 Yin (Tiger) 卯 Mao (Rabbit)" [ref=e302]:
+                                                - text: 寅 Yin (Tiger)
+                                                - text: 卯 Mao (Rabbit)
+                                            - row "Nobleman 丑 Chou (Ox) 未 Wei (Goat) 丑 Chou (Ox) 未 Wei (Goat)" [ref=e303]:
+                                              - cell "Nobleman" [ref=e304]
+                                              - cell "丑 Chou (Ox) 未 Wei (Goat)" [ref=e305]:
+                                                - text: 丑 Chou (Ox)
+                                                - text: 未 Wei (Goat)
+                                              - cell "丑 Chou (Ox) 未 Wei (Goat)" [ref=e306]:
+                                                - text: 丑 Chou (Ox)
+                                                - text: 未 Wei (Goat)
+                            - row [ref=e307]:
+                              - cell [ref=e308]
+                            - row [ref=e309]:
+                              - cell [ref=e310]:
+                                - table [ref=e311]:
+                                  - rowgroup [ref=e312]:
+                                    - row [ref=e313]:
+                                      - cell [ref=e314]:
+                                        - table [ref=e315]:
+                                          - rowgroup [ref=e316]:
+                                            - row [ref=e317]:
+                                              - cell [ref=e318]:
+                                                - table [ref=e319]:
+                                                  - rowgroup [ref=e320]:
+                                                    - row "SE S SW" [ref=e321]:
+                                                      - cell "SE" [ref=e322]
+                                                      - cell "S" [ref=e323]
+                                                      - cell "SW" [ref=e324]
+                                                    - row "Xin 8 Xin Fu Fu Assistant Yin Zhen Yin Moon Ren Xun 2 Wu Xun 1 57-Wind Xin Xin 5_Du Du Delusion 6 Bing 5 Bing Ying Ying Hero She Gen She Snake Geng Li 3 Yin Li 1 30-Fire Yue Sheng Bing Bing 6_Jing Jing Scenery 2 Jia Gui Geng 9 Gui Rui Rui Grain Fu Kan Fu Chief Jia Kun 1 Zi Kun 1 2-Earth Zhan Ge Da Ge Fei Gong Fu Gong Gui Geng Gui Envoy 7_Si Si Death 4" [ref=e325]:
+                                                      - cell [ref=e326]
+                                                      - cell "Xin 8 Xin Fu Fu Assistant Yin Zhen Yin Moon Ren Xun 2 Wu Xun 1 57-Wind Xin Xin 5_Du Du Delusion 6" [ref=e327]:
+                                                        - table [ref=e328]:
+                                                          - rowgroup [ref=e329]:
+                                                            - row "Xin 8 Xin Fu Fu Assistant Yin Zhen Yin Moon" [ref=e330]:
+                                                              - cell "Xin 8 Xin Fu Fu Assistant Yin Zhen Yin Moon" [ref=e331]:
+                                                                - table [ref=e332]:
+                                                                  - rowgroup [ref=e333]:
+                                                                    - row "Xin 8 Xin Fu Fu Assistant Yin Zhen Yin Moon" [ref=e334]:
+                                                                      - cell "Xin 8 Xin" [ref=e335]:
+                                                                        - table [ref=e336]:
+                                                                          - rowgroup [ref=e337]:
+                                                                            - row "Xin 8" [ref=e338]:
+                                                                              - cell "Xin" [ref=e339]:
+                                                                                - img "Xin" [ref=e340]
+                                                                              - cell "8" [ref=e341]:
+                                                                                - generic [ref=e343] [cursor=pointer]: "8"
+                                                                            - row "Xin":
+                                                                              - cell "Xin" [ref=e344]
+                                                                      - cell "Fu Fu Assistant" [ref=e345]:
+                                                                        - table [ref=e346]:
+                                                                          - rowgroup [ref=e347]:
+                                                                            - row "Fu" [ref=e348]:
+                                                                              - cell "Fu" [ref=e349]:
+                                                                                - img "Fu" [ref=e350]
+                                                                            - row "Fu":
+                                                                              - cell "Fu" [ref=e351]
+                                                                            - row "Assistant":
+                                                                              - cell "Assistant" [ref=e352]
+                                                                      - cell "Yin Zhen Yin Moon" [ref=e353]:
+                                                                        - table [ref=e354]:
+                                                                          - rowgroup [ref=e355]:
+                                                                            - row "Yin Zhen" [ref=e356]:
+                                                                              - cell "Yin Zhen" [ref=e357]:
+                                                                                - img "Yin" [ref=e358]
+                                                                                - img "Zhen" [ref=e360]
+                                                                            - row "Yin":
+                                                                              - cell "Yin" [ref=e361]
+                                                                            - row "Moon":
+                                                                              - cell "Moon" [ref=e362]:
+                                                                                - generic [ref=e363]: Moon
+                                                            - row "Ren Xun 2 Wu Xun 1 57-Wind" [ref=e364]:
+                                                              - cell "Ren Xun 2 Wu Xun 1 57-Wind" [ref=e365]:
+                                                                - table [ref=e366]:
+                                                                  - rowgroup [ref=e367]:
+                                                                    - row "Ren Xun 2 Wu Xun 1 57-Wind" [ref=e368]:
+                                                                      - cell "Ren Xun 2 Wu Xun 1 57-Wind" [ref=e369]:
+                                                                        - table [ref=e370]:
+                                                                          - rowgroup:
+                                                                            - row "Ren Xun 2":
+                                                                              - cell "Ren" [ref=e371]:
+                                                                                - img "Ren" [ref=e372]
+                                                                              - cell "Xun" [ref=e373]:
+                                                                                - img "Xun" [ref=e374]
+                                                                              - cell "2" [ref=e375]
+                                                                            - row "Wu Xun 1":
+                                                                              - cell "Wu" [ref=e376]:
+                                                                                - img "Wu" [ref=e377]
+                                                                              - cell "Xun" [ref=e378]:
+                                                                                - img "Xun" [ref=e379]
+                                                                              - cell "1" [ref=e380]
+                                                                            - row "57-Wind":
+                                                                              - cell "57-Wind" [ref=e381]
+                                                                      - cell [ref=e382]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                                      - cell [ref=e383]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                            - row "Xin Xin 5_Du Du Delusion 6" [ref=e384]:
+                                                              - cell "Xin Xin 5_Du Du Delusion 6" [ref=e385]:
+                                                                - table [ref=e386]:
+                                                                  - rowgroup [ref=e387]:
+                                                                    - row "Xin Xin 5_Du Du Delusion 6" [ref=e388]:
+                                                                      - cell "Xin Xin" [ref=e389]:
+                                                                        - table [ref=e390]:
+                                                                          - rowgroup [ref=e391]:
+                                                                            - row "Xin" [ref=e392]:
+                                                                              - cell "Xin" [ref=e393]:
+                                                                                - img "Xin" [ref=e394]
+                                                                            - row "Xin":
+                                                                              - cell "Xin" [ref=e395]
+                                                                      - cell "5_Du Du Delusion" [ref=e396]:
+                                                                        - table [ref=e397]:
+                                                                          - rowgroup [ref=e398]:
+                                                                            - row "5_Du" [ref=e399]:
+                                                                              - cell "5_Du" [ref=e400]:
+                                                                                - img "5_Du" [ref=e401]
+                                                                            - row "Du":
+                                                                              - cell "Du" [ref=e402]
+                                                                            - row "Delusion":
+                                                                              - cell "Delusion" [ref=e403]
+                                                                      - cell "6" [ref=e404]:
+                                                                        - table [ref=e405]:
+                                                                          - rowgroup [ref=e406]:
+                                                                            - row "6" [ref=e407]:
+                                                                              - cell "6" [ref=e408]:
+                                                                                - generic [ref=e409]: "6"
+                                                      - cell "Bing 5 Bing Ying Ying Hero She Gen She Snake Geng Li 3 Yin Li 1 30-Fire Yue Sheng Bing Bing 6_Jing Jing Scenery 2" [ref=e410]:
+                                                        - table [ref=e411]:
+                                                          - rowgroup [ref=e412]:
+                                                            - row "Bing 5 Bing Ying Ying Hero She Gen She Snake" [ref=e413]:
+                                                              - cell "Bing 5 Bing Ying Ying Hero She Gen She Snake" [ref=e414]:
+                                                                - table [ref=e415]:
+                                                                  - rowgroup [ref=e416]:
+                                                                    - row "Bing 5 Bing Ying Ying Hero She Gen She Snake" [ref=e417]:
+                                                                      - cell "Bing 5 Bing" [ref=e418]:
+                                                                        - table [ref=e419]:
+                                                                          - rowgroup [ref=e420]:
+                                                                            - row "Bing 5" [ref=e421]:
+                                                                              - cell "Bing" [ref=e422]:
+                                                                                - img "Bing" [ref=e423]
+                                                                              - cell "5" [ref=e424]:
+                                                                                - generic [ref=e426] [cursor=pointer]: "5"
+                                                                            - row "Bing":
+                                                                              - cell "Bing" [ref=e427]
+                                                                      - cell "Ying Ying Hero" [ref=e428]:
+                                                                        - table [ref=e429]:
+                                                                          - rowgroup [ref=e430]:
+                                                                            - row "Ying" [ref=e431]:
+                                                                              - cell "Ying" [ref=e432]:
+                                                                                - img "Ying" [ref=e433]
+                                                                            - row "Ying":
+                                                                              - cell "Ying" [ref=e434]
+                                                                            - row "Hero":
+                                                                              - cell "Hero" [ref=e435]
+                                                                      - cell "She Gen She Snake" [ref=e436]:
+                                                                        - table [ref=e437]:
+                                                                          - rowgroup [ref=e438]:
+                                                                            - row "She Gen" [ref=e439]:
+                                                                              - cell "She Gen" [ref=e440]:
+                                                                                - img "She" [ref=e441]
+                                                                                - img "Gen" [ref=e443]
+                                                                            - row "She":
+                                                                              - cell "She" [ref=e444]
+                                                                            - row "Snake":
+                                                                              - cell "Snake" [ref=e445]:
+                                                                                - generic [ref=e446]: Snake
+                                                            - row "Geng Li 3 Yin Li 1 30-Fire Yue Sheng" [ref=e447]:
+                                                              - cell "Geng Li 3 Yin Li 1 30-Fire Yue Sheng" [ref=e448]:
+                                                                - table [ref=e449]:
+                                                                  - rowgroup [ref=e450]:
+                                                                    - row "Geng Li 3 Yin Li 1 30-Fire Yue Sheng" [ref=e451]:
+                                                                      - cell "Geng Li 3 Yin Li 1 30-Fire" [ref=e452]:
+                                                                        - table [ref=e453]:
+                                                                          - rowgroup:
+                                                                            - row "Geng Li 3":
+                                                                              - cell "Geng" [ref=e454]:
+                                                                                - img "Geng" [ref=e455]
+                                                                              - cell "Li" [ref=e456]:
+                                                                                - img "Li" [ref=e457]
+                                                                              - cell "3" [ref=e458]
+                                                                            - row "Yin Li 1":
+                                                                              - cell "Yin" [ref=e459]:
+                                                                                - img "Yin" [ref=e460]
+                                                                              - cell "Li" [ref=e461]:
+                                                                                - img "Li" [ref=e462]
+                                                                              - cell "1" [ref=e463]
+                                                                            - row "30-Fire":
+                                                                              - cell "30-Fire" [ref=e464]
+                                                                      - cell "Yue Sheng" [ref=e465]:
+                                                                        - table [ref=e466]:
+                                                                          - rowgroup:
+                                                                            - row "Yue Sheng":
+                                                                              - cell "Yue Sheng" [ref=e467]
+                                                                      - cell [ref=e468]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                            - row "Bing Bing 6_Jing Jing Scenery 2" [ref=e469]:
+                                                              - cell "Bing Bing 6_Jing Jing Scenery 2" [ref=e470]:
+                                                                - table [ref=e471]:
+                                                                  - rowgroup [ref=e472]:
+                                                                    - row "Bing Bing 6_Jing Jing Scenery 2" [ref=e473]:
+                                                                      - cell "Bing Bing" [ref=e474]:
+                                                                        - table [ref=e475]:
+                                                                          - rowgroup [ref=e476]:
+                                                                            - row "Bing" [ref=e477]:
+                                                                              - cell "Bing" [ref=e478]:
+                                                                                - img "Bing" [ref=e479]
+                                                                            - row "Bing":
+                                                                              - cell "Bing" [ref=e480]
+                                                                      - cell "6_Jing Jing Scenery" [ref=e481]:
+                                                                        - table [ref=e482]:
+                                                                          - rowgroup [ref=e483]:
+                                                                            - row "6_Jing" [ref=e484]:
+                                                                              - cell "6_Jing" [ref=e485]:
+                                                                                - img "6_Jing" [ref=e486]
+                                                                            - row "Jing":
+                                                                              - cell "Jing" [ref=e487]
+                                                                            - row "Scenery":
+                                                                              - cell "Scenery" [ref=e488]
+                                                                      - cell "2" [ref=e489]:
+                                                                        - table [ref=e490]:
+                                                                          - rowgroup [ref=e491]:
+                                                                            - row "2" [ref=e492]:
+                                                                              - cell "2" [ref=e493]:
+                                                                                - generic [ref=e494]: "2"
+                                                      - cell "Jia Gui Geng 9 Gui Rui Rui Grain Fu Kan Fu Chief Jia Kun 1 Zi Kun 1 2-Earth Zhan Ge Da Ge Fei Gong Fu Gong Gui Geng Gui Envoy 7_Si Si Death 4" [ref=e495]:
+                                                        - table [ref=e496]:
+                                                          - rowgroup [ref=e497]:
+                                                            - row "Jia Gui Geng 9 Gui Rui Rui Grain Fu Kan Fu Chief" [ref=e498]:
+                                                              - cell "Jia Gui Geng 9 Gui Rui Rui Grain Fu Kan Fu Chief" [ref=e499]:
+                                                                - table [ref=e500]:
+                                                                  - rowgroup [ref=e501]:
+                                                                    - row "Jia Gui Geng 9 Gui Rui Rui Grain Fu Kan Fu Chief" [ref=e502]:
+                                                                      - cell "Jia Gui Geng 9 Gui" [ref=e503]:
+                                                                        - table [ref=e504]:
+                                                                          - rowgroup [ref=e505]:
+                                                                            - row "Jia Gui Geng 9" [ref=e506]:
+                                                                              - cell "Jia" [ref=e507]:
+                                                                                - img "Jia" [ref=e508]
+                                                                              - cell "Gui" [ref=e509]:
+                                                                                - img "Gui" [ref=e510]
+                                                                              - cell "Geng" [ref=e511]:
+                                                                                - img "Geng" [ref=e512]
+                                                                              - cell "9" [ref=e513]:
+                                                                                - generic [ref=e515] [cursor=pointer]: "9"
+                                                                            - row "Gui":
+                                                                              - cell "Gui" [ref=e516]
+                                                                      - cell "Rui Rui Grain" [ref=e517]:
+                                                                        - table [ref=e518]:
+                                                                          - rowgroup [ref=e519]:
+                                                                            - row "Rui" [ref=e520]:
+                                                                              - cell "Rui" [ref=e521]:
+                                                                                - img "Rui" [ref=e522]
+                                                                            - row "Rui":
+                                                                              - cell "Rui" [ref=e523]
+                                                                            - row "Grain":
+                                                                              - cell "Grain" [ref=e524]
+                                                                      - cell "Fu Kan Fu Chief" [ref=e525]:
+                                                                        - table [ref=e526]:
+                                                                          - rowgroup [ref=e527]:
+                                                                            - row "Fu Kan" [ref=e528]:
+                                                                              - cell "Fu Kan" [ref=e529]:
+                                                                                - img "Fu" [ref=e530]
+                                                                                - img "Kan" [ref=e532]
+                                                                            - row "Fu":
+                                                                              - cell "Fu" [ref=e533]
+                                                                            - row "Chief":
+                                                                              - cell "Chief" [ref=e534]:
+                                                                                - generic [ref=e535]: Chief
+                                                            - row "Jia Kun 1 Zi Kun 1 2-Earth Zhan Ge Da Ge Fei Gong Fu Gong" [ref=e536]:
+                                                              - cell "Jia Kun 1 Zi Kun 1 2-Earth Zhan Ge Da Ge Fei Gong Fu Gong" [ref=e537]:
+                                                                - table [ref=e538]:
+                                                                  - rowgroup [ref=e539]:
+                                                                    - row "Jia Kun 1 Zi Kun 1 2-Earth Zhan Ge Da Ge Fei Gong Fu Gong" [ref=e540]:
+                                                                      - cell "Jia Kun 1 Zi Kun 1 2-Earth" [ref=e541]:
+                                                                        - table [ref=e542]:
+                                                                          - rowgroup:
+                                                                            - row "Jia Kun 1":
+                                                                              - cell "Jia" [ref=e543]:
+                                                                                - img "Jia" [ref=e544]
+                                                                              - cell "Kun" [ref=e545]:
+                                                                                - img "Kun" [ref=e546]
+                                                                              - cell "1" [ref=e547]
+                                                                            - row "Zi Kun 1":
+                                                                              - cell "Zi" [ref=e548]:
+                                                                                - img "Zi" [ref=e549]
+                                                                              - cell "Kun" [ref=e550]:
+                                                                                - img "Kun" [ref=e551]
+                                                                              - cell "1" [ref=e552]
+                                                                            - row "2-Earth":
+                                                                              - cell "2-Earth" [ref=e553]
+                                                                      - cell [ref=e554]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                                      - cell "Zhan Ge Da Ge Fei Gong Fu Gong" [ref=e555]:
+                                                                        - table [ref=e556]:
+                                                                          - rowgroup:
+                                                                            - row "Zhan Ge":
+                                                                              - cell "Zhan Ge" [ref=e557]
+                                                                            - row "Da Ge":
+                                                                              - cell "Da Ge" [ref=e558]
+                                                                            - row "Fei Gong":
+                                                                              - cell "Fei Gong" [ref=e559]
+                                                                            - row "Fu Gong":
+                                                                              - cell "Fu Gong" [ref=e560]
+                                                            - row "Gui Geng Gui Envoy 7_Si Si Death 4" [ref=e561]:
+                                                              - cell "Gui Geng Gui Envoy 7_Si Si Death 4" [ref=e562]:
+                                                                - table [ref=e563]:
+                                                                  - rowgroup [ref=e564]:
+                                                                    - row "Gui Geng Gui Envoy 7_Si Si Death 4" [ref=e565]:
+                                                                      - cell "Gui Geng Gui" [ref=e566]:
+                                                                        - table [ref=e567]:
+                                                                          - rowgroup [ref=e568]:
+                                                                            - row "Gui Geng" [ref=e569]:
+                                                                              - cell "Gui" [ref=e570]:
+                                                                                - img "Gui" [ref=e571]
+                                                                              - cell "Geng" [ref=e572]:
+                                                                                - img "Geng" [ref=e573]
+                                                                            - row "Gui":
+                                                                              - cell "Gui" [ref=e574]
+                                                                      - cell "Envoy 7_Si Si Death" [ref=e575]:
+                                                                        - table [ref=e576]:
+                                                                          - rowgroup [ref=e577]:
+                                                                            - row "Envoy 7_Si" [ref=e578]:
+                                                                              - cell "Envoy" [ref=e579]
+                                                                              - cell "7_Si" [ref=e580]:
+                                                                                - img "7_Si" [ref=e581]
+                                                                            - row "Si":
+                                                                              - cell "Si" [ref=e582]
+                                                                            - row "Death":
+                                                                              - cell "Death" [ref=e583]
+                                                                      - cell "4" [ref=e584]:
+                                                                        - table [ref=e585]:
+                                                                          - rowgroup [ref=e586]:
+                                                                            - row "4" [ref=e587]:
+                                                                              - cell "4" [ref=e588]:
+                                                                                - generic [ref=e589]: "4"
+                                                      - cell [ref=e590]
+                                                    - row "E Ren 8 Ren Chong Chong Destructor He Xun He Harmony Ren Zhen 8 Zi Zhen 1 51-Thunder Ren Ren 4_Shang Shang Harm 5 Geng Geng Geng Geng Wu 8 Wu Zhu Zhu Pillar Tian Qian Tian Heaven Bing Dui 4 Chen Dui 1 58-Marsh Wu Wu 8_Jing Jing Fear 9 W" [ref=e591]:
+                                                      - cell "E" [ref=e592]
+                                                      - cell "Ren 8 Ren Chong Chong Destructor He Xun He Harmony Ren Zhen 8 Zi Zhen 1 51-Thunder Ren Ren 4_Shang Shang Harm 5" [ref=e593]:
+                                                        - table [ref=e594]:
+                                                          - rowgroup [ref=e595]:
+                                                            - row "Ren 8 Ren Chong Chong Destructor He Xun He Harmony" [ref=e596]:
+                                                              - cell "Ren 8 Ren Chong Chong Destructor He Xun He Harmony" [ref=e597]:
+                                                                - table [ref=e598]:
+                                                                  - rowgroup [ref=e599]:
+                                                                    - row "Ren 8 Ren Chong Chong Destructor He Xun He Harmony" [ref=e600]:
+                                                                      - cell "Ren 8 Ren" [ref=e601]:
+                                                                        - table [ref=e602]:
+                                                                          - rowgroup [ref=e603]:
+                                                                            - row "Ren 8" [ref=e604]:
+                                                                              - cell "Ren" [ref=e605]:
+                                                                                - img "Ren" [ref=e606]
+                                                                              - cell "8" [ref=e607]:
+                                                                                - generic [ref=e609] [cursor=pointer]: "8"
+                                                                            - row "Ren":
+                                                                              - cell "Ren" [ref=e610]
+                                                                      - cell "Chong Chong Destructor" [ref=e611]:
+                                                                        - table [ref=e612]:
+                                                                          - rowgroup [ref=e613]:
+                                                                            - row "Chong" [ref=e614]:
+                                                                              - cell "Chong" [ref=e615]:
+                                                                                - img "Chong" [ref=e616]
+                                                                            - row "Chong":
+                                                                              - cell "Chong" [ref=e617]
+                                                                            - row "Destructor":
+                                                                              - cell "Destructor" [ref=e618]
+                                                                      - cell "He Xun He Harmony" [ref=e619]:
+                                                                        - table [ref=e620]:
+                                                                          - rowgroup [ref=e621]:
+                                                                            - row "He Xun" [ref=e622]:
+                                                                              - cell "He Xun" [ref=e623]:
+                                                                                - img "He" [ref=e624]
+                                                                                - img "Xun" [ref=e626]
+                                                                            - row "He":
+                                                                              - cell "He" [ref=e627]
+                                                                            - row "Harmony":
+                                                                              - cell "Harmony" [ref=e628]:
+                                                                                - generic [ref=e629]: Harmony
+                                                            - row "Ren Zhen 8 Zi Zhen 1 51-Thunder" [ref=e630]:
+                                                              - cell "Ren Zhen 8 Zi Zhen 1 51-Thunder" [ref=e631]:
+                                                                - table [ref=e632]:
+                                                                  - rowgroup [ref=e633]:
+                                                                    - row "Ren Zhen 8 Zi Zhen 1 51-Thunder" [ref=e634]:
+                                                                      - cell "Ren Zhen 8 Zi Zhen 1 51-Thunder" [ref=e635]:
+                                                                        - table [ref=e636]:
+                                                                          - rowgroup:
+                                                                            - row "Ren Zhen 8":
+                                                                              - cell "Ren" [ref=e637]:
+                                                                                - img "Ren" [ref=e638]
+                                                                              - cell "Zhen" [ref=e639]:
+                                                                                - img "Zhen" [ref=e640]
+                                                                              - cell "8" [ref=e641]
+                                                                            - row "Zi Zhen 1":
+                                                                              - cell "Zi" [ref=e642]:
+                                                                                - img "Zi" [ref=e643]
+                                                                              - cell "Zhen" [ref=e644]:
+                                                                                - img "Zhen" [ref=e645]
+                                                                              - cell "1" [ref=e646]
+                                                                            - row "51-Thunder":
+                                                                              - cell "51-Thunder" [ref=e647]
+                                                                      - cell [ref=e648]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                                      - cell [ref=e649]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                            - row "Ren Ren 4_Shang Shang Harm 5" [ref=e650]:
+                                                              - cell "Ren Ren 4_Shang Shang Harm 5" [ref=e651]:
+                                                                - table [ref=e652]:
+                                                                  - rowgroup [ref=e653]:
+                                                                    - row "Ren Ren 4_Shang Shang Harm 5" [ref=e654]:
+                                                                      - cell "Ren Ren" [ref=e655]:
+                                                                        - table [ref=e656]:
+                                                                          - rowgroup [ref=e657]:
+                                                                            - row "Ren" [ref=e658]:
+                                                                              - cell "Ren" [ref=e659]:
+                                                                                - img "Ren" [ref=e660]
+                                                                            - row "Ren":
+                                                                              - cell "Ren" [ref=e661]
+                                                                      - cell "4_Shang Shang Harm" [ref=e662]:
+                                                                        - table [ref=e663]:
+                                                                          - rowgroup [ref=e664]:
+                                                                            - row "4_Shang" [ref=e665]:
+                                                                              - cell "4_Shang" [ref=e666]:
+                                                                                - img "4_Shang" [ref=e667]
+                                                                            - row "Shang":
+                                                                              - cell "Shang" [ref=e668]
+                                                                            - row "Harm":
+                                                                              - cell "Harm" [ref=e669]
+                                                                      - cell "5" [ref=e670]:
+                                                                        - table [ref=e671]:
+                                                                          - rowgroup [ref=e672]:
+                                                                            - row "5" [ref=e673]:
+                                                                              - cell "5" [ref=e674]:
+                                                                                - generic [ref=e675]: "5"
+                                                      - cell "Geng Geng Geng Geng" [ref=e676]:
+                                                        - table [ref=e677]:
+                                                          - rowgroup [ref=e678]:
+                                                            - row "Geng Geng" [ref=e679]:
+                                                              - cell "Geng Geng" [ref=e680]:
+                                                                - table [ref=e681]:
+                                                                  - rowgroup [ref=e682]:
+                                                                    - row "Geng Geng" [ref=e683]:
+                                                                      - cell "Geng Geng" [ref=e684]:
+                                                                        - table [ref=e685]:
+                                                                          - rowgroup [ref=e686]:
+                                                                            - row "Geng" [ref=e687]:
+                                                                              - cell "Geng" [ref=e688]:
+                                                                                - img "Geng" [ref=e689]
+                                                                            - row "Geng":
+                                                                              - cell "Geng" [ref=e690]
+                                                                      - cell [ref=e691]
+                                                                      - cell [ref=e692]
+                                                            - row [ref=e693]:
+                                                              - cell [ref=e694]:
+                                                                - table [ref=e695]:
+                                                                  - rowgroup [ref=e696]:
+                                                                    - row [ref=e697]:
+                                                                      - cell [ref=e698]
+                                                                      - cell [ref=e699]
+                                                                      - cell [ref=e700]
+                                                            - row "Geng Geng" [ref=e701]:
+                                                              - cell "Geng Geng" [ref=e702]:
+                                                                - table [ref=e703]:
+                                                                  - rowgroup [ref=e704]:
+                                                                    - row "Geng Geng" [ref=e705]:
+                                                                      - cell "Geng Geng" [ref=e706]:
+                                                                        - table [ref=e707]:
+                                                                          - rowgroup [ref=e708]:
+                                                                            - row "Geng" [ref=e709]:
+                                                                              - cell "Geng" [ref=e710]:
+                                                                                - img "Geng" [ref=e711]
+                                                                            - row "Geng":
+                                                                              - cell "Geng" [ref=e712]
+                                                                      - cell [ref=e713]
+                                                                      - cell [ref=e714]
+                                                      - cell "Wu 8 Wu Zhu Zhu Pillar Tian Qian Tian Heaven Bing Dui 4 Chen Dui 1 58-Marsh Wu Wu 8_Jing Jing Fear 9" [ref=e715]:
+                                                        - table [ref=e716]:
+                                                          - rowgroup [ref=e717]:
+                                                            - row "Wu 8 Wu Zhu Zhu Pillar Tian Qian Tian Heaven" [ref=e718]:
+                                                              - cell "Wu 8 Wu Zhu Zhu Pillar Tian Qian Tian Heaven" [ref=e719]:
+                                                                - table [ref=e720]:
+                                                                  - rowgroup [ref=e721]:
+                                                                    - row "Wu 8 Wu Zhu Zhu Pillar Tian Qian Tian Heaven" [ref=e722]:
+                                                                      - cell "Wu 8 Wu" [ref=e723]:
+                                                                        - table [ref=e724]:
+                                                                          - rowgroup [ref=e725]:
+                                                                            - row "Wu 8" [ref=e726]:
+                                                                              - cell "Wu" [ref=e727]:
+                                                                                - img "Wu" [ref=e728]
+                                                                              - cell "8" [ref=e729]:
+                                                                                - generic [ref=e731] [cursor=pointer]: "8"
+                                                                            - row "Wu":
+                                                                              - cell "Wu" [ref=e732]
+                                                                      - cell "Zhu Zhu Pillar" [ref=e733]:
+                                                                        - table [ref=e734]:
+                                                                          - rowgroup [ref=e735]:
+                                                                            - row "Zhu" [ref=e736]:
+                                                                              - cell "Zhu" [ref=e737]:
+                                                                                - img "Zhu" [ref=e738]
+                                                                            - row "Zhu":
+                                                                              - cell "Zhu" [ref=e739]
+                                                                            - row "Pillar":
+                                                                              - cell "Pillar" [ref=e740]
+                                                                      - cell "Tian Qian Tian Heaven" [ref=e741]:
+                                                                        - table [ref=e742]:
+                                                                          - rowgroup [ref=e743]:
+                                                                            - row "Tian Qian" [ref=e744]:
+                                                                              - cell "Tian Qian" [ref=e745]:
+                                                                                - img "Tian" [ref=e746]
+                                                                                - img "Qian" [ref=e748]
+                                                                            - row "Tian":
+                                                                              - cell "Tian" [ref=e749]
+                                                                            - row "Heaven":
+                                                                              - cell "Heaven" [ref=e750]:
+                                                                                - generic [ref=e751]: Heaven
+                                                            - row "Bing Dui 4 Chen Dui 1 58-Marsh" [ref=e752]:
+                                                              - cell "Bing Dui 4 Chen Dui 1 58-Marsh" [ref=e753]:
+                                                                - table [ref=e754]:
+                                                                  - rowgroup [ref=e755]:
+                                                                    - row "Bing Dui 4 Chen Dui 1 58-Marsh" [ref=e756]:
+                                                                      - cell "Bing Dui 4 Chen Dui 1 58-Marsh" [ref=e757]:
+                                                                        - table [ref=e758]:
+                                                                          - rowgroup:
+                                                                            - row "Bing Dui 4":
+                                                                              - cell "Bing" [ref=e759]:
+                                                                                - img "Bing" [ref=e760]
+                                                                              - cell "Dui" [ref=e761]:
+                                                                                - img "Dui" [ref=e762]
+                                                                              - cell "4" [ref=e763]
+                                                                            - row "Chen Dui 1":
+                                                                              - cell "Chen" [ref=e764]:
+                                                                                - img "Chen" [ref=e765]
+                                                                              - cell "Dui" [ref=e766]:
+                                                                                - img "Dui" [ref=e767]
+                                                                              - cell "1" [ref=e768]
+                                                                            - row "58-Marsh":
+                                                                              - cell "58-Marsh" [ref=e769]
+                                                                      - cell [ref=e770]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                                      - cell [ref=e771]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                            - row "Wu Wu 8_Jing Jing Fear 9" [ref=e772]:
+                                                              - cell "Wu Wu 8_Jing Jing Fear 9" [ref=e773]:
+                                                                - table [ref=e774]:
+                                                                  - rowgroup [ref=e775]:
+                                                                    - row "Wu Wu 8_Jing Jing Fear 9" [ref=e776]:
+                                                                      - cell "Wu Wu" [ref=e777]:
+                                                                        - table [ref=e778]:
+                                                                          - rowgroup [ref=e779]:
+                                                                            - row "Wu" [ref=e780]:
+                                                                              - cell "Wu" [ref=e781]:
+                                                                                - img "Wu" [ref=e782]
+                                                                            - row "Wu":
+                                                                              - cell "Wu" [ref=e783]
+                                                                      - cell "8_Jing Jing Fear" [ref=e784]:
+                                                                        - table [ref=e785]:
+                                                                          - rowgroup [ref=e786]:
+                                                                            - row "8_Jing" [ref=e787]:
+                                                                              - cell "8_Jing" [ref=e788]:
+                                                                                - img "8_Jing" [ref=e789]
+                                                                            - row "Jing":
+                                                                              - cell "Jing" [ref=e790]
+                                                                            - row "Fear":
+                                                                              - cell "Fear" [ref=e791]
+                                                                      - cell "9" [ref=e792]:
+                                                                        - table [ref=e793]:
+                                                                          - rowgroup [ref=e794]:
+                                                                            - row "9" [ref=e795]:
+                                                                              - cell "9" [ref=e796]:
+                                                                                - generic [ref=e797]: "9"
+                                                      - cell "W" [ref=e798]
+                                                    - row "Horse Yi 6 Yi Ren Ren Ambassador Hu Li Hu Tiger Bing Gen 6 Xu Gen 1 52-Mountain Hu Dun Yi Yi 3_Sheng Sheng Life 1 Ding 10 Ding Peng Peng Grass Xuan Kun Xuan Tortoise Geng Kan 7 Shen Kan 1 29-Water Xing Zhi Ding Ding 2_Xiu Xiu Rest 3 Ji 11 Ji Xin Xin Heart Di Dui Di Earth Jia Qian 9 Wu Qian 1 1-Heaven Ji Ji 1_Kai Kai Open 8" [ref=e799]:
+                                                      - cell "Horse" [ref=e800]:
+                                                        - img "Horse" [ref=e801]
+                                                      - cell "Yi 6 Yi Ren Ren Ambassador Hu Li Hu Tiger Bing Gen 6 Xu Gen 1 52-Mountain Hu Dun Yi Yi 3_Sheng Sheng Life 1" [ref=e802]:
+                                                        - table [ref=e803]:
+                                                          - rowgroup [ref=e804]:
+                                                            - row "Yi 6 Yi Ren Ren Ambassador Hu Li Hu Tiger" [ref=e805]:
+                                                              - cell "Yi 6 Yi Ren Ren Ambassador Hu Li Hu Tiger" [ref=e806]:
+                                                                - table [ref=e807]:
+                                                                  - rowgroup [ref=e808]:
+                                                                    - row "Yi 6 Yi Ren Ren Ambassador Hu Li Hu Tiger" [ref=e809]:
+                                                                      - cell "Yi 6 Yi" [ref=e810]:
+                                                                        - table [ref=e811]:
+                                                                          - rowgroup [ref=e812]:
+                                                                            - row "Yi 6" [ref=e813]:
+                                                                              - cell "Yi" [ref=e814]:
+                                                                                - img "Yi" [ref=e815]
+                                                                              - cell "6" [ref=e816]:
+                                                                                - generic [ref=e818] [cursor=pointer]: "6"
+                                                                            - row "Yi":
+                                                                              - cell "Yi" [ref=e819]
+                                                                      - cell "Ren Ren Ambassador" [ref=e820]:
+                                                                        - table [ref=e821]:
+                                                                          - rowgroup [ref=e822]:
+                                                                            - row "Ren" [ref=e823]:
+                                                                              - cell "Ren" [ref=e824]:
+                                                                                - img "Ren" [ref=e825]
+                                                                            - row "Ren":
+                                                                              - cell "Ren" [ref=e826]
+                                                                            - row "Ambassador":
+                                                                              - cell "Ambassador" [ref=e827]
+                                                                      - cell "Hu Li Hu Tiger" [ref=e828]:
+                                                                        - table [ref=e829]:
+                                                                          - rowgroup [ref=e830]:
+                                                                            - row "Hu Li" [ref=e831]:
+                                                                              - cell "Hu Li" [ref=e832]:
+                                                                                - img "Hu" [ref=e833]
+                                                                                - img "Li" [ref=e835]
+                                                                            - row "Hu":
+                                                                              - cell "Hu" [ref=e836]
+                                                                            - row "Tiger":
+                                                                              - cell "Tiger" [ref=e837]:
+                                                                                - generic [ref=e838]: Tiger
+                                                            - row "Bing Gen 6 Xu Gen 1 52-Mountain Hu Dun" [ref=e839]:
+                                                              - cell "Bing Gen 6 Xu Gen 1 52-Mountain Hu Dun" [ref=e840]:
+                                                                - table [ref=e841]:
+                                                                  - rowgroup [ref=e842]:
+                                                                    - row "Bing Gen 6 Xu Gen 1 52-Mountain Hu Dun" [ref=e843]:
+                                                                      - cell "Bing Gen 6 Xu Gen 1 52-Mountain" [ref=e844]:
+                                                                        - table [ref=e845]:
+                                                                          - rowgroup:
+                                                                            - row "Bing Gen 6":
+                                                                              - cell "Bing" [ref=e846]:
+                                                                                - img "Bing" [ref=e847]
+                                                                              - cell "Gen" [ref=e848]:
+                                                                                - img "Gen" [ref=e849]
+                                                                              - cell "6" [ref=e850]
+                                                                            - row "Xu Gen 1":
+                                                                              - cell "Xu" [ref=e851]:
+                                                                                - img "Xu" [ref=e852]
+                                                                              - cell "Gen" [ref=e853]:
+                                                                                - img "Gen" [ref=e854]
+                                                                              - cell "1" [ref=e855]
+                                                                            - row "52-Mountain":
+                                                                              - cell "52-Mountain" [ref=e856]
+                                                                      - cell "Hu Dun" [ref=e857]:
+                                                                        - table [ref=e858]:
+                                                                          - rowgroup:
+                                                                            - row "Hu Dun":
+                                                                              - cell "Hu Dun" [ref=e859]
+                                                                      - cell [ref=e860]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                            - row "Yi Yi 3_Sheng Sheng Life 1" [ref=e861]:
+                                                              - cell "Yi Yi 3_Sheng Sheng Life 1" [ref=e862]:
+                                                                - table [ref=e863]:
+                                                                  - rowgroup [ref=e864]:
+                                                                    - row "Yi Yi 3_Sheng Sheng Life 1" [ref=e865]:
+                                                                      - cell "Yi Yi" [ref=e866]:
+                                                                        - table [ref=e867]:
+                                                                          - rowgroup [ref=e868]:
+                                                                            - row "Yi" [ref=e869]:
+                                                                              - cell "Yi" [ref=e870]:
+                                                                                - img "Yi" [ref=e871]
+                                                                            - row "Yi":
+                                                                              - cell "Yi" [ref=e872]
+                                                                      - cell "3_Sheng Sheng Life" [ref=e873]:
+                                                                        - table [ref=e874]:
+                                                                          - rowgroup [ref=e875]:
+                                                                            - row "3_Sheng" [ref=e876]:
+                                                                              - cell "3_Sheng" [ref=e877]:
+                                                                                - img "3_Sheng" [ref=e878]
+                                                                            - row "Sheng":
+                                                                              - cell "Sheng" [ref=e879]
+                                                                            - row "Life":
+                                                                              - cell "Life" [ref=e880]
+                                                                      - cell "1" [ref=e881]:
+                                                                        - table [ref=e882]:
+                                                                          - rowgroup [ref=e883]:
+                                                                            - row "1" [ref=e884]:
+                                                                              - cell "1" [ref=e885]:
+                                                                                - generic [ref=e886]: "1"
+                                                      - cell "Ding 10 Ding Peng Peng Grass Xuan Kun Xuan Tortoise Geng Kan 7 Shen Kan 1 29-Water Xing Zhi Ding Ding 2_Xiu Xiu Rest 3" [ref=e887]:
+                                                        - table [ref=e888]:
+                                                          - rowgroup [ref=e889]:
+                                                            - row "Ding 10 Ding Peng Peng Grass Xuan Kun Xuan Tortoise" [ref=e890]:
+                                                              - cell "Ding 10 Ding Peng Peng Grass Xuan Kun Xuan Tortoise" [ref=e891]:
+                                                                - table [ref=e892]:
+                                                                  - rowgroup [ref=e893]:
+                                                                    - row "Ding 10 Ding Peng Peng Grass Xuan Kun Xuan Tortoise" [ref=e894]:
+                                                                      - cell "Ding 10 Ding" [ref=e895]:
+                                                                        - table [ref=e896]:
+                                                                          - rowgroup [ref=e897]:
+                                                                            - row "Ding 10" [ref=e898]:
+                                                                              - cell "Ding" [ref=e899]:
+                                                                                - img "Ding" [ref=e900]
+                                                                              - cell "10" [ref=e901]:
+                                                                                - generic [ref=e903] [cursor=pointer]: "10"
+                                                                            - row "Ding":
+                                                                              - cell "Ding" [ref=e904]
+                                                                      - cell "Peng Peng Grass" [ref=e905]:
+                                                                        - table [ref=e906]:
+                                                                          - rowgroup [ref=e907]:
+                                                                            - row "Peng" [ref=e908]:
+                                                                              - cell "Peng" [ref=e909]:
+                                                                                - img "Peng" [ref=e910]
+                                                                            - row "Peng":
+                                                                              - cell "Peng" [ref=e911]
+                                                                            - row "Grass":
+                                                                              - cell "Grass" [ref=e912]
+                                                                      - cell "Xuan Kun Xuan Tortoise" [ref=e913]:
+                                                                        - table [ref=e914]:
+                                                                          - rowgroup [ref=e915]:
+                                                                            - row "Xuan Kun" [ref=e916]:
+                                                                              - cell "Xuan Kun" [ref=e917]:
+                                                                                - img "Xuan" [ref=e918]
+                                                                                - img "Kun" [ref=e920]
+                                                                            - row "Xuan":
+                                                                              - cell "Xuan" [ref=e921]
+                                                                            - row "Tortoise":
+                                                                              - cell "Tortoise" [ref=e922]:
+                                                                                - generic [ref=e923]: Tortoise
+                                                            - row "Geng Kan 7 Shen Kan 1 29-Water Xing Zhi" [ref=e924]:
+                                                              - cell "Geng Kan 7 Shen Kan 1 29-Water Xing Zhi" [ref=e925]:
+                                                                - table [ref=e926]:
+                                                                  - rowgroup [ref=e927]:
+                                                                    - row "Geng Kan 7 Shen Kan 1 29-Water Xing Zhi" [ref=e928]:
+                                                                      - cell "Geng Kan 7 Shen Kan 1 29-Water" [ref=e929]:
+                                                                        - table [ref=e930]:
+                                                                          - rowgroup:
+                                                                            - row "Geng Kan 7":
+                                                                              - cell "Geng" [ref=e931]:
+                                                                                - img "Geng" [ref=e932]
+                                                                              - cell "Kan" [ref=e933]:
+                                                                                - img "Kan" [ref=e934]
+                                                                              - cell "7" [ref=e935]
+                                                                            - row "Shen Kan 1":
+                                                                              - cell "Shen" [ref=e936]:
+                                                                                - img "Shen" [ref=e937]
+                                                                              - cell "Kan" [ref=e938]:
+                                                                                - img "Kan" [ref=e939]
+                                                                              - cell "1" [ref=e940]
+                                                                            - row "29-Water":
+                                                                              - cell "29-Water" [ref=e941]
+                                                                      - cell [ref=e942]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                                      - cell "Xing Zhi" [ref=e943]:
+                                                                        - table [ref=e944]:
+                                                                          - rowgroup:
+                                                                            - row "Xing Zhi":
+                                                                              - cell "Xing Zhi" [ref=e945]
+                                                            - row "Ding Ding 2_Xiu Xiu Rest 3" [ref=e946]:
+                                                              - cell "Ding Ding 2_Xiu Xiu Rest 3" [ref=e947]:
+                                                                - table [ref=e948]:
+                                                                  - rowgroup [ref=e949]:
+                                                                    - row "Ding Ding 2_Xiu Xiu Rest 3" [ref=e950]:
+                                                                      - cell "Ding Ding" [ref=e951]:
+                                                                        - table [ref=e952]:
+                                                                          - rowgroup [ref=e953]:
+                                                                            - row "Ding" [ref=e954]:
+                                                                              - cell "Ding" [ref=e955]:
+                                                                                - img "Ding" [ref=e956]
+                                                                            - row "Ding":
+                                                                              - cell "Ding" [ref=e957]
+                                                                      - cell "2_Xiu Xiu Rest" [ref=e958]:
+                                                                        - table [ref=e959]:
+                                                                          - rowgroup [ref=e960]:
+                                                                            - row "2_Xiu" [ref=e961]:
+                                                                              - cell "2_Xiu" [ref=e962]:
+                                                                                - img "2_Xiu" [ref=e963]
+                                                                            - row "Xiu":
+                                                                              - cell "Xiu" [ref=e964]
+                                                                            - row "Rest":
+                                                                              - cell "Rest" [ref=e965]
+                                                                      - cell "3" [ref=e966]:
+                                                                        - table [ref=e967]:
+                                                                          - rowgroup [ref=e968]:
+                                                                            - row "3" [ref=e969]:
+                                                                              - cell "3" [ref=e970]:
+                                                                                - generic [ref=e971]: "3"
+                                                      - cell "Ji 11 Ji Xin Xin Heart Di Dui Di Earth Jia Qian 9 Wu Qian 1 1-Heaven Ji Ji 1_Kai Kai Open 8" [ref=e972]:
+                                                        - table [ref=e973]:
+                                                          - rowgroup [ref=e974]:
+                                                            - row "Ji 11 Ji Xin Xin Heart Di Dui Di Earth" [ref=e975]:
+                                                              - cell "Ji 11 Ji Xin Xin Heart Di Dui Di Earth" [ref=e976]:
+                                                                - table [ref=e977]:
+                                                                  - rowgroup [ref=e978]:
+                                                                    - row "Ji 11 Ji Xin Xin Heart Di Dui Di Earth" [ref=e979]:
+                                                                      - cell "Ji 11 Ji" [ref=e980]:
+                                                                        - table [ref=e981]:
+                                                                          - rowgroup [ref=e982]:
+                                                                            - row "Ji 11" [ref=e983]:
+                                                                              - cell "Ji" [ref=e984]:
+                                                                                - img "Ji" [ref=e985]
+                                                                              - cell "11" [ref=e986]:
+                                                                                - generic [ref=e988] [cursor=pointer]: "11"
+                                                                            - row "Ji":
+                                                                              - cell "Ji" [ref=e989]
+                                                                      - cell "Xin Xin Heart" [ref=e990]:
+                                                                        - table [ref=e991]:
+                                                                          - rowgroup [ref=e992]:
+                                                                            - row "Xin" [ref=e993]:
+                                                                              - cell "Xin" [ref=e994]:
+                                                                                - img "Xin" [ref=e995]
+                                                                            - row "Xin":
+                                                                              - cell "Xin" [ref=e996]
+                                                                            - row "Heart":
+                                                                              - cell "Heart" [ref=e997]
+                                                                      - cell "Di Dui Di Earth" [ref=e998]:
+                                                                        - table [ref=e999]:
+                                                                          - rowgroup [ref=e1000]:
+                                                                            - row "Di Dui" [ref=e1001]:
+                                                                              - cell "Di Dui" [ref=e1002]:
+                                                                                - img "Di" [ref=e1003]
+                                                                                - img "Dui" [ref=e1005]
+                                                                            - row "Di":
+                                                                              - cell "Di" [ref=e1006]
+                                                                            - row "Earth":
+                                                                              - cell "Earth" [ref=e1007]:
+                                                                                - generic [ref=e1008]: Earth
+                                                            - row "Jia Qian 9 Wu Qian 1 1-Heaven" [ref=e1009]:
+                                                              - cell "Jia Qian 9 Wu Qian 1 1-Heaven" [ref=e1010]:
+                                                                - table [ref=e1011]:
+                                                                  - rowgroup [ref=e1012]:
+                                                                    - row "Jia Qian 9 Wu Qian 1 1-Heaven" [ref=e1013]:
+                                                                      - cell "Jia Qian 9 Wu Qian 1 1-Heaven" [ref=e1014]:
+                                                                        - table [ref=e1015]:
+                                                                          - rowgroup:
+                                                                            - row "Jia Qian 9":
+                                                                              - cell "Jia" [ref=e1016]:
+                                                                                - img "Jia" [ref=e1017]
+                                                                              - cell "Qian" [ref=e1018]:
+                                                                                - img "Qian" [ref=e1019]
+                                                                              - cell "9" [ref=e1020]
+                                                                            - row "Wu Qian 1":
+                                                                              - cell "Wu" [ref=e1021]:
+                                                                                - img "Wu" [ref=e1022]
+                                                                              - cell "Qian" [ref=e1023]:
+                                                                                - img "Qian" [ref=e1024]
+                                                                              - cell "1" [ref=e1025]
+                                                                            - row "1-Heaven":
+                                                                              - cell "1-Heaven" [ref=e1026]
+                                                                      - cell [ref=e1027]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                                      - cell [ref=e1028]:
+                                                                        - table:
+                                                                          - rowgroup
+                                                            - row "Ji Ji 1_Kai Kai Open 8" [ref=e1029]:
+                                                              - cell "Ji Ji 1_Kai Kai Open 8" [ref=e1030]:
+                                                                - table [ref=e1031]:
+                                                                  - rowgroup [ref=e1032]:
+                                                                    - row "Ji Ji 1_Kai Kai Open 8" [ref=e1033]:
+                                                                      - cell "Ji Ji" [ref=e1034]:
+                                                                        - table [ref=e1035]:
+                                                                          - rowgroup [ref=e1036]:
+                                                                            - row "Ji" [ref=e1037]:
+                                                                              - cell "Ji" [ref=e1038]:
+                                                                                - img "Ji" [ref=e1039]
+                                                                            - row "Ji":
+                                                                              - cell "Ji" [ref=e1040]
+                                                                      - cell "1_Kai Kai Open" [ref=e1041]:
+                                                                        - table [ref=e1042]:
+                                                                          - rowgroup [ref=e1043]:
+                                                                            - row "1_Kai" [ref=e1044]:
+                                                                              - cell "1_Kai" [ref=e1045]:
+                                                                                - img "1_Kai" [ref=e1046]
+                                                                            - row "Kai":
+                                                                              - cell "Kai" [ref=e1047]
+                                                                            - row "Open":
+                                                                              - cell "Open" [ref=e1048]
+                                                                      - cell "8" [ref=e1049]:
+                                                                        - table [ref=e1050]:
+                                                                          - rowgroup [ref=e1051]:
+                                                                            - row "8" [ref=e1052]:
+                                                                              - cell "8" [ref=e1053]:
+                                                                                - generic [ref=e1054]: "8"
+                                                      - cell [ref=e1055]
+                                                    - row "NE Void N Void NW" [ref=e1056]:
+                                                      - cell "NE Void" [ref=e1057]:
+                                                        - text: NE
+                                                        - img "Void" [ref=e1058]
+                                                      - cell "N Void" [ref=e1059]:
+                                                        - text: "N"
+                                                        - img "Void" [ref=e1060]
+                                                      - cell "NW" [ref=e1061]
+                                      - 'cell "3 Victories (三勝) Heavenly Yi (大乙) SW Heavenly Yi (太乙) SW Heaven (天) W Life (生) NE Palaces Internal: S, SW, W, NW External: N, NE, E, SE Day clash: Tiger Hour clash: Tiger Fu Yin Doors Stars Stems" [ref=e1062]':
+                                        - table [ref=e1063]:
+                                          - rowgroup [ref=e1064]:
+                                            - row "3 Victories (三勝) Heavenly Yi (大乙) SW Heavenly Yi (太乙) SW Heaven (天) W Life (生) NE" [ref=e1065]:
+                                              - cell "3 Victories (三勝) Heavenly Yi (大乙) SW Heavenly Yi (太乙) SW Heaven (天) W Life (生) NE" [ref=e1066]:
+                                                - table [ref=e1067]:
+                                                  - rowgroup [ref=e1068]:
+                                                    - row "3 Victories (三勝)" [ref=e1069]:
+                                                      - cell "3 Victories (三勝)" [ref=e1070]
+                                                    - row "Heavenly Yi (大乙) SW" [ref=e1071]:
+                                                      - cell "Heavenly Yi (大乙)" [ref=e1072]
+                                                      - cell "SW" [ref=e1073]
+                                                    - row "Heavenly Yi (太乙) SW" [ref=e1074]:
+                                                      - cell "Heavenly Yi (太乙)" [ref=e1075]
+                                                      - cell "SW" [ref=e1076]
+                                                    - row "Heaven (天) W" [ref=e1077]:
+                                                      - cell "Heaven (天)" [ref=e1078]
+                                                      - cell "W" [ref=e1079]
+                                                    - row "Life (生) NE" [ref=e1080]:
+                                                      - cell "Life (生)" [ref=e1081]
+                                                      - cell "NE" [ref=e1082]
+                                        - table [ref=e1083]:
+                                          - rowgroup [ref=e1084]:
+                                            - 'row "Palaces Internal: S, SW, W, NW External: N, NE, E, SE" [ref=e1085]':
+                                              - 'cell "Palaces Internal: S, SW, W, NW External: N, NE, E, SE" [ref=e1086]':
+                                                - table [ref=e1087]:
+                                                  - rowgroup [ref=e1088]:
+                                                    - row "Palaces" [ref=e1089]:
+                                                      - cell "Palaces" [ref=e1090]
+                                                    - 'row "Internal: S, SW, W, NW" [ref=e1091]':
+                                                      - cell "Internal:" [ref=e1092]
+                                                      - cell "S, SW, W, NW" [ref=e1093]
+                                                    - 'row "External: N, NE, E, SE" [ref=e1094]':
+                                                      - cell "External:" [ref=e1095]
+                                                      - cell "N, NE, E, SE" [ref=e1096]
+                                        - table [ref=e1097]:
+                                          - rowgroup [ref=e1098]:
+                                            - 'row "Day clash: Tiger Hour clash: Tiger" [ref=e1099]':
+                                              - 'cell "Day clash: Tiger Hour clash: Tiger" [ref=e1100]':
+                                                - table [ref=e1101]:
+                                                  - rowgroup [ref=e1102]:
+                                                    - 'row "Day clash: Tiger" [ref=e1103]':
+                                                      - cell "Day clash:" [ref=e1104]
+                                                      - cell "Tiger" [ref=e1105]
+                                                    - 'row "Hour clash: Tiger" [ref=e1106]':
+                                                      - cell "Hour clash:" [ref=e1107]
+                                                      - cell "Tiger" [ref=e1108]
+                                        - table [ref=e1109]:
+                                          - rowgroup [ref=e1110]:
+                                            - row "Fu Yin Doors Stars Stems" [ref=e1111]:
+                                              - cell "Fu Yin Doors Stars Stems" [ref=e1112]:
+                                                - table [ref=e1113]:
+                                                  - rowgroup [ref=e1114]:
+                                                    - row "Fu Yin" [ref=e1115]:
+                                                      - cell "Fu Yin" [ref=e1116]
+                                                    - row "Doors Stars Stems" [ref=e1117]:
+                                                      - cell "Doors Stars Stems" [ref=e1118]
+                            - 'row "Calendar (Place of use) - Time Zone: Asia/Bangkok. Time Zone Offset: 7h. Longitude: 120." [ref=e1119]':
+                              - 'cell "Calendar (Place of use) - Time Zone: Asia/Bangkok. Time Zone Offset: 7h. Longitude: 120." [ref=e1120]':
+                                - table [ref=e1121]:
+                                  - rowgroup [ref=e1122]:
+                                    - 'row "Calendar (Place of use) - Time Zone: Asia/Bangkok. Time Zone Offset: 7h. Longitude: 120." [ref=e1123]':
+                                      - 'cell "Calendar (Place of use) - Time Zone: Asia/Bangkok. Time Zone Offset: 7h. Longitude: 120." [ref=e1124]':
+                                        - table [ref=e1125]:
+                                          - rowgroup [ref=e1126]:
+                                            - 'row "Calendar (Place of use) - Time Zone: Asia/Bangkok. Time Zone Offset: 7h. Longitude: 120." [ref=e1127]':
+                                              - 'cell "Calendar (Place of use) - Time Zone: Asia/Bangkok. Time Zone Offset: 7h. Longitude: 120." [ref=e1128]'
+                            - row [ref=e1129]:
+                              - cell [ref=e1130]
+                            - row [ref=e1131]:
+                              - cell [ref=e1132]:
+                                - table [ref=e1133]:
+                                  - rowgroup [ref=e1134]:
+                                    - row [ref=e1135]:
+                                      - cell [ref=e1136]:
+                                        - table [ref=e1137]:
+                                          - rowgroup [ref=e1138]:
+                                            - row "Palace Structure Name Description" [ref=e1139]:
+                                              - cell "Palace" [ref=e1140]
+                                              - cell "Structure" [ref=e1141]
+                                              - cell "Name" [ref=e1142]
+                                              - cell "Description" [ref=e1143]
+                                            - row "N Xing Zhi 三奇受制 (火披水地) Three Noble Restricting or Controlling No action should be taken, be extremely careful in making important decisions. When you have to make the decision you cannot hesitate and make it too quickly or too slowly, consider pros and cons and must believe, otherwise all will lead to failure." [ref=e1144]:
+                                              - cell "N" [ref=e1145]
+                                              - cell "Xing Zhi 三奇受制 (火披水地)" [ref=e1146]:
+                                                - paragraph [ref=e1147]: Xing Zhi
+                                                - paragraph [ref=e1148]: 三奇受制 (火披水地)
+                                              - cell "Three Noble Restricting or Controlling" [ref=e1149]
+                                              - cell "No action should be taken, be extremely careful in making important decisions. When you have to make the decision you cannot hesitate and make it too quickly or too slowly, consider pros and cons and must believe, otherwise all will lead to failure." [ref=e1150]
+                                            - row "NE Hu Dun 虎遁 Tiger Dun Auspicious for attacking the enemy, so in modern world helps using force, fear and intimidation, helps to get what you want, asking for pay rise and promotion, assuming the new role or title, starting work at construction site. Good for hunting, fortifying the defence so that the opponent dare to advance, plotting something secretly, not seen by radar, the enemies will be unable to see what you are doing and why." [ref=e1151]:
+                                              - cell "NE" [ref=e1152]
+                                              - cell "Hu Dun 虎遁" [ref=e1153]:
+                                                - generic [ref=e1154]:
+                                                  - paragraph [ref=e1155]: Hu Dun
+                                                  - paragraph [ref=e1156]: 虎遁
+                                              - cell "Tiger Dun" [ref=e1157]
+                                              - cell "Auspicious for attacking the enemy, so in modern world helps using force, fear and intimidation, helps to get what you want, asking for pay rise and promotion, assuming the new role or title, starting work at construction site. Good for hunting, fortifying the defence so that the opponent dare to advance, plotting something secretly, not seen by radar, the enemies will be unable to see what you are doing and why." [ref=e1158]
+                                            - row "S Yue Sheng 月奇昇殿 Bing Noble Rising Palace This structure helps in catching criminals, fighting against illegal acts. Suitable for burial, trading, marriage, moving into a new house, expanding a business, going for a long business journey, sending sales team, making calls, sending troops to battle. You can expect all other things to be good, anything can be accomplished, evil turns to fortune." [ref=e1159]:
+                                              - cell "S" [ref=e1160]
+                                              - cell "Yue Sheng 月奇昇殿" [ref=e1161]:
+                                                - generic [ref=e1162]:
+                                                  - paragraph [ref=e1163]: Yue Sheng
+                                                  - paragraph [ref=e1164]: 月奇昇殿
+                                              - cell "Bing Noble Rising Palace" [ref=e1165]
+                                              - cell "This structure helps in catching criminals, fighting against illegal acts. Suitable for burial, trading, marriage, moving into a new house, expanding a business, going for a long business journey, sending sales team, making calls, sending troops to battle. You can expect all other things to be good, anything can be accomplished, evil turns to fortune." [ref=e1166]
+                                            - row "SW Zhan Ge 戰格 War Structure It indicates the injuries sustained from a fight, physical damage and possible bodily harm, the death of a family member, the action in question will result in loss, both parties in transaction will suffer failure. Avoid extreme sport activities. One must be extremely careful if it is identified in the chart." [ref=e1167]:
+                                              - cell "SW" [ref=e1168]
+                                              - cell "Zhan Ge 戰格" [ref=e1169]:
+                                                - paragraph [ref=e1170]: Zhan Ge
+                                                - paragraph [ref=e1171]: 戰格
+                                              - cell "War Structure" [ref=e1172]
+                                              - cell "It indicates the injuries sustained from a fight, physical damage and possible bodily harm, the death of a family member, the action in question will result in loss, both parties in transaction will suffer failure. Avoid extreme sport activities. One must be extremely careful if it is identified in the chart." [ref=e1173]
+                                            - row "SW Da Ge 大格 Big Structure This formation is also known as Moving and Wandering Setting. Indicates a lot of changes and obstacles in career, getting lost during the trip, not receiving help when the transport means are broken and one is in need, logistical problem causing an event or activity to fail. It indicates imminent loss of money and falling sick, the new deal will be obstructed, a lot of hassle and setbacks. The team and family support will not be received. Do not sit in this location during meeting, let your opponent to sit there if you can." [ref=e1174]:
+                                              - cell "SW" [ref=e1175]
+                                              - cell "Da Ge 大格" [ref=e1176]:
+                                                - paragraph [ref=e1177]: Da Ge
+                                                - paragraph [ref=e1178]: 大格
+                                              - cell "Big Structure" [ref=e1179]
+                                              - cell "This formation is also known as Moving and Wandering Setting. Indicates a lot of changes and obstacles in career, getting lost during the trip, not receiving help when the transport means are broken and one is in need, logistical problem causing an event or activity to fail. It indicates imminent loss of money and falling sick, the new deal will be obstructed, a lot of hassle and setbacks. The team and family support will not be received. Do not sit in this location during meeting, let your opponent to sit there if you can." [ref=e1180]
+                                            - row "SW Fei Gong 天乙飛宮格 Flying Palace Structure This setting is unfavourable for the Host and the Guest, but particularly for the Guest. In doing business, move to another location or the business will fail, there are undesirable external influences impacting your actions, trouble caused by new conditions in the market, undesirable economic or political circumstances being beyond the control. Be prepared for the worst, your competitive plans may be derailed by hidden dangers in the environment. Do not sit in this location during meeting; let your opponent to sit there if you can." [ref=e1181]:
+                                              - cell "SW" [ref=e1182]
+                                              - cell "Fei Gong 天乙飛宮格" [ref=e1183]:
+                                                - paragraph [ref=e1184]: Fei Gong
+                                                - paragraph [ref=e1185]: 天乙飛宮格
+                                              - cell "Flying Palace Structure" [ref=e1186]
+                                              - cell "This setting is unfavourable for the Host and the Guest, but particularly for the Guest. In doing business, move to another location or the business will fail, there are undesirable external influences impacting your actions, trouble caused by new conditions in the market, undesirable economic or political circumstances being beyond the control. Be prepared for the worst, your competitive plans may be derailed by hidden dangers in the environment. Do not sit in this location during meeting; let your opponent to sit there if you can." [ref=e1187]
+                                            - row "SW Fu Gong 天乙伏宮格 Sitting Palace Structure This setting is unfavourable for the Host and the Guest. If you ask for help, you will not be able to contact the person who can help. If you wait for someone to come, he will not come. It indicates the loss of the leader or serious leadership related problem is going to occur; your subordinates may lose the faith in the company goals, the person with no support will be plagued with uncertainties in life. One will encounter robbery on the road or traffic accident. Nothing is smooth, avoid making hasty decisions at that time." [ref=e1188]:
+                                              - cell "SW" [ref=e1189]
+                                              - cell "Fu Gong 天乙伏宮格" [ref=e1190]:
+                                                - paragraph [ref=e1191]: Fu Gong
+                                                - paragraph [ref=e1192]: 天乙伏宮格
+                                              - cell "Sitting Palace Structure" [ref=e1193]
+                                              - cell "This setting is unfavourable for the Host and the Guest. If you ask for help, you will not be able to contact the person who can help. If you wait for someone to come, he will not come. It indicates the loss of the leader or serious leadership related problem is going to occur; your subordinates may lose the faith in the company goals, the person with no support will be plagued with uncertainties in life. One will encounter robbery on the road or traffic accident. Nothing is smooth, avoid making hasty decisions at that time." [ref=e1194]
+                            - row [ref=e1195]:
+                              - cell [ref=e1196]
+                            - row [ref=e1197]:
+                              - cell [ref=e1198]:
+                                - table [ref=e1199]:
+                                  - rowgroup [ref=e1200]:
+                                    - row [ref=e1201]:
+                                      - cell [ref=e1202]:
+                                        - table [ref=e1203]:
+                                          - rowgroup [ref=e1204]:
+                                            - row "Palace Stems Formation Name Description" [ref=e1205]:
+                                              - cell "Palace" [ref=e1206]
+                                              - cell "Stems Formation" [ref=e1207]
+                                              - cell "Name" [ref=e1208]
+                                              - cell "Description" [ref=e1209]
+                                            - 'row "N 34: Ding/ + Ding/ 奇入太陰 Noble Enters Great Yin Auspicious. Contract and agreement coming. Happy events with satisfaction. Minor setbacks involving academic documents. Good results depend on the effort and heart that one puts into the work." [ref=e1210]':
+                                              - cell "N" [ref=e1211]
+                                              - 'cell "34: Ding/ + Ding/ 奇入太陰" [ref=e1212]':
+                                                - generic [ref=e1213]:
+                                                  - paragraph [ref=e1214]:
+                                                    - text: "34:"
+                                                    - img "Ding/" [ref=e1215]
+                                                    - text: +
+                                                    - img "Ding/" [ref=e1216]
+                                                  - paragraph [ref=e1217]: 奇入太陰
+                                              - cell "Noble Enters Great Yin" [ref=e1218]
+                                              - cell "Auspicious. Contract and agreement coming. Happy events with satisfaction. Minor setbacks involving academic documents. Good results depend on the effort and heart that one puts into the work." [ref=e1219]:
+                                                - generic [ref=e1220]: Auspicious. Contract and agreement coming. Happy events with satisfaction. Minor setbacks involving academic documents. Good results depend on the effort and heart that one puts into the work.
+                                            - 'row "NE 12: Yi/ + Yi/ 日奇伏吟 Day Noble Fu Yin Moderate. Not favourable for seeing managers, mentors, superiors, not advisable to pursue fame or status nor take risk. Stay within your comfortable zone, avoiding aggressive moves for wealth." [ref=e1221]':
+                                              - cell "NE" [ref=e1222]
+                                              - 'cell "12: Yi/ + Yi/ 日奇伏吟" [ref=e1223]':
+                                                - generic [ref=e1224]:
+                                                  - paragraph [ref=e1225]:
+                                                    - text: "12:"
+                                                    - img "Yi/" [ref=e1226]
+                                                    - text: +
+                                                    - img "Yi/" [ref=e1227]
+                                                  - paragraph [ref=e1228]: 日奇伏吟
+                                              - cell "Day Noble Fu Yin" [ref=e1229]
+                                              - cell "Moderate. Not favourable for seeing managers, mentors, superiors, not advisable to pursue fame or status nor take risk. Stay within your comfortable zone, avoiding aggressive moves for wealth." [ref=e1230]:
+                                                - generic [ref=e1231]: Moderate. Not favourable for seeing managers, mentors, superiors, not advisable to pursue fame or status nor take risk. Stay within your comfortable zone, avoiding aggressive moves for wealth.
+                                            - 'row "E 89: Ren/ + Ren/ 蛇入地羅 Snake Enters Earth Net Inauspicious. Entanglement outside and worries inside. Fortunate doors and stars can help but it is better to keep a low profile. No good for marriage commitments and treating illness. Your wish will not be heard." [ref=e1232]':
+                                              - cell "E" [ref=e1233]
+                                              - 'cell "89: Ren/ + Ren/ 蛇入地羅" [ref=e1234]':
+                                                - generic [ref=e1235]:
+                                                  - paragraph [ref=e1236]:
+                                                    - text: "89:"
+                                                    - img "Ren/" [ref=e1237]
+                                                    - text: +
+                                                    - img "Ren/" [ref=e1238]
+                                                  - paragraph [ref=e1239]: 蛇入地羅
+                                              - cell "Snake Enters Earth Net" [ref=e1240]
+                                              - cell "Inauspicious. Entanglement outside and worries inside. Fortunate doors and stars can help but it is better to keep a low profile. No good for marriage commitments and treating illness. Your wish will not be heard." [ref=e1241]:
+                                                - generic [ref=e1242]: Inauspicious. Entanglement outside and worries inside. Fortunate doors and stars can help but it is better to keep a low profile. No good for marriage commitments and treating illness. Your wish will not be heard.
+                                            - 'row "SE 78: Xin/ + Xin/ 伏吟天庭 The Grand Heaven Fu Yin Inauspicious. Public affairs will fail. Private affairs will be ok. Seeking litigation will suffer from a bounce back. It indicates self sabotaging at work. Do not promise what you cannot deliver." [ref=e1243]':
+                                              - cell "SE" [ref=e1244]
+                                              - 'cell "78: Xin/ + Xin/ 伏吟天庭" [ref=e1245]':
+                                                - generic [ref=e1246]:
+                                                  - paragraph [ref=e1247]:
+                                                    - text: "78:"
+                                                    - img "Xin/" [ref=e1248]
+                                                    - text: +
+                                                    - img "Xin/" [ref=e1249]
+                                                  - paragraph [ref=e1250]: 伏吟天庭
+                                              - cell "The Grand Heaven Fu Yin" [ref=e1251]
+                                              - cell "Inauspicious. Public affairs will fail. Private affairs will be ok. Seeking litigation will suffer from a bounce back. It indicates self sabotaging at work. Do not promise what you cannot deliver." [ref=e1252]:
+                                                - generic [ref=e1253]: Inauspicious. Public affairs will fail. Private affairs will be ok. Seeking litigation will suffer from a bounce back. It indicates self sabotaging at work. Do not promise what you cannot deliver.
+                                            - 'row "S 23: Bing/ + Bing/ 月奇悖師 Month Noble Rebelling officer Inauspicious. Possible lawsuit and litigation mainly due to contract problems. Suppression, deterioration, loss and exhaustion. Be careful of how you handle the important data at work. Possible loss of important documents and evidence. It can cause blockages in academic pursuits." [ref=e1254]':
+                                              - cell "S" [ref=e1255]
+                                              - 'cell "23: Bing/ + Bing/ 月奇悖師" [ref=e1256]':
+                                                - generic [ref=e1257]:
+                                                  - paragraph [ref=e1258]:
+                                                    - text: "23:"
+                                                    - img "Bing/" [ref=e1259]
+                                                    - text: +
+                                                    - img "Bing/" [ref=e1260]
+                                                  - paragraph [ref=e1261]: 月奇悖師
+                                              - cell "Month Noble Rebelling officer" [ref=e1262]
+                                              - cell "Inauspicious. Possible lawsuit and litigation mainly due to contract problems. Suppression, deterioration, loss and exhaustion. Be careful of how you handle the important data at work. Possible loss of important documents and evidence. It can cause blockages in academic pursuits." [ref=e1263]:
+                                                - generic [ref=e1264]: Inauspicious. Possible lawsuit and litigation mainly due to contract problems. Suppression, deterioration, loss and exhaustion. Be careful of how you handle the important data at work. Possible loss of important documents and evidence. It can cause blockages in academic pursuits.
+                                            - 'row "SW 100: Gui/ + Gui/ 天網四張 Heavenly Net Four Spreads Inauspicious. Everything fails on its own. Losing companion. Sickness and lawsuit bring misfortune. It represents instability in one''s mind." [ref=e1265]':
+                                              - cell "SW" [ref=e1266]
+                                              - 'cell "100: Gui/ + Gui/ 天網四張" [ref=e1267]':
+                                                - generic [ref=e1268]:
+                                                  - paragraph [ref=e1269]:
+                                                    - text: "100:"
+                                                    - img "Gui/" [ref=e1270]
+                                                    - text: +
+                                                    - img "Gui/" [ref=e1271]
+                                                  - paragraph [ref=e1272]: 天網四張
+                                              - cell "Heavenly Net Four Spreads" [ref=e1273]
+                                              - cell "Inauspicious. Everything fails on its own. Losing companion. Sickness and lawsuit bring misfortune. It represents instability in one's mind." [ref=e1274]:
+                                                - generic [ref=e1275]: Inauspicious. Everything fails on its own. Losing companion. Sickness and lawsuit bring misfortune. It represents instability in one's mind.
+                                            - 'row "W 45: Wu/ + Wu/ 伏吟 Fu Yin Inauspicious. This is known as Fu Yin. It indicates obstruction. Stay put is recommended. Take time to cultivate the mind and rejuvenate the spirit." [ref=e1276]':
+                                              - cell "W" [ref=e1277]
+                                              - 'cell "45: Wu/ + Wu/ 伏吟" [ref=e1278]':
+                                                - generic [ref=e1279]:
+                                                  - paragraph [ref=e1280]:
+                                                    - text: "45:"
+                                                    - img "Wu/" [ref=e1281]
+                                                    - text: +
+                                                    - img "Wu/" [ref=e1282]
+                                                  - paragraph [ref=e1283]: 伏吟
+                                              - cell "Fu Yin" [ref=e1284]
+                                              - cell "Inauspicious. This is known as Fu Yin. It indicates obstruction. Stay put is recommended. Take time to cultivate the mind and rejuvenate the spirit." [ref=e1285]:
+                                                - generic [ref=e1286]: Inauspicious. This is known as Fu Yin. It indicates obstruction. Stay put is recommended. Take time to cultivate the mind and rejuvenate the spirit.
+                                            - 'row "NW 56: Ji/ + Ji/ 地戶逢鬼 Earth Door Meets Ghost Inauspicious. Patient dies. Nothing is smooth. The land is haunted. Stagnation and obstruction along the way. No good for planning as this will lead to misfortune." [ref=e1287]':
+                                              - cell "NW" [ref=e1288]
+                                              - 'cell "56: Ji/ + Ji/ 地戶逢鬼" [ref=e1289]':
+                                                - generic [ref=e1290]:
+                                                  - paragraph [ref=e1291]:
+                                                    - text: "56:"
+                                                    - img "Ji/" [ref=e1292]
+                                                    - text: +
+                                                    - img "Ji/" [ref=e1293]
+                                                  - paragraph [ref=e1294]: 地戶逢鬼
+                                              - cell "Earth Door Meets Ghost" [ref=e1295]
+                                              - cell "Inauspicious. Patient dies. Nothing is smooth. The land is haunted. Stagnation and obstruction along the way. No good for planning as this will lead to misfortune." [ref=e1296]:
+                                                - generic [ref=e1297]: Inauspicious. Patient dies. Nothing is smooth. The land is haunted. Stagnation and obstruction along the way. No good for planning as this will lead to misfortune.
+                                            - row "Palace Extra Stems Formation Name Description" [ref=e1298]:
+                                              - cell "Palace" [ref=e1299]
+                                              - cell "Extra Stems Formation" [ref=e1300]
+                                              - cell "Name" [ref=e1301]
+                                              - cell "Description" [ref=e1302]
+                                            - 'row "SW 70: Geng/ + Gui/ 大格 Big Structure Inauspicious. Traffic accident. It can also mean litigation fights and quarrels. Pregnancy ends in hurting both mother and son." [ref=e1303]':
+                                              - cell "SW" [ref=e1304]
+                                              - 'cell "70: Geng/ + Gui/ 大格" [ref=e1305]':
+                                                - generic [ref=e1306]:
+                                                  - paragraph [ref=e1307]:
+                                                    - text: "70:"
+                                                    - img "Geng/" [ref=e1308]
+                                                    - text: +
+                                                    - img "Gui/" [ref=e1309]
+                                                  - paragraph [ref=e1310]: 大格
+                                              - cell "Big Structure" [ref=e1311]
+                                              - cell "Inauspicious. Traffic accident. It can also mean litigation fights and quarrels. Pregnancy ends in hurting both mother and son." [ref=e1312]:
+                                                - generic [ref=e1313]: Inauspicious. Traffic accident. It can also mean litigation fights and quarrels. Pregnancy ends in hurting both mother and son.
+                                            - 'row "SW 97: Gui/ + Geng/ 太白入網 Great White Enters Net Inauspicious. Opinionated people, rebellious, aggressive behaviour can lead to the court case. It denotes lack of support in lawsuit. Meeting the inauspicious door can lead to violent dispute." [ref=e1314]':
+                                              - cell "SW" [ref=e1315]
+                                              - 'cell "97: Gui/ + Geng/ 太白入網" [ref=e1316]':
+                                                - generic [ref=e1317]:
+                                                  - paragraph [ref=e1318]:
+                                                    - text: "97:"
+                                                    - img "Gui/" [ref=e1319]
+                                                    - text: +
+                                                    - img "Geng/" [ref=e1320]
+                                                  - paragraph [ref=e1321]: 太白入網
+                                              - cell "Great White Enters Net" [ref=e1322]
+                                              - cell "Inauspicious. Opinionated people, rebellious, aggressive behaviour can lead to the court case. It denotes lack of support in lawsuit. Meeting the inauspicious door can lead to violent dispute." [ref=e1323]:
+                                                - generic [ref=e1324]: Inauspicious. Opinionated people, rebellious, aggressive behaviour can lead to the court case. It denotes lack of support in lawsuit. Meeting the inauspicious door can lead to violent dispute.
+                                            - 'row "SW 10: Jia/ + Gui/ 青龍華蓋 Green Dragon Elegant Seal Moderate. If the door is fortunate, it will bring fortune. If the door is unfortunate, there will be weird events. Your idea can be successful; you can outwit your competitors." [ref=e1325]':
+                                              - cell "SW" [ref=e1326]
+                                              - 'cell "10: Jia/ + Gui/ 青龍華蓋" [ref=e1327]':
+                                                - generic [ref=e1328]:
+                                                  - paragraph [ref=e1329]:
+                                                    - text: "10:"
+                                                    - img "Jia/" [ref=e1330]
+                                                    - text: +
+                                                    - img "Gui/" [ref=e1331]
+                                                  - paragraph [ref=e1332]: 青龍華蓋
+                                              - cell "Green Dragon Elegant Seal" [ref=e1333]
+                                              - cell "Moderate. If the door is fortunate, it will bring fortune. If the door is unfortunate, there will be weird events. Your idea can be successful; you can outwit your competitors." [ref=e1334]:
+                                                - generic [ref=e1335]: Moderate. If the door is fortunate, it will bring fortune. If the door is unfortunate, there will be weird events. Your idea can be successful; you can outwit your competitors.
+                                            - 'row "SW 91: Gui/ + Jia/ 青龍入地 Green Dragon Enters Earth Auspicious. Happy events coming, good for marriage. Noble people helping. If door is evil and controlling, there will be lawsuit. New ideas coming." [ref=e1336]':
+                                              - cell "SW" [ref=e1337]
+                                              - 'cell "91: Gui/ + Jia/ 青龍入地" [ref=e1338]':
+                                                - generic [ref=e1339]:
+                                                  - paragraph [ref=e1340]:
+                                                    - text: "91:"
+                                                    - img "Gui/" [ref=e1341]
+                                                    - text: +
+                                                    - img "Jia/" [ref=e1342]
+                                                  - paragraph [ref=e1343]: 青龍入地
+                                              - cell "Green Dragon Enters Earth" [ref=e1344]
+                                              - cell "Auspicious. Happy events coming, good for marriage. Noble people helping. If door is evil and controlling, there will be lawsuit. New ideas coming." [ref=e1345]:
+                                                - generic [ref=e1346]: Auspicious. Happy events coming, good for marriage. Noble people helping. If door is evil and controlling, there will be lawsuit. New ideas coming.
+                            - row [ref=e1347]:
+                              - cell [ref=e1348]
+                            - 'row "Palace Strategy Name Description N Enemy Dealing 10: 笑里藏刀 Knife sheathed in a smile Charm and ingratiate yourself to your enemy. When you have gained his trust, you move against him in secret. SW Attacking 18: 擒贼擒王 Defeat the enemy by capturing their chief If the enemy''s army is strong but is allied to the commander only by money or threats then, take aim at the leader. If the commander falls the rest of the army will disperse or come over to your side. If, however, they are allied to the leader through loyalty then beware, the army can continue to fight on after his death out of vengeance." [ref=e1349]':
+                              - 'cell "Palace Strategy Name Description N Enemy Dealing 10: 笑里藏刀 Knife sheathed in a smile Charm and ingratiate yourself to your enemy. When you have gained his trust, you move against him in secret. SW Attacking 18: 擒贼擒王 Defeat the enemy by capturing their chief If the enemy''s army is strong but is allied to the commander only by money or threats then, take aim at the leader. If the commander falls the rest of the army will disperse or come over to your side. If, however, they are allied to the leader through loyalty then beware, the army can continue to fight on after his death out of vengeance." [ref=e1350]':
+                                - table [ref=e1351]:
+                                  - rowgroup [ref=e1352]:
+                                    - 'row "Palace Strategy Name Description N Enemy Dealing 10: 笑里藏刀 Knife sheathed in a smile Charm and ingratiate yourself to your enemy. When you have gained his trust, you move against him in secret. SW Attacking 18: 擒贼擒王 Defeat the enemy by capturing their chief If the enemy''s army is strong but is allied to the commander only by money or threats then, take aim at the leader. If the commander falls the rest of the army will disperse or come over to your side. If, however, they are allied to the leader through loyalty then beware, the army can continue to fight on after his death out of vengeance." [ref=e1353]':
+                                      - 'cell "Palace Strategy Name Description N Enemy Dealing 10: 笑里藏刀 Knife sheathed in a smile Charm and ingratiate yourself to your enemy. When you have gained his trust, you move against him in secret. SW Attacking 18: 擒贼擒王 Defeat the enemy by capturing their chief If the enemy''s army is strong but is allied to the commander only by money or threats then, take aim at the leader. If the commander falls the rest of the army will disperse or come over to your side. If, however, they are allied to the leader through loyalty then beware, the army can continue to fight on after his death out of vengeance." [ref=e1354]':
+                                        - table [ref=e1355]:
+                                          - rowgroup [ref=e1356]:
+                                            - row "Palace Strategy Name Description" [ref=e1357]:
+                                              - cell "Palace" [ref=e1358]
+                                              - cell "Strategy" [ref=e1359]
+                                              - cell "Name" [ref=e1360]
+                                              - cell "Description" [ref=e1361]
+                                            - 'row "N Enemy Dealing 10: 笑里藏刀 Knife sheathed in a smile Charm and ingratiate yourself to your enemy. When you have gained his trust, you move against him in secret." [ref=e1362]':
+                                              - cell "N" [ref=e1363]
+                                              - 'cell "Enemy Dealing 10: 笑里藏刀" [ref=e1364]':
+                                                - generic [ref=e1365]:
+                                                  - paragraph [ref=e1366]: Enemy Dealing
+                                                  - paragraph [ref=e1367]: "10: 笑里藏刀"
+                                              - cell "Knife sheathed in a smile" [ref=e1368]
+                                              - cell "Charm and ingratiate yourself to your enemy. When you have gained his trust, you move against him in secret." [ref=e1369]
+                                            - 'row "SW Attacking 18: 擒贼擒王 Defeat the enemy by capturing their chief If the enemy''s army is strong but is allied to the commander only by money or threats then, take aim at the leader. If the commander falls the rest of the army will disperse or come over to your side. If, however, they are allied to the leader through loyalty then beware, the army can continue to fight on after his death out of vengeance." [ref=e1370]':
+                                              - cell "SW" [ref=e1371]
+                                              - 'cell "Attacking 18: 擒贼擒王" [ref=e1372]':
+                                                - generic [ref=e1373]:
+                                                  - paragraph [ref=e1374]: Attacking
+                                                  - paragraph [ref=e1375]: "18: 擒贼擒王"
+                                              - cell "Defeat the enemy by capturing their chief" [ref=e1376]
+                                              - cell "If the enemy's army is strong but is allied to the commander only by money or threats then, take aim at the leader. If the commander falls the rest of the army will disperse or come over to your side. If, however, they are allied to the leader through loyalty then beware, the army can continue to fight on after his death out of vengeance." [ref=e1377]
+            - 'row "This chart is plotted by using: Convention 2." [ref=e1378]':
+              - 'cell "This chart is plotted by using: Convention 2." [ref=e1379]'
+    - row "I Ching | ZWDS | Tables | QMDJ Tables | Resources Privacy Policy | Cookies Contact | Paypal | FAQ | Wiki Copyright @ 2014-2026 by Chinese Metasoft. All rights reserved worldwide." [ref=e1380]:
+      - cell "I Ching | ZWDS | Tables | QMDJ Tables | Resources Privacy Policy | Cookies Contact | Paypal | FAQ | Wiki Copyright @ 2014-2026 by Chinese Metasoft. All rights reserved worldwide." [ref=e1381]:
+        - generic [ref=e1384]:
+          - link "I Ching" [ref=e1385] [cursor=pointer]:
+            - /url: /YiJing/Cast
+          - generic [ref=e1386]: "|"
+          - link "ZWDS" [ref=e1387] [cursor=pointer]:
+            - /url: /ZiWeiDouShu/Chart
+          - generic [ref=e1388]: "|"
+          - link "Tables" [ref=e1389] [cursor=pointer]:
+            - /url: /Table/Mountains
+          - generic [ref=e1390]: "|"
+          - link "QMDJ Tables" [ref=e1391] [cursor=pointer]:
+            - /url: /Table/PPStratagemsAndHexagrams
+          - generic [ref=e1392]: "|"
+          - link "Resources" [ref=e1393] [cursor=pointer]:
+            - /url: /Resources/Download
+          - link "Privacy Policy" [ref=e1394] [cursor=pointer]:
+            - /url: /Info/PrivacyPolicy
+          - text: "|"
+          - link "Cookies" [ref=e1395] [cursor=pointer]:
+            - /url: /Info/Cookies
+          - link "Contact" [ref=e1396] [cursor=pointer]:
+            - /url: /Info/Contact
+          - generic [ref=e1397]: "|"
+          - link "Paypal" [ref=e1398] [cursor=pointer]:
+            - /url: /Info/Paypal
+          - generic [ref=e1399]: "|"
+          - link "FAQ" [ref=e1400] [cursor=pointer]:
+            - /url: /Info/FAQ
+          - generic [ref=e1401]: "|"
+          - link "Wiki" [ref=e1402] [cursor=pointer]:
+            - /url: /Wiki/Astro
+        - paragraph [ref=e1404]: Copyright @ 2014-2026 by Chinese Metasoft. All rights reserved worldwide.

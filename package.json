@@ -23,9 +23,9 @@
     "license": "MIT",
     "scripts": {
         "dev": "vite",
-        "test": "NODE_ENV=test jest",
-        "test:watch": "NODE_ENV=test jest --watch",
-        "test:coverage": "NODE_ENV=test jest --coverage",
+        "test": "TZ=Asia/Shanghai NODE_ENV=test jest",
+        "test:watch": "TZ=Asia/Shanghai NODE_ENV=test jest --watch",
+        "test:coverage": "TZ=Asia/Shanghai NODE_ENV=test jest --coverage",
         "build": "tsc && vite build",
         "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "lint:fix": "eslint src --ext ts,tsx --fix",

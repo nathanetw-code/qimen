@@ -146,6 +146,7 @@ export interface AuspiciousHour {
   recommendedDirection: string
   reasons: string[]        // why this hour is good
   warnings: string[]       // voids or clashes
+  timeType: string | null  // 天顯時格 | 五不遇時 | 時干入墓 | null
 }
 
 export interface TimingSearchParams {

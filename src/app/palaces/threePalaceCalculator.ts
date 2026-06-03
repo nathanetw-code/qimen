@@ -33,6 +33,10 @@ export interface EngineChart {
   dun: string             // 陽遁 | 陰遁
   formation: number       // 局數 1–9
   leadStem: string        // 遁干 (chief hidden stem)
+  dayStem: string         // 日干 — day heavenly stem (for time quality check)
+  hourStem: string        // 時干 — hour heavenly stem
+  hourBranch: string      // 時支 — hour earthly branch
+  bazi: [string, string, string, string]  // [年干支, 月干支, 日干支, 時干支]
 }
 
 export function findDestinyPalace(dayStem: HeavenlyStem, chart: EngineChart): PalaceNumber {
@@ -76,6 +80,9 @@ export function buildEngineChartFromDate(date: Date): EngineChart {
   const pan = QimenUtil.create(lunar)
   const cells = pan.九宮  // array of 9 QimenCell
 
+  const dayGanZhi  = pan.八字[2] as string  // e.g. "丙辰"
+  const hourGanZhi = pan.八字[3] as string  // e.g. "甲午"
+
   return {
     heavenStems: cells.map(c => (c.天盤干[0] ?? '') as string),
     earthStems:  cells.map(c => (c.地盤干[0] ?? '') as string),
@@ -87,6 +94,10 @@ export function buildEngineChartFromDate(date: Date): EngineChart {
     dun:         pan.遁 as string,
     formation:   pan.局數 as number,
     leadStem:    pan.遁干 as string,
+    dayStem:     dayGanZhi[0]  ?? '',
+    hourStem:    hourGanZhi[0] ?? '',
+    hourBranch:  hourGanZhi[1] ?? '',
+    bazi:        pan.八字 as [string, string, string, string],
   }
 }
 
@@ -97,7 +108,8 @@ export function buildThreePalaces(
   const dayStem = getDayStem(birthDate)
   const destinyPalaceNumber = findDestinyPalace(dayStem, natalChart)
   const destinyDoor = findDoorPalace(destinyPalaceNumber, natalChart)
-  const { deity: destinyDeity } = findDeityPalace(natalChart)
+  // Get the deity actually in the destiny palace at birth (not always 值符)
+  const destinyDeity = (natalChart.deities[destinyPalaceNumber - 1] || '值符') as DeityKey
 
   return {
     destinyPalaceNumber,

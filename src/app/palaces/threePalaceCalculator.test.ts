@@ -65,5 +65,9 @@ function mockNatalChart() {
     dun:         '陽遁',
     formation:   1,
     leadStem:    '戊',
+    dayStem:     '丙',
+    hourStem:    '甲',
+    hourBranch:  '午',
+    bazi:        ['丙午', '癸巳', '丙午', '甲午'] as [string, string, string, string],
   }
 }

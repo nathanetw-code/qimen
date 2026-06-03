@@ -1,0 +1,186 @@
+<h2>GuestPage — Design Preview</h2>
+<p class="subtitle">หน้าแรกสำหรับผู้ใช้ที่ยังไม่ login (Layout A + Natal Chart)</p>
+
+<div class="mockup">
+  <div class="mockup-header">QimenAPP — หน้าแรก (Guest)</div>
+  <div class="mockup-body" style="font-family:sans-serif;font-size:12px;max-width:390px;margin:0 auto;background:#f7f7fb;min-height:700px;padding:0;border-radius:8px;overflow:hidden;">
+
+    <!-- Header bar -->
+    <div style="background:white;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #eee;">
+      <span style="font-weight:bold;font-size:15px;">🔯 QimenAPP</span>
+      <button style="background:#4299e1;color:white;border:none;border-radius:6px;padding:5px 12px;font-size:11px;cursor:pointer;">เข้าสู่ระบบ</button>
+    </div>
+
+    <div style="padding:16px;">
+
+      <!-- Section 1: Form -->
+      <div style="background:white;border-radius:10px;padding:14px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,0.08);">
+        <div style="font-size:13px;font-weight:bold;margin-bottom:4px;">ค้นพบดวงชะตาของคุณ</div>
+        <div style="font-size:10px;color:#888;margin-bottom:12px;">ใส่วันเวลาเกิด — เห็นผลทันที ไม่ต้องสมัครสมาชิก</div>
+
+        <!-- วันเกิด -->
+        <div style="font-size:10px;color:#555;margin-bottom:4px;">วันเกิด *</div>
+        <div style="display:flex;gap:6px;margin-bottom:8px;">
+          <div style="flex:1;background:#f0f0f0;border-radius:6px;padding:7px;text-align:center;font-size:10px;color:#888;">วันที่</div>
+          <div style="flex:2;background:#f0f0f0;border-radius:6px;padding:7px;text-align:center;font-size:10px;color:#888;">เดือน</div>
+          <div style="flex:2;background:#f0f0f0;border-radius:6px;padding:7px;text-align:center;font-size:10px;color:#888;">ปี พ.ศ.</div>
+        </div>
+
+        <!-- เวลาเกิด -->
+        <div style="font-size:10px;color:#555;margin-bottom:4px;">เวลาเกิด *</div>
+        <div style="display:flex;gap:6px;margin-bottom:12px;">
+          <div style="flex:1;background:#f0f0f0;border-radius:6px;padding:7px;text-align:center;font-size:10px;color:#888;">ชั่วโมง</div>
+          <div style="flex:1;background:#f0f0f0;border-radius:6px;padding:7px;text-align:center;font-size:10px;color:#888;">นาที</div>
+          <div style="flex:1;background:#f0f0f0;border-radius:6px;padding:7px;text-align:center;font-size:10px;color:#888;">เพศ</div>
+        </div>
+
+        <div style="background:#553c9a;color:white;border-radius:8px;padding:9px;text-align:center;font-size:12px;font-weight:bold;">
+          คำนวณดวง →
+        </div>
+      </div>
+
+      <!-- Section 2: Results (shown after compute) -->
+      <div style="background:white;border-radius:10px;padding:14px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,0.08);">
+
+        <!-- 八字 -->
+        <div style="font-size:9px;color:#aaa;letter-spacing:1px;margin-bottom:8px;">八字 BAZI — วันเกิด 6 ก.ย. 2528 เวลา 14:59</div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-bottom:12px;">
+          <div style="text-align:center;background:#f8f8f8;border-radius:6px;padding:6px;">
+            <div style="font-size:8px;color:#aaa;">時</div>
+            <div style="font-size:18px;font-weight:bold;color:#c53030;line-height:1.2;">庚</div>
+            <div style="font-size:13px;color:#c53030;">申</div>
+          </div>
+          <div style="text-align:center;background:#f8f8f8;border-radius:6px;padding:6px;">
+            <div style="font-size:8px;color:#aaa;">日</div>
+            <div style="font-size:18px;font-weight:bold;color:#b7791f;line-height:1.2;">戊</div>
+            <div style="font-size:13px;color:#b7791f;">午</div>
+          </div>
+          <div style="text-align:center;background:#f8f8f8;border-radius:6px;padding:6px;">
+            <div style="font-size:8px;color:#aaa;">月</div>
+            <div style="font-size:18px;font-weight:bold;color:#276749;line-height:1.2;">乙</div>
+            <div style="font-size:13px;color:#276749;">酉</div>
+          </div>
+          <div style="text-align:center;background:#f8f8f8;border-radius:6px;padding:6px;">
+            <div style="font-size:8px;color:#aaa;">年</div>
+            <div style="font-size:18px;font-weight:bold;color:#276749;line-height:1.2;">乙</div>
+            <div style="font-size:13px;color:#276749;">丑</div>
+          </div>
+        </div>
+
+        <!-- Natal 9-palace grid -->
+        <div style="font-size:9px;color:#aaa;letter-spacing:1px;margin-bottom:6px;">ผัง 9 วัง ณ วันเกิด — 陰遁 4 局</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-bottom:12px;">
+          <div style="background:#e9f5ee;border-radius:5px;padding:5px;text-align:center;">
+            <div style="font-size:7px;color:#555;margin-bottom:1px;">SE 巽4</div>
+            <div style="font-size:15px;font-weight:bold;color:#276749;line-height:1.1;">乙</div>
+            <div style="font-size:7px;color:#555;">天輔</div>
+            <div style="font-size:7px;color:#276749;">杜門</div>
+            <div style="font-size:7px;color:#888;">太陰</div>
+          </div>
+          <div style="background:#fce8e8;border-radius:5px;padding:5px;text-align:center;">
+            <div style="font-size:7px;color:#555;margin-bottom:1px;">S 離9</div>
+            <div style="font-size:15px;font-weight:bold;color:#c53030;line-height:1.1;">庚</div>
+            <div style="font-size:7px;color:#555;">天英</div>
+            <div style="font-size:7px;color:#c53030;">景門</div>
+            <div style="font-size:7px;color:#888;">白虎</div>
+          </div>
+          <div style="background:#fef3e2;border-radius:5px;padding:5px;text-align:center;">
+            <div style="font-size:7px;color:#555;margin-bottom:1px;">SW 坤2</div>
+            <div style="font-size:15px;font-weight:bold;color:#b7791f;line-height:1.1;">丙</div>
+            <div style="font-size:7px;color:#555;">天芮</div>
+            <div style="font-size:7px;color:#c53030;">死門</div>
+            <div style="font-size:7px;color:#888;">值符</div>
+          </div>
+          <div style="background:#e9f5ee;border-radius:5px;padding:5px;text-align:center;">
+            <div style="font-size:7px;color:#555;margin-bottom:1px;">E 震3</div>
+            <div style="font-size:15px;font-weight:bold;color:#276749;line-height:1.1;">甲</div>
+            <div style="font-size:7px;color:#555;">天沖</div>
+            <div style="font-size:7px;color:#276749;">傷門</div>
+            <div style="font-size:7px;color:#888;">六合</div>
+          </div>
+          <div style="background:#fff8f0;border-radius:5px;padding:5px;text-align:center;">
+            <div style="font-size:7px;color:#555;margin-bottom:1px;">中 5</div>
+            <div style="font-size:15px;font-weight:bold;color:#b7791f;line-height:1.1;">戊</div>
+            <div style="font-size:7px;color:#aaa;">—</div>
+          </div>
+          <div style="background:#e8eaf6;border-radius:5px;padding:5px;text-align:center;border:2px solid #553c9a;">
+            <div style="font-size:7px;color:#553c9a;font-weight:bold;margin-bottom:1px;">W 兌7 ⭐</div>
+            <div style="font-size:15px;font-weight:bold;color:#553c9a;line-height:1.1;">辛</div>
+            <div style="font-size:7px;color:#555;">天柱</div>
+            <div style="font-size:7px;color:#c53030;">驚門</div>
+            <div style="font-size:7px;color:#888;">騰蛇</div>
+          </div>
+          <div style="background:#fef3e2;border-radius:5px;padding:5px;text-align:center;">
+            <div style="font-size:7px;color:#555;margin-bottom:1px;">NE 艮8</div>
+            <div style="font-size:15px;font-weight:bold;color:#b7791f;line-height:1.1;">癸</div>
+            <div style="font-size:7px;color:#555;">天任</div>
+            <div style="font-size:7px;color:#276749;">生門</div>
+            <div style="font-size:7px;color:#888;">九地</div>
+          </div>
+          <div style="background:#ebf4ff;border-radius:5px;padding:5px;text-align:center;">
+            <div style="font-size:7px;color:#555;margin-bottom:1px;">N 坎1</div>
+            <div style="font-size:15px;font-weight:bold;color:#2c5282;line-height:1.1;">壬</div>
+            <div style="font-size:7px;color:#555;">天蓬</div>
+            <div style="font-size:7px;color:#276749;">休門</div>
+            <div style="font-size:7px;color:#888;">玄武</div>
+          </div>
+          <div style="background:#edf2f7;border-radius:5px;padding:5px;text-align:center;">
+            <div style="font-size:7px;color:#555;margin-bottom:1px;">NW 乾6</div>
+            <div style="font-size:15px;font-weight:bold;color:#4a5568;line-height:1.1;">丁</div>
+            <div style="font-size:7px;color:#555;">天心</div>
+            <div style="font-size:7px;color:#276749;">開門</div>
+            <div style="font-size:7px;color:#888;">九天</div>
+          </div>
+        </div>
+
+        <!-- 3 Palaces summary -->
+        <div style="background:#f8f4ff;border-radius:8px;padding:10px;border:1px solid #d6bcfa;">
+          <div style="font-size:10px;font-weight:bold;color:#553c9a;margin-bottom:6px;">วางชะตา — วังที่ 7 (ตะวันตก)</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;">
+            <span style="background:#553c9a;color:white;border-radius:4px;padding:2px 7px;font-size:9px;">戊 ดิน+</span>
+            <span style="background:#6b46c1;color:white;border-radius:4px;padding:2px 7px;font-size:9px;">ทิศ W</span>
+            <span style="background:#805ad5;color:white;border-radius:4px;padding:2px 7px;font-size:9px;">驚門 ช็อค</span>
+            <span style="background:#9f7aea;color:white;border-radius:4px;padding:2px 7px;font-size:9px;">騰蛇 เถิงเสอ</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Login CTA -->
+      <div style="background:linear-gradient(135deg,#553c9a,#4299e1);border-radius:10px;padding:14px;color:white;text-align:center;">
+        <div style="font-size:13px;font-weight:bold;margin-bottom:4px;">🔒 ต้องการบันทึกและหาฤกษ์?</div>
+        <div style="font-size:10px;opacity:0.85;margin-bottom:10px;">เข้าสู่ระบบเพื่อบันทึกดวงของคุณ<br>และค้นหาฤกษ์มงคลส่วนตัว</div>
+        <button style="background:white;color:#553c9a;border:none;border-radius:6px;padding:7px 20px;font-size:11px;font-weight:bold;cursor:pointer;">
+          เข้าสู่ระบบด้วย Google
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top:24px;">
+  <h3>สรุป Flow</h3>
+  <ul>
+    <li><strong>ไม่ login:</strong> เห็น GuestPage → กรอกวันเกิด → เห็น Natal Chart + 八字 + 3 วัง + Login CTA</li>
+    <li><strong>Login แล้ว (มีโปรไฟล์):</strong> Dashboard ปกติ (ผังปัจจุบัน, หาฤกษ์, โปรไฟล์)</li>
+    <li><strong>Login ใหม่ (ยังไม่มีโปรไฟล์):</strong> Onboarding → Dashboard</li>
+    <li><strong>ปุ่ม "เข้าสู่ระบบ" ใน GuestPage:</strong> ถ้า Login แล้วมีโปรไฟล์ → Dashboard; ถ้าไม่มี → Onboarding</li>
+  </ul>
+</div>
+
+<div class="options" style="margin-top:16px;">
+  <div class="option" data-choice="approve" onclick="toggleSelect(this)">
+    <div class="letter">✓</div>
+    <div class="content">
+      <h3>Design นี้โอเคแล้ว</h3>
+      <p>เริ่ม implement ได้เลย</p>
+    </div>
+  </div>
+  <div class="option" data-choice="revise" onclick="toggleSelect(this)">
+    <div class="letter">✎</div>
+    <div class="content">
+      <h3>ขอปรับอีกนิด</h3>
+      <p>บอกใน terminal ว่าอยากเปลี่ยนอะไร</p>
+    </div>
+  </div>
+</div>

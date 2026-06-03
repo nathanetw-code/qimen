@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Box, Text, VStack, Button } from '@chakra-ui/react'
 import { Component, type ReactNode } from 'react'
 import { useUserProfile } from './app/hooks/useUserProfile'
-import { LoginPage } from './app/pages/LoginPage'
+import { GuestPage } from './app/pages/GuestPage'
 import { OnboardingPage } from './app/pages/OnboardingPage'
 import { DashboardPage } from './app/pages/DashboardPage'
 import { AuspiciousTimingPage } from './app/pages/AuspiciousTimingPage'
@@ -32,29 +32,41 @@ export default function App() {
 
   if (loading) return null
 
-  if (!profile) {
+  // Not logged in → guest home page (no login required)
+  if (!user) {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/onboarding" element={<OnboardingPage onComplete={() => window.location.href = '/dashboard'} />} />
-          {/* Logged in but no profile yet → go to onboarding */}
-          <Route path="*" element={user ? <Navigate to="/onboarding" replace /> : <LoginPage />} />
+          <Route path="*" element={<GuestPage />} />
         </Routes>
       </BrowserRouter>
     )
   }
 
+  // Logged in but no profile yet → onboarding
+  if (!profile) {
+    return (
+      <BrowserRouter>
+        <Routes>
+          <Route path="/onboarding" element={<OnboardingPage redirectTo="/dashboard" />} />
+          <Route path="*" element={<Navigate to="/onboarding" replace />} />
+        </Routes>
+      </BrowserRouter>
+    )
+  }
+
+  // Full app
   return (
     <BrowserRouter>
       <Box pb="70px">
         <ErrorBoundary>
-        <Routes>
-          <Route path="/dashboard" element={<DashboardPage profile={profile} />} />
-          <Route path="/timing" element={<AuspiciousTimingPage profile={profile} />} />
-          <Route path="/profile" element={<ProfilePage profile={profile} onSignOut={() => setProfile(null)} />} />
-          <Route path="/onboarding" element={<OnboardingPage onComplete={() => window.location.href = '/profile'} />} />
-          <Route path="*" element={<Navigate to="/dashboard" replace />} />
-        </Routes>
+          <Routes>
+            <Route path="/dashboard" element={<DashboardPage profile={profile} />} />
+            <Route path="/timing" element={<AuspiciousTimingPage profile={profile} />} />
+            <Route path="/profile" element={<ProfilePage profile={profile} onSignOut={() => setProfile(null)} />} />
+            <Route path="/onboarding" element={<OnboardingPage initialProfile={profile} onSaved={setProfile} redirectTo="/profile" />} />
+            <Route path="*" element={<Navigate to="/dashboard" replace />} />
+          </Routes>
         </ErrorBoundary>
       </Box>
       <BottomNav />

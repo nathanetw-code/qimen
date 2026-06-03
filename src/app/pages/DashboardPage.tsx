@@ -8,6 +8,23 @@ import { DEITY_INFO, GATE_INFO, STAR_INFO } from '../types'
 import type { UserProfile, StarKey } from '../types'
 import { QimenChartGrid } from '../components/QimenChartGrid'
 
+const STEM_COLOR: Record<string, string> = {
+  '甲': 'green.700', '乙': 'green.600',
+  '丙': 'red.500',   '丁': 'red.400',
+  '戊': 'orange.600','己': 'orange.500',
+  '庚': 'gray.700',  '辛': 'gray.600',
+  '壬': 'blue.600',  '癸': 'blue.500',
+}
+const BRANCH_COLOR: Record<string, string> = {
+  '子': 'blue.600',  '丑': 'orange.600',
+  '寅': 'green.600', '卯': 'green.500',
+  '辰': 'orange.600','巳': 'red.400',
+  '午': 'red.500',   '未': 'orange.500',
+  '申': 'gray.600',  '酉': 'gray.500',
+  '戌': 'orange.700','亥': 'blue.500',
+}
+const PILLAR_LABEL = ['年', '月', '日', '時'] as const
+
 interface Props { profile: UserProfile }
 
 export function DashboardPage({ profile: { threePalaces: tp } }: Props) {
@@ -26,10 +43,47 @@ export function DashboardPage({ profile: { threePalaces: tp } }: Props) {
 
   return (
     <VStack spacing={4} p={4} align="stretch" maxW="md" mx="auto">
-      <HStack justify="space-between">
-        <Heading size="md">แผนผัง Qimen</Heading>
-        <Badge colorScheme="green">{hourLabel}</Badge>
+      {/* ── Header: date + time + dun/formation ── */}
+      <HStack justify="space-between" align="start">
+        <VStack align="start" spacing={0}>
+          <Heading size="md">แผนผัง Qimen</Heading>
+          <Text fontSize="xs" color="gray.500">
+            {currentHour.toLocaleDateString('th-TH', { day: 'numeric', month: 'short', year: 'numeric' })}
+          </Text>
+        </VStack>
+        <VStack align="end" spacing={1}>
+          <Badge colorScheme="green" fontSize="sm" px={2}>{hourLabel} น.</Badge>
+          {chart && (
+            <Badge colorScheme={chart.dun === '陽遁' ? 'red' : 'blue'} variant="solid" fontSize="10px">
+              {chart.dun} {chart.formation} 局
+            </Badge>
+          )}
+        </VStack>
       </HStack>
+
+      {/* ── Bazi (八字) four pillars ── */}
+      {chart && (
+        <Box p={3} borderWidth={1} borderRadius="lg" bg="gray.50">
+          <Text fontSize="10px" color="gray.400" mb={2} letterSpacing="wider">八字 BAZI</Text>
+          <Grid templateColumns="repeat(4, 1fr)" gap={1}>
+            {([...chart.bazi].reverse() as string[]).map((pillar, i) => {
+              const stem   = pillar[0] ?? ''
+              const branch = pillar[1] ?? ''
+              const label  = PILLAR_LABEL[3 - i]
+              return (
+                <VStack key={label} spacing={0} align="center"
+                  p={2} borderRadius="md" bg="white" borderWidth={1} borderColor="gray.100">
+                  <Text fontSize="9px" color="gray.400" fontWeight="bold">{label}</Text>
+                  <Text fontSize="22px" fontWeight="bold" lineHeight="1.2"
+                    color={STEM_COLOR[stem] ?? 'gray.700'}>{stem}</Text>
+                  <Text fontSize="16px" lineHeight="1.2"
+                    color={BRANCH_COLOR[branch] ?? 'gray.600'}>{branch}</Text>
+                </VStack>
+              )
+            })}
+          </Grid>
+        </Box>
+      )}
 
       <Tabs variant="soft-rounded" colorScheme="purple" size="sm">
         <TabList>

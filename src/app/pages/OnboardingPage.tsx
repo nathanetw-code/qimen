@@ -3,12 +3,17 @@ import {
   VStack, Heading, FormControl, FormLabel,
   Select, Button, Text, HStack, useToast,
 } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { saveUserProfile } from '../lib/auth'
 import { buildThreePalaces, buildEngineChartFromDate } from '../palaces/threePalaceCalculator'
-import type { Gender } from '../types'
+import type { Gender, UserProfile } from '../types'
 
-interface Props { onComplete: () => void }
+interface Props {
+  redirectTo: string
+  onSaved?: (profile: UserProfile) => void
+  initialProfile?: UserProfile
+}
 
 const THAI_MONTHS = [
   'มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน',
@@ -30,13 +35,21 @@ const HOURS = Array.from({ length: 24 }, (_, i) => i)
 // Minutes: every 15 min + 00/30 for common usage
 const MINUTES = Array.from({ length: 60 }, (_, i) => i)
 
-export function OnboardingPage({ onComplete }: Props) {
-  const [day,    setDay]    = useState('')
-  const [month,  setMonth]  = useState('')
-  const [yearCE, setYearCE] = useState('')
-  const [hour,   setHour]   = useState('')
-  const [minute, setMinute] = useState('')
-  const [gender, setGender] = useState<Gender>('male')
+export function OnboardingPage({ redirectTo, onSaved, initialProfile }: Props) {
+  const navigate = useNavigate()
+  // Parse existing profile into individual fields for pre-fill
+  const initDay    = initialProfile ? String(Number(initialProfile.birthDate.split('-')[2])) : ''
+  const initMonth  = initialProfile ? String(Number(initialProfile.birthDate.split('-')[1])) : ''
+  const initYear   = initialProfile ? initialProfile.birthDate.split('-')[0] : ''
+  const initHour   = initialProfile ? String(Number(initialProfile.birthTime.split(':')[0])) : ''
+  const initMinute = initialProfile ? String(Number(initialProfile.birthTime.split(':')[1])) : ''
+
+  const [day,    setDay]    = useState(initDay)
+  const [month,  setMonth]  = useState(initMonth)
+  const [yearCE, setYearCE] = useState(initYear)
+  const [hour,   setHour]   = useState(initHour)
+  const [minute, setMinute] = useState(initMinute)
+  const [gender, setGender] = useState<Gender>(initialProfile?.gender ?? 'male')
   const [saving, setSaving] = useState(false)
   const toast = useToast()
 
@@ -72,7 +85,17 @@ export function OnboardingPage({ onComplete }: Props) {
       const natalChart    = buildEngineChartFromDate(birthDateTime)
       const threePalaces  = buildThreePalaces(birthDateTime, natalChart)
       await saveUserProfile(session.user.id, birthDate, birthTime, gender, threePalaces)
-      onComplete()
+      if (onSaved) {
+        onSaved({
+          id: session.user.id,
+          birthDate,
+          birthTime,
+          gender,
+          threePalaces,
+          createdAt: initialProfile?.createdAt ?? new Date().toISOString(),
+        })
+      }
+      navigate(redirectTo)
     } catch (err) {
       console.error('Onboarding save error:', err)
       toast({ title: 'เกิดข้อผิดพลาด กรุณาลองใหม่', status: 'error' })
@@ -83,9 +106,11 @@ export function OnboardingPage({ onComplete }: Props) {
 
   return (
     <VStack minH="100vh" justify="center" spacing={6} p={8} maxW="sm" mx="auto">
-      <Heading size="lg">ข้อมูลส่วนตัว</Heading>
+      <Heading size="lg">{initialProfile ? 'แก้ไขข้อมูล' : 'ข้อมูลส่วนตัว'}</Heading>
       <Text color="gray.500" fontSize="sm" textAlign="center">
-        ใส่วันเวลาเกิดเพื่อคำนวณดวงชะตาส่วนตัวของคุณ
+        {initialProfile
+          ? 'แก้ไขวันเวลาเกิดเพื่อคำนวณดวงชะตาใหม่'
+          : 'ใส่วันเวลาเกิดเพื่อคำนวณดวงชะตาส่วนตัวของคุณ'}
       </Text>
 
       {/* ── วันเกิด ── */}
@@ -189,7 +214,7 @@ export function OnboardingPage({ onComplete }: Props) {
         isDisabled={!birthDate || !birthTime}
         onClick={handleSave}
       >
-        บันทึกและดูผล
+        {initialProfile ? 'บันทึกการแก้ไข' : 'บันทึกและดูผล'}
       </Button>
     </VStack>
   )

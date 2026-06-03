@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - heading "QimenAPP" [level=2] [ref=e4]
+    - paragraph [ref=e5]: ค้นพบดวงชะตาและหาฤกษ์มงคลด้วยวิชาฉีเหมินตุ่นเจีย
+    - button "เข้าสู่ระบบด้วย Google" [ref=e7] [cursor=pointer]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"

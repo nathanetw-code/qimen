@@ -1,4 +1,5 @@
 import { VStack, Heading, Box, Text, Badge, Button, Divider, HStack } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom'
 import { signOut } from '../lib/auth'
 import { DEITY_INFO, GATE_INFO } from '../types'
 import type { UserProfile } from '../types'
@@ -7,6 +8,7 @@ interface Props { profile: UserProfile; onSignOut: () => void }
 
 export function ProfilePage({ profile, onSignOut }: Props) {
   const { threePalaces: tp } = profile
+  const navigate = useNavigate()
 
   async function handleSignOut() {
     await signOut()
@@ -49,7 +51,7 @@ export function ProfilePage({ profile, onSignOut }: Props) {
             size="xs"
             colorScheme="purple"
             variant="outline"
-            onClick={() => window.location.href = '/onboarding'}
+            onClick={() => navigate('/onboarding')}
           >
             แก้ไข
           </Button>

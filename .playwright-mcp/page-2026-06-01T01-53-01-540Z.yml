@@ -1,0 +1,1090 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Navigate to home page" [ref=e5] [cursor=pointer]:
+        - /url: /en
+        - img "QiAdvisor Logo" [ref=e7]
+        - generic [ref=e8]: ADVISOR.AI
+      - generic [ref=e9]:
+        - link "Navigate to Home page" [ref=e10] [cursor=pointer]:
+          - /url: /en
+          - text: Home
+        - link "Navigate to Pricing page" [ref=e11] [cursor=pointer]:
+          - /url: /en/pricing
+          - text: Pricing
+        - link "Navigate to Articles page" [ref=e12] [cursor=pointer]:
+          - /url: /en/blog
+          - text: Articles
+        - button "Toggle Free Tools dropdown menu" [ref=e14]:
+          - generic [ref=e15]: Free Tools
+          - img [ref=e16]
+        - button "Toggle Horoscopes dropdown menu" [ref=e19]:
+          - generic [ref=e20]: Zodiac
+          - img [ref=e21]
+        - button "Toggle language selection menu" [ref=e24]:
+          - img [ref=e25]
+          - generic [ref=e27]: English
+          - img [ref=e28]
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - img "Hero section background image" [ref=e33]
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - paragraph [ref=e38]: Ancient Wisdom, Modern Clarity.
+            - heading "Your 2026 Chinese Zodiac Predictions" [level=1] [ref=e39]
+            - paragraph [ref=e40]: Discover your Chinese zodiac animal and explore detailed predictions for 2026. Each of the 12 zodiac animals has unique characteristics and fortune for the year ahead.
+          - generic [ref=e41]:
+            - generic [ref=e43]:
+              - link "View Rat (鼠) Chinese zodiac forecast" [ref=e44] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/rat
+                - generic [ref=e45]:
+                  - img "Rat" [ref=e47]
+                  - paragraph [ref=e49]:
+                    - generic [ref=e50]: Rat 鼠
+              - link "View Ox (牛) Chinese zodiac forecast" [ref=e51] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/ox
+                - generic [ref=e52]:
+                  - img "Ox" [ref=e54]
+                  - paragraph [ref=e56]:
+                    - generic [ref=e57]: Ox 牛
+              - link "View Tiger (虎) Chinese zodiac forecast" [ref=e58] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/tiger
+                - generic [ref=e59]:
+                  - img "Tiger" [ref=e61]
+                  - paragraph [ref=e63]:
+                    - generic [ref=e64]: Tiger 虎
+              - link "View Rabbit (兔) Chinese zodiac forecast" [ref=e65] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/rabbit
+                - generic [ref=e66]:
+                  - img "Rabbit" [ref=e68]
+                  - paragraph [ref=e70]:
+                    - generic [ref=e71]: Rabbit 兔
+              - link "View Dragon (龙) Chinese zodiac forecast" [ref=e72] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/dragon
+                - generic [ref=e73]:
+                  - img "Dragon" [ref=e75]
+                  - paragraph [ref=e77]:
+                    - generic [ref=e78]: Dragon 龙
+              - link "View Snake (蛇) Chinese zodiac forecast" [ref=e79] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/snake
+                - generic [ref=e80]:
+                  - img "Snake" [ref=e82]
+                  - paragraph [ref=e84]:
+                    - generic [ref=e85]: Snake 蛇
+              - link "View Horse (马) Chinese zodiac forecast" [ref=e86] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/horse
+                - generic [ref=e87]:
+                  - img "Horse" [ref=e89]
+                  - paragraph [ref=e91]:
+                    - generic [ref=e92]: Horse 马
+              - link "View Goat (羊) Chinese zodiac forecast" [ref=e93] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/goat
+                - generic [ref=e94]:
+                  - img "Goat" [ref=e96]
+                  - paragraph [ref=e98]:
+                    - generic [ref=e99]: Goat 羊
+              - link "View Monkey (猴) Chinese zodiac forecast" [ref=e100] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/monkey
+                - generic [ref=e101]:
+                  - img "Monkey" [ref=e103]
+                  - paragraph [ref=e105]:
+                    - generic [ref=e106]: Monkey 猴
+              - link "View Rooster (鸡) Chinese zodiac forecast" [ref=e107] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/rooster
+                - generic [ref=e108]:
+                  - img "Rooster" [ref=e110]
+                  - paragraph [ref=e112]:
+                    - generic [ref=e113]: Rooster 鸡
+              - link "View Dog (狗) Chinese zodiac forecast" [ref=e114] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/dog
+                - generic [ref=e115]:
+                  - img "Dog" [ref=e117]
+                  - paragraph [ref=e119]:
+                    - generic [ref=e120]: Dog 狗
+              - link "View Pig (猪) Chinese zodiac forecast" [ref=e121] [cursor=pointer]:
+                - /url: /en/chinese-zodiac-forecast/2026/pig
+                - generic [ref=e122]:
+                  - img "Pig" [ref=e124]
+                  - paragraph [ref=e126]:
+                    - generic [ref=e127]: Pig 猪
+            - generic [ref=e128]:
+              - generic [ref=e130]:
+                - img "Fire Horse 2026" [ref=e133]
+                - generic [ref=e134]:
+                  - 'heading "Fire Horse 2026: What This Fiery Year Means for Your Destiny and Success" [level=2] [ref=e135]'
+                  - separator [ref=e136]
+                  - list [ref=e137]:
+                    - listitem [ref=e138]:
+                      - generic [ref=e139]: •
+                      - generic [ref=e140]:
+                        - emphasis [ref=e141]: Yang Fire over Fire
+                        - text: → a year of passion, confidence, and decisive momentum
+                    - listitem [ref=e142]:
+                      - generic [ref=e143]: •
+                      - generic [ref=e144]: Rare alignment for rapid growth, leadership, and bold life direction
+                    - listitem [ref=e145]:
+                      - generic [ref=e146]: •
+                      - generic [ref=e147]: "Key risk: burnout and impulsive choices if energy is pushed without balance"
+                  - link "Read more about Fire Horse 2026 and what this fiery year means for your destiny and success" [ref=e149] [cursor=pointer]:
+                    - /url: /en/blog/fire-horse-2026-what-this-fiery-year-means-for-your-destiny-and-success
+                    - generic [ref=e150]: Explore Fire Horse 2026
+                    - img [ref=e151]
+              - generic [ref=e156]:
+                - img [ref=e159]
+                - generic [ref=e162]: Loading...
+          - generic [ref=e164]:
+            - generic [ref=e166]:
+              - heading "Latest insights" [level=2] [ref=e168]
+              - link "View all latest Chinese astrology insights and articles" [ref=e169] [cursor=pointer]:
+                - /url: /en/blog
+                - text: View All Insights
+            - generic [ref=e175]: Slide 1 of 0
+          - generic [ref=e176]:
+            - link "Register for Free Account - Access Chinese Astrology Tools" [ref=e178] [cursor=pointer]:
+              - /url: /en/auth/signup
+              - text: Register FREE Now
+            - link "Explore Free Chinese Astrology Tools" [ref=e180] [cursor=pointer]:
+              - /url: /en/free-tools
+              - text: Free Tools
+      - generic [ref=e184]:
+        - heading "Chinese Zodiac 2026" [level=2] [ref=e186]
+        - region [ref=e187]:
+          - generic [ref=e189]:
+            - group [ref=e190]:
+              - generic [ref=e191]:
+                - heading "Rat" [level=3] [ref=e193]
+                - img "Rat" [ref=e196]
+                - generic [ref=e197]:
+                  - generic [ref=e198]:
+                    - generic [ref=e199]: "Overall:"
+                    - generic [ref=e200]:
+                      - img [ref=e201]
+                      - img [ref=e203]
+                      - img [ref=e205]
+                      - img [ref=e207]
+                      - img [ref=e209]
+                  - generic [ref=e211]:
+                    - generic [ref=e212]:
+                      - generic [ref=e213]: "Wealth:"
+                      - generic [ref=e214]:
+                        - img [ref=e215]
+                        - img [ref=e217]
+                        - img [ref=e219]
+                        - img [ref=e221]
+                        - img [ref=e223]
+                    - generic [ref=e225]:
+                      - generic [ref=e226]: "Love:"
+                      - generic [ref=e227]:
+                        - img [ref=e228]
+                        - img [ref=e230]
+                        - img [ref=e232]
+                        - img [ref=e234]
+                        - img [ref=e236]
+                  - generic [ref=e238]:
+                    - generic [ref=e239]:
+                      - generic [ref=e240]: "Health:"
+                      - generic [ref=e241]:
+                        - img [ref=e242]
+                        - img [ref=e244]
+                        - img [ref=e246]
+                        - img [ref=e248]
+                        - img [ref=e250]
+                    - generic [ref=e252]:
+                      - generic [ref=e253]: "Career:"
+                      - generic [ref=e254]:
+                        - img [ref=e255]
+                        - img [ref=e257]
+                        - img [ref=e259]
+                        - img [ref=e261]
+                        - img [ref=e263]
+                - paragraph [ref=e265]: 2026 brings a direct clash with Tai Sui, marking a year of transformation and turbulence. While challenges in career and relationships arise, proactively embracing change—such as travel, job switching, or relocation—can turn chaos into opportunity.
+                - link "View detailed Rat Chinese zodiac forecast for 2026" [ref=e266] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/rat
+                  - text: Rat's 2026 Forecast
+            - group [ref=e267]:
+              - generic [ref=e268]:
+                - heading "Ox" [level=3] [ref=e270]
+                - img "Ox" [ref=e273]
+                - generic [ref=e274]:
+                  - generic [ref=e275]:
+                    - generic [ref=e276]: "Overall:"
+                    - generic [ref=e277]:
+                      - img [ref=e278]
+                      - img [ref=e280]
+                      - img [ref=e282]
+                      - img [ref=e284]
+                      - img [ref=e286]
+                  - generic [ref=e288]:
+                    - generic [ref=e289]:
+                      - generic [ref=e290]: "Wealth:"
+                      - generic [ref=e291]:
+                        - img [ref=e292]
+                        - img [ref=e294]
+                        - img [ref=e296]
+                        - img [ref=e298]
+                        - img [ref=e300]
+                    - generic [ref=e302]:
+                      - generic [ref=e303]: "Love:"
+                      - generic [ref=e304]:
+                        - img [ref=e305]
+                        - img [ref=e307]
+                        - img [ref=e309]
+                        - img [ref=e311]
+                        - img [ref=e313]
+                  - generic [ref=e315]:
+                    - generic [ref=e316]:
+                      - generic [ref=e317]: "Health:"
+                      - generic [ref=e318]:
+                        - img [ref=e319]
+                        - img [ref=e321]
+                        - img [ref=e323]
+                        - img [ref=e325]
+                        - img [ref=e327]
+                    - generic [ref=e329]:
+                      - generic [ref=e330]: "Career:"
+                      - generic [ref=e331]:
+                        - img [ref=e332]
+                        - img [ref=e334]
+                        - img [ref=e336]
+                        - img [ref=e338]
+                        - img [ref=e340]
+                - paragraph [ref=e342]: The Ox faces a 'Harm Tai Sui' year, bringing a mix of luck and friction. While noble people support your career growth, beware of gossip and office politics. Success comes from maintaining a low profile and emotional resilience.
+                - link "View detailed Ox Chinese zodiac forecast for 2026" [ref=e343] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/ox
+                  - text: Ox's 2026 Forecast
+            - group [ref=e344]:
+              - generic [ref=e345]:
+                - heading "Tiger" [level=3] [ref=e347]
+                - img "Tiger" [ref=e350]
+                - generic [ref=e351]:
+                  - generic [ref=e352]:
+                    - generic [ref=e353]: "Overall:"
+                    - generic [ref=e354]:
+                      - img [ref=e355]
+                      - img [ref=e357]
+                      - img [ref=e359]
+                      - img [ref=e361]
+                      - img [ref=e363]
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: "Wealth:"
+                      - generic [ref=e368]:
+                        - img [ref=e369]
+                        - img [ref=e371]
+                        - img [ref=e373]
+                        - img [ref=e375]
+                        - img [ref=e377]
+                    - generic [ref=e379]:
+                      - generic [ref=e380]: "Love:"
+                      - generic [ref=e381]:
+                        - img [ref=e382]
+                        - img [ref=e384]
+                        - img [ref=e386]
+                        - img [ref=e388]
+                        - img [ref=e390]
+                  - generic [ref=e392]:
+                    - generic [ref=e393]:
+                      - generic [ref=e394]: "Health:"
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - img [ref=e398]
+                        - img [ref=e400]
+                        - img [ref=e402]
+                        - img [ref=e404]
+                    - generic [ref=e406]:
+                      - generic [ref=e407]: "Career:"
+                      - generic [ref=e408]:
+                        - img [ref=e409]
+                        - img [ref=e411]
+                        - img [ref=e413]
+                        - img [ref=e415]
+                        - img [ref=e417]
+                - paragraph [ref=e419]: Tigers enter a year of 'Three Harmony' with the Horse, signaling strong career momentum and powerful alliances. This is a time to be ambitious and seize opportunities, though one must balance high energy with rest to avoid burnout.
+                - link "View detailed Tiger Chinese zodiac forecast for 2026" [ref=e420] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/tiger
+                  - text: Tiger's 2026 Forecast
+            - group [ref=e421]:
+              - generic [ref=e422]:
+                - heading "Rabbit" [level=3] [ref=e424]
+                - img "Rabbit" [ref=e427]
+                - generic [ref=e428]:
+                  - generic [ref=e429]:
+                    - generic [ref=e430]: "Overall:"
+                    - generic [ref=e431]:
+                      - img [ref=e432]
+                      - img [ref=e434]
+                      - img [ref=e436]
+                      - img [ref=e438]
+                      - img [ref=e440]
+                  - generic [ref=e442]:
+                    - generic [ref=e443]:
+                      - generic [ref=e444]: "Wealth:"
+                      - generic [ref=e445]:
+                        - img [ref=e446]
+                        - img [ref=e448]
+                        - img [ref=e450]
+                        - img [ref=e452]
+                        - img [ref=e454]
+                    - generic [ref=e456]:
+                      - generic [ref=e457]: "Love:"
+                      - generic [ref=e458]:
+                        - img [ref=e459]
+                        - img [ref=e461]
+                        - img [ref=e463]
+                        - img [ref=e465]
+                        - img [ref=e467]
+                  - generic [ref=e469]:
+                    - generic [ref=e470]:
+                      - generic [ref=e471]: "Health:"
+                      - generic [ref=e472]:
+                        - img [ref=e473]
+                        - img [ref=e475]
+                        - img [ref=e477]
+                        - img [ref=e479]
+                        - img [ref=e481]
+                    - generic [ref=e483]:
+                      - generic [ref=e484]: "Career:"
+                      - generic [ref=e485]:
+                        - img [ref=e486]
+                        - img [ref=e488]
+                        - img [ref=e490]
+                        - img [ref=e492]
+                        - img [ref=e494]
+                - paragraph [ref=e496]: Rabbits face a 'Destruction' relationship with Tai Sui, creating a mix of high popularity and potential interpersonal conflict. While social opportunities abound, caution is needed in relationships and contracts to avoid broken promises.
+                - link "View detailed Rabbit Chinese zodiac forecast for 2026" [ref=e497] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/rabbit
+                  - text: Rabbit's 2026 Forecast
+            - group [ref=e498]:
+              - generic [ref=e499]:
+                - heading "Dragon" [level=3] [ref=e501]
+                - img "Dragon" [ref=e504]
+                - generic [ref=e505]:
+                  - generic [ref=e506]:
+                    - generic [ref=e507]: "Overall:"
+                    - generic [ref=e508]:
+                      - img [ref=e509]
+                      - img [ref=e511]
+                      - img [ref=e513]
+                      - img [ref=e515]
+                      - img [ref=e517]
+                  - generic [ref=e519]:
+                    - generic [ref=e520]:
+                      - generic [ref=e521]: "Wealth:"
+                      - generic [ref=e522]:
+                        - img [ref=e523]
+                        - img [ref=e525]
+                        - img [ref=e527]
+                        - img [ref=e529]
+                        - img [ref=e531]
+                    - generic [ref=e533]:
+                      - generic [ref=e534]: "Love:"
+                      - generic [ref=e535]:
+                        - img [ref=e536]
+                        - img [ref=e538]
+                        - img [ref=e540]
+                        - img [ref=e542]
+                        - img [ref=e544]
+                  - generic [ref=e546]:
+                    - generic [ref=e547]:
+                      - generic [ref=e548]: "Health:"
+                      - generic [ref=e549]:
+                        - img [ref=e550]
+                        - img [ref=e552]
+                        - img [ref=e554]
+                        - img [ref=e556]
+                        - img [ref=e558]
+                    - generic [ref=e560]:
+                      - generic [ref=e561]: "Career:"
+                      - generic [ref=e562]:
+                        - img [ref=e563]
+                        - img [ref=e565]
+                        - img [ref=e567]
+                        - img [ref=e569]
+                        - img [ref=e571]
+                - paragraph [ref=e573]: 2026 is a year of support and resource accumulation for Dragons. With the Fire element nourishing your Earth, mentor luck is strong. It is an ideal time for learning, investment, and steady growth, provided you avoid complacency.
+                - link "View detailed Dragon Chinese zodiac forecast for 2026" [ref=e574] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/dragon
+                  - text: Dragon's 2026 Forecast
+            - group [ref=e575]:
+              - generic [ref=e576]:
+                - heading "Snake" [level=3] [ref=e578]
+                - img "Snake" [ref=e581]
+                - generic [ref=e582]:
+                  - generic [ref=e583]:
+                    - generic [ref=e584]: "Overall:"
+                    - generic [ref=e585]:
+                      - img [ref=e586]
+                      - img [ref=e588]
+                      - img [ref=e590]
+                      - img [ref=e592]
+                      - img [ref=e594]
+                  - generic [ref=e596]:
+                    - generic [ref=e597]:
+                      - generic [ref=e598]: "Wealth:"
+                      - generic [ref=e599]:
+                        - img [ref=e600]
+                        - img [ref=e602]
+                        - img [ref=e604]
+                        - img [ref=e606]
+                        - img [ref=e608]
+                    - generic [ref=e610]:
+                      - generic [ref=e611]: "Love:"
+                      - generic [ref=e612]:
+                        - img [ref=e613]
+                        - img [ref=e615]
+                        - img [ref=e617]
+                        - img [ref=e619]
+                        - img [ref=e621]
+                  - generic [ref=e623]:
+                    - generic [ref=e624]:
+                      - generic [ref=e625]: "Health:"
+                      - generic [ref=e626]:
+                        - img [ref=e627]
+                        - img [ref=e629]
+                        - img [ref=e631]
+                        - img [ref=e633]
+                        - img [ref=e635]
+                    - generic [ref=e637]:
+                      - generic [ref=e638]: "Career:"
+                      - generic [ref=e639]:
+                        - img [ref=e640]
+                        - img [ref=e642]
+                        - img [ref=e644]
+                        - img [ref=e646]
+                        - img [ref=e648]
+                - paragraph [ref=e650]: The Snake enjoys the 'Peach Blossom' star, bringing immense charm and popularity. While this benefits networking and romance, intense competition and the 'Rob Wealth' star require you to manage finances and relationships wisely.
+                - link "View detailed Snake Chinese zodiac forecast for 2026" [ref=e651] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/snake
+                  - text: Snake's 2026 Forecast
+            - group [ref=e652]:
+              - generic [ref=e653]:
+                - heading "Horse" [level=3] [ref=e655]
+                - img "Horse" [ref=e658]
+                - generic [ref=e659]:
+                  - generic [ref=e660]:
+                    - generic [ref=e661]: "Overall:"
+                    - generic [ref=e662]:
+                      - img [ref=e663]
+                      - img [ref=e665]
+                      - img [ref=e667]
+                      - img [ref=e669]
+                      - img [ref=e671]
+                  - generic [ref=e673]:
+                    - generic [ref=e674]:
+                      - generic [ref=e675]: "Wealth:"
+                      - generic [ref=e676]:
+                        - img [ref=e677]
+                        - img [ref=e679]
+                        - img [ref=e681]
+                        - img [ref=e683]
+                        - img [ref=e685]
+                    - generic [ref=e687]:
+                      - generic [ref=e688]: "Love:"
+                      - generic [ref=e689]:
+                        - img [ref=e690]
+                        - img [ref=e692]
+                        - img [ref=e694]
+                        - img [ref=e696]
+                        - img [ref=e698]
+                  - generic [ref=e700]:
+                    - generic [ref=e701]:
+                      - generic [ref=e702]: "Health:"
+                      - generic [ref=e703]:
+                        - img [ref=e704]
+                        - img [ref=e706]
+                        - img [ref=e708]
+                        - img [ref=e710]
+                        - img [ref=e712]
+                    - generic [ref=e714]:
+                      - generic [ref=e715]: "Career:"
+                      - generic [ref=e716]:
+                        - img [ref=e717]
+                        - img [ref=e719]
+                        - img [ref=e721]
+                        - img [ref=e723]
+                        - img [ref=e725]
+                - paragraph [ref=e727]: As it is their 'Ben Ming Nian' (Origin Year) and a Self-Penalty year, Horses face internal struggles and high pressure. Emotional management is key; patience and grounding activities will help navigate the turbulence and avoid self-sabotage.
+                - link "View detailed Horse Chinese zodiac forecast for 2026" [ref=e728] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/horse
+                  - text: Horse's 2026 Forecast
+            - group [ref=e729]:
+              - generic [ref=e730]:
+                - heading "Goat" [level=3] [ref=e732]
+                - img "Goat" [ref=e735]
+                - generic [ref=e736]:
+                  - generic [ref=e737]:
+                    - generic [ref=e738]: "Overall:"
+                    - generic [ref=e739]:
+                      - img [ref=e740]
+                      - img [ref=e742]
+                      - img [ref=e744]
+                      - img [ref=e746]
+                      - img [ref=e748]
+                  - generic [ref=e750]:
+                    - generic [ref=e751]:
+                      - generic [ref=e752]: "Wealth:"
+                      - generic [ref=e753]:
+                        - img [ref=e754]
+                        - img [ref=e756]
+                        - img [ref=e758]
+                        - img [ref=e760]
+                        - img [ref=e762]
+                    - generic [ref=e764]:
+                      - generic [ref=e765]: "Love:"
+                      - generic [ref=e766]:
+                        - img [ref=e767]
+                        - img [ref=e769]
+                        - img [ref=e771]
+                        - img [ref=e773]
+                        - img [ref=e775]
+                  - generic [ref=e777]:
+                    - generic [ref=e778]:
+                      - generic [ref=e779]: "Health:"
+                      - generic [ref=e780]:
+                        - img [ref=e781]
+                        - img [ref=e783]
+                        - img [ref=e785]
+                        - img [ref=e787]
+                        - img [ref=e789]
+                    - generic [ref=e791]:
+                      - generic [ref=e792]: "Career:"
+                      - generic [ref=e793]:
+                        - img [ref=e794]
+                        - img [ref=e796]
+                        - img [ref=e798]
+                        - img [ref=e800]
+                        - img [ref=e802]
+                - paragraph [ref=e804]: Goats are the luckiest sign in 2026, enjoying a 'Six Harmony' relationship with the Tai Sui. Opportunities come easily, and support from noble people is abundant. It is a fantastic year for partnerships, marriage, and achieving goals with less effort.
+                - link "View detailed Goat Chinese zodiac forecast for 2026" [ref=e805] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/goat
+                  - text: Goat's 2026 Forecast
+            - group [ref=e806]:
+              - generic [ref=e807]:
+                - heading "Monkey" [level=3] [ref=e809]
+                - img "Monkey" [ref=e812]
+                - generic [ref=e813]:
+                  - generic [ref=e814]:
+                    - generic [ref=e815]: "Overall:"
+                    - generic [ref=e816]:
+                      - img [ref=e817]
+                      - img [ref=e819]
+                      - img [ref=e821]
+                      - img [ref=e823]
+                      - img [ref=e825]
+                  - generic [ref=e827]:
+                    - generic [ref=e828]:
+                      - generic [ref=e829]: "Wealth:"
+                      - generic [ref=e830]:
+                        - img [ref=e831]
+                        - img [ref=e833]
+                        - img [ref=e835]
+                        - img [ref=e837]
+                        - img [ref=e839]
+                    - generic [ref=e841]:
+                      - generic [ref=e842]: "Love:"
+                      - generic [ref=e843]:
+                        - img [ref=e844]
+                        - img [ref=e846]
+                        - img [ref=e848]
+                        - img [ref=e850]
+                        - img [ref=e852]
+                  - generic [ref=e854]:
+                    - generic [ref=e855]:
+                      - generic [ref=e856]: "Health:"
+                      - generic [ref=e857]:
+                        - img [ref=e858]
+                        - img [ref=e860]
+                        - img [ref=e862]
+                        - img [ref=e864]
+                        - img [ref=e866]
+                    - generic [ref=e868]:
+                      - generic [ref=e869]: "Career:"
+                      - generic [ref=e870]:
+                        - img [ref=e871]
+                        - img [ref=e873]
+                        - img [ref=e875]
+                        - img [ref=e877]
+                        - img [ref=e879]
+                - paragraph [ref=e881]: For Monkeys, 2026 is a year of pressure and power. The 'Seven Killings' star brings challenges that, if handled well, lead to authority and career breakthroughs. Caution is advised regarding physical safety and accidental injuries.
+                - link "View detailed Monkey Chinese zodiac forecast for 2026" [ref=e882] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/monkey
+                  - text: Monkey's 2026 Forecast
+            - group [ref=e883]:
+              - generic [ref=e884]:
+                - heading "Rooster" [level=3] [ref=e886]
+                - img "Rooster" [ref=e889]
+                - generic [ref=e890]:
+                  - generic [ref=e891]:
+                    - generic [ref=e892]: "Overall:"
+                    - generic [ref=e893]:
+                      - img [ref=e894]
+                      - img [ref=e896]
+                      - img [ref=e898]
+                      - img [ref=e900]
+                      - img [ref=e902]
+                  - generic [ref=e904]:
+                    - generic [ref=e905]:
+                      - generic [ref=e906]: "Wealth:"
+                      - generic [ref=e907]:
+                        - img [ref=e908]
+                        - img [ref=e910]
+                        - img [ref=e912]
+                        - img [ref=e914]
+                        - img [ref=e916]
+                    - generic [ref=e918]:
+                      - generic [ref=e919]: "Love:"
+                      - generic [ref=e920]:
+                        - img [ref=e921]
+                        - img [ref=e923]
+                        - img [ref=e925]
+                        - img [ref=e927]
+                        - img [ref=e929]
+                  - generic [ref=e931]:
+                    - generic [ref=e932]:
+                      - generic [ref=e933]: "Health:"
+                      - generic [ref=e934]:
+                        - img [ref=e935]
+                        - img [ref=e937]
+                        - img [ref=e939]
+                        - img [ref=e941]
+                        - img [ref=e943]
+                    - generic [ref=e945]:
+                      - generic [ref=e946]: "Career:"
+                      - generic [ref=e947]:
+                        - img [ref=e948]
+                        - img [ref=e950]
+                        - img [ref=e952]
+                        - img [ref=e954]
+                        - img [ref=e956]
+                - paragraph [ref=e958]: Roosters shine with the 'True Peach Blossom' star, making this a year of romance and social spotlight. While popularity boosts career and love, maintaining focus and avoiding excessive indulgence in social life is essential.
+                - link "View detailed Rooster Chinese zodiac forecast for 2026" [ref=e959] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/rooster
+                  - text: Rooster's 2026 Forecast
+            - group [ref=e960]:
+              - generic [ref=e961]:
+                - heading "Dog" [level=3] [ref=e963]
+                - img "Dog" [ref=e966]
+                - generic [ref=e967]:
+                  - generic [ref=e968]:
+                    - generic [ref=e969]: "Overall:"
+                    - generic [ref=e970]:
+                      - img [ref=e971]
+                      - img [ref=e973]
+                      - img [ref=e975]
+                      - img [ref=e977]
+                      - img [ref=e979]
+                  - generic [ref=e981]:
+                    - generic [ref=e982]:
+                      - generic [ref=e983]: "Wealth:"
+                      - generic [ref=e984]:
+                        - img [ref=e985]
+                        - img [ref=e987]
+                        - img [ref=e989]
+                        - img [ref=e991]
+                        - img [ref=e993]
+                    - generic [ref=e995]:
+                      - generic [ref=e996]: "Love:"
+                      - generic [ref=e997]:
+                        - img [ref=e998]
+                        - img [ref=e1000]
+                        - img [ref=e1002]
+                        - img [ref=e1004]
+                        - img [ref=e1006]
+                  - generic [ref=e1008]:
+                    - generic [ref=e1009]:
+                      - generic [ref=e1010]: "Health:"
+                      - generic [ref=e1011]:
+                        - img [ref=e1012]
+                        - img [ref=e1014]
+                        - img [ref=e1016]
+                        - img [ref=e1018]
+                        - img [ref=e1020]
+                    - generic [ref=e1022]:
+                      - generic [ref=e1023]: "Career:"
+                      - generic [ref=e1024]:
+                        - img [ref=e1025]
+                        - img [ref=e1027]
+                        - img [ref=e1029]
+                        - img [ref=e1031]
+                        - img [ref=e1033]
+                - paragraph [ref=e1035]: Dogs enjoy a 'Three Harmony' year with steady progress indicated by the 'Three Stages' star. Career advancement and promotions are likely. While success is steady, feelings of loneliness may arise, so stay connected with others.
+                - link "View detailed Dog Chinese zodiac forecast for 2026" [ref=e1036] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/dog
+                  - text: Dog's 2026 Forecast
+            - group [ref=e1037]:
+              - generic [ref=e1038]:
+                - heading "Pig" [level=3] [ref=e1040]
+                - img "Pig" [ref=e1043]
+                - generic [ref=e1044]:
+                  - generic [ref=e1045]:
+                    - generic [ref=e1046]: "Overall:"
+                    - generic [ref=e1047]:
+                      - img [ref=e1048]
+                      - img [ref=e1050]
+                      - img [ref=e1052]
+                      - img [ref=e1054]
+                      - img [ref=e1056]
+                  - generic [ref=e1058]:
+                    - generic [ref=e1059]:
+                      - generic [ref=e1060]: "Wealth:"
+                      - generic [ref=e1061]:
+                        - img [ref=e1062]
+                        - img [ref=e1064]
+                        - img [ref=e1066]
+                        - img [ref=e1068]
+                        - img [ref=e1070]
+                    - generic [ref=e1072]:
+                      - generic [ref=e1073]: "Love:"
+                      - generic [ref=e1074]:
+                        - img [ref=e1075]
+                        - img [ref=e1077]
+                        - img [ref=e1079]
+                        - img [ref=e1081]
+                        - img [ref=e1083]
+                  - generic [ref=e1085]:
+                    - generic [ref=e1086]:
+                      - generic [ref=e1087]: "Health:"
+                      - generic [ref=e1088]:
+                        - img [ref=e1089]
+                        - img [ref=e1091]
+                        - img [ref=e1093]
+                        - img [ref=e1095]
+                        - img [ref=e1097]
+                    - generic [ref=e1099]:
+                      - generic [ref=e1100]: "Career:"
+                      - generic [ref=e1101]:
+                        - img [ref=e1102]
+                        - img [ref=e1104]
+                        - img [ref=e1106]
+                        - img [ref=e1108]
+                        - img [ref=e1110]
+                - paragraph [ref=e1112]: Pigs benefit from a 'Secret Combination' with Tai Sui, bringing hidden opportunities and strong wealth luck. Success often comes from behind the scenes. Focus on pragmatic financial planning to retain the wealth generated.
+                - link "View detailed Pig Chinese zodiac forecast for 2026" [ref=e1113] [cursor=pointer]:
+                  - /url: /en/chinese-zodiac-forecast/2026/pig
+                  - text: Pig's 2026 Forecast
+          - button "Previous slide" [disabled]:
+            - img
+            - generic: Previous slide
+          - button "Next slide" [disabled]:
+            - img
+            - generic: Next slide
+      - generic [ref=e1117]:
+        - heading "Featured Articles" [level=2] [ref=e1118]
+        - paragraph [ref=e1119]: Discover featured articles about Chinese astrology and Bazi analysis
+      - generic [ref=e1154]:
+        - generic [ref=e1155]:
+          - heading "Today's Fast-Paced, Hyperconnected World" [level=2] [ref=e1156]
+          - paragraph [ref=e1157]: Many people are navigating life without a clear sense of timing, direction, or energy alignment. They're doing everything they're supposed to, but still feel stuck, overwhelmed, or out of sync.
+          - paragraph [ref=e1158]: "Here's what recent studies show:"
+        - generic [ref=e1159]:
+          - generic [ref=e1160]:
+            - generic [ref=e1161]: 63%
+            - paragraph [ref=e1162]: of people say they don't feel they're living up to their full potential
+          - generic [ref=e1163]:
+            - generic [ref=e1164]: 70%
+            - paragraph [ref=e1165]: report feeling mentally overloaded or burnt out
+          - generic [ref=e1166]:
+            - generic [ref=e1167]: 54%
+            - paragraph [ref=e1168]: don't feel in control of their time or direction
+          - generic [ref=e1169]:
+            - generic [ref=e1170]: 42%
+            - paragraph [ref=e1171]: of Gen Zs say they struggle to feel optimistic about the future
+          - generic [ref=e1172]:
+            - generic [ref=e1173]: 1 in 3
+            - paragraph [ref=e1174]: people feel disconnected from their closest relationships
+        - generic [ref=e1175]:
+          - heading "It Doesn't Have to Be This Way" [level=3] [ref=e1176]
+          - paragraph [ref=e1177]: When you understand your personal timing, energy flow, and life cycles, everything starts to feel more aligned. QiAdvisor helps you reconnect with your natural rhythm - so you can make better decisions, feel more grounded, and move forward with clarity.
+          - link "Create Free Profile - Start Your Chinese Astrology Journey" [ref=e1179] [cursor=pointer]:
+            - /url: /en/auth/signup
+            - text: Create My Free Profile
+      - generic [ref=e1181]:
+        - img "Hero section background image" [ref=e1182]
+        - generic [ref=e1185]:
+          - generic [ref=e1186]:
+            - heading "What Can QiAdvisor Help With?" [level=2] [ref=e1187]
+            - paragraph [ref=e1188]: "Choose your focus today:"
+          - generic [ref=e1189]:
+            - generic [ref=e1190]:
+              - heading "Career & Purpose" [level=3] [ref=e1191]
+              - paragraph [ref=e1192]: Discover your professional path and unlock your true potential
+            - generic [ref=e1193]:
+              - heading "Relationships & Love" [level=3] [ref=e1194]
+              - paragraph [ref=e1195]: Navigate connections and find deeper understanding
+            - generic [ref=e1196]:
+              - heading "Emotional Balance & Wellbeing" [level=3] [ref=e1197]
+              - paragraph [ref=e1198]: Find inner peace and emotional harmony
+            - generic [ref=e1199]:
+              - heading "Big Decisions & Timing" [level=3] [ref=e1200]
+              - paragraph [ref=e1201]: Make confident choices at the right moments
+            - generic [ref=e1202]:
+              - heading "Personal Growth & Insight" [level=3] [ref=e1203]
+              - paragraph [ref=e1204]: Deepen self-awareness and personal development
+          - paragraph [ref=e1206]: Each path gives you tailored daily guidance, timing tools, and personal insight based on your unique birth data.
+      - generic [ref=e1210]:
+        - generic [ref=e1211]:
+          - heading "Your Personalized Qi Flow Calendar" [level=2] [ref=e1212]
+          - paragraph [ref=e1213]: Every day has a different energetic rhythm.
+          - paragraph [ref=e1214]: Our calendar shows you which days are best for action, reflection, rest, or breakthroughs—personalized to your personal chart.
+          - generic [ref=e1215]:
+            - generic [ref=e1216]:
+              - img [ref=e1217]
+              - generic [ref=e1219]: See daily opportunities and caution zones
+            - generic [ref=e1220]:
+              - img [ref=e1221]
+              - generic [ref=e1223]: Spot your best timing windows
+            - generic [ref=e1224]:
+              - img [ref=e1225]
+              - generic [ref=e1227]: Wake up with clarity and alignment
+          - paragraph [ref=e1228]:
+            - text: You'll also receive a Monthly Outlook to help you plan important events, career moves, or personal milestones with greater foresight.
+            - link "Try free Qimen Dunjia calculator" [ref=e1229] [cursor=pointer]:
+              - /url: /en/free-tools/qimen-dunjia
+              - text: Try our free Qimen Dunjia calculator
+            - text: to explore daily energy patterns.
+          - generic [ref=e1230]:
+            - link "View Pricing Plans - Choose Your Chinese Astrology Plan" [ref=e1231] [cursor=pointer]:
+              - /url: /en/pricing
+              - text: See Plans →
+            - link "Explore Free Chinese Astrology Tools" [ref=e1232] [cursor=pointer]:
+              - /url: /en/free-tools
+              - text: Free Tools
+        - generic [ref=e1234]:
+          - heading "Sample Daily Calendar" [level=3] [ref=e1235]
+          - generic [ref=e1236]:
+            - generic [ref=e1237]: Sun
+            - generic [ref=e1238]: Mon
+            - generic [ref=e1239]: Tue
+            - generic [ref=e1240]: Wed
+            - generic [ref=e1241]: Thu
+            - generic [ref=e1242]: Fri
+            - generic [ref=e1243]: Sat
+            - generic: "1"
+            - generic: "2"
+            - generic: "3"
+            - generic: "4"
+            - generic: "5"
+            - generic: "6"
+            - generic: "7"
+            - generic: "8"
+            - generic: "9"
+            - generic: "10"
+            - generic: "11"
+            - generic: "12"
+            - generic: "13"
+            - generic: "14"
+            - generic: "15"
+            - generic: "16"
+            - generic: "17"
+            - generic: "18"
+            - generic: "19"
+            - generic: "20"
+            - generic: "21"
+            - generic: "22"
+            - generic: "23"
+            - generic: "24"
+            - generic: "25"
+            - generic: "26"
+            - generic: "27"
+            - generic: "28"
+            - generic: "29"
+            - generic: "30"
+            - generic: "31"
+          - generic [ref=e1244]:
+            - generic [ref=e1247]: Peak Energy
+            - generic [ref=e1250]: Good Timing
+      - generic [ref=e1252]:
+        - img "Hero section background image" [ref=e1253]
+        - generic [ref=e1256]:
+          - generic [ref=e1257]:
+            - heading "Ask Your QiAdvisor AI Coach Anything" [level=2] [ref=e1258]
+            - paragraph [ref=e1259]: Confused? Overthinking? Not sure what move to make?
+            - paragraph [ref=e1260]: Just ask.
+          - generic [ref=e1261]:
+            - img "QiAdvisor AI Chat Interface - Get personalized guidance instantly" [ref=e1265]
+            - generic [ref=e1266]:
+              - generic [ref=e1267]:
+                - paragraph [ref=e1269]: "\"Should I make this move now?\""
+                - paragraph [ref=e1271]: "\"Why do I feel stuck lately?\""
+                - paragraph [ref=e1273]: "\"When is the right time to reach out to them?\""
+              - generic [ref=e1274]:
+                - paragraph [ref=e1275]: QiAdvisor's AI coach uses your chart, timing cycles, and energy flow to respond with meaningful, practical answers.
+                - paragraph [ref=e1276]: Included in all plans. Try 3 questions free.
+      - generic [ref=e1279]:
+        - generic [ref=e1280]:
+          - heading "What Powers QiAdvisor?" [level=2] [ref=e1281]
+          - paragraph [ref=e1282]: We combine the best of traditional metaphysics with smart technology—so you don't have to study anything to benefit.
+        - generic [ref=e1283]:
+          - generic [ref=e1284]:
+            - img [ref=e1286]
+            - heading "BaZi" [level=3] [ref=e1288]
+            - paragraph [ref=e1289]: Understand your strengths, life cycles & personal path
+          - generic [ref=e1290]:
+            - img [ref=e1292]
+            - heading "Qi Men Dun Jia" [level=3] [ref=e1294]
+            - paragraph [ref=e1295]: Strategic timing tools based on energy flow
+          - generic [ref=e1296]:
+            - img [ref=e1298]
+            - heading "Feng Shui" [level=3] [ref=e1300]
+            - paragraph [ref=e1301]: Optimize your space to support your goals
+          - generic [ref=e1302]:
+            - img [ref=e1304]
+            - heading "AI Insight Engine" [level=3] [ref=e1306]
+            - paragraph [ref=e1307]: Makes ancient wisdom instant & personalized
+      - generic [ref=e1310]:
+        - heading "What Users Are Saying" [level=2] [ref=e1312]
+        - generic [ref=e1313]:
+          - generic [ref=e1314]:
+            - generic [ref=e1315]:
+              - img "Sarah Chen" [ref=e1317]
+              - generic [ref=e1318]:
+                - generic [ref=e1319]:
+                  - img [ref=e1320]
+                  - img [ref=e1322]
+                  - img [ref=e1324]
+                  - img [ref=e1326]
+                  - img [ref=e1328]
+                - paragraph [ref=e1330]: Sarah Chen
+            - paragraph [ref=e1331]: "\"I stopped second-guessing myself. QiAdvisor gives me timing confidence every day.\""
+          - generic [ref=e1332]:
+            - generic [ref=e1333]:
+              - img "Michael Rodriguez" [ref=e1335]
+              - generic [ref=e1336]:
+                - generic [ref=e1337]:
+                  - img [ref=e1338]
+                  - img [ref=e1340]
+                  - img [ref=e1342]
+                  - img [ref=e1344]
+                  - img [ref=e1346]
+                - paragraph [ref=e1348]: Michael Rodriguez
+            - paragraph [ref=e1349]: "\"The calendar is like a guide I never knew I needed.\""
+          - generic [ref=e1350]:
+            - generic [ref=e1351]:
+              - img "Emma Liu" [ref=e1353]
+              - generic [ref=e1354]:
+                - generic [ref=e1355]:
+                  - img [ref=e1356]
+                  - img [ref=e1358]
+                  - img [ref=e1360]
+                  - img [ref=e1362]
+                  - img [ref=e1364]
+                - paragraph [ref=e1366]: Emma Liu
+            - paragraph [ref=e1367]: "\"It helped me understand what season of life I'm in—and how to move with it.\""
+      - generic [ref=e1370]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e1372]
+        - generic [ref=e1373]:
+          - group [ref=e1375]:
+            - generic "What is Bazi (Four Pillars of Destiny)?" [ref=e1376] [cursor=pointer]:
+              - heading "What is Bazi (Four Pillars of Destiny)?" [level=3] [ref=e1377]
+              - img [ref=e1378]
+          - group [ref=e1381]:
+            - generic "How does the Bazi calculator work?" [ref=e1382] [cursor=pointer]:
+              - heading "How does the Bazi calculator work?" [level=3] [ref=e1383]
+              - img [ref=e1384]
+          - group [ref=e1387]:
+            - generic "What information do I need to calculate my Bazi?" [ref=e1388] [cursor=pointer]:
+              - heading "What information do I need to calculate my Bazi?" [level=3] [ref=e1389]
+              - img [ref=e1390]
+          - group [ref=e1393]:
+            - generic "What is Qi Men Dun Jia?" [ref=e1394] [cursor=pointer]:
+              - heading "What is Qi Men Dun Jia?" [level=3] [ref=e1395]
+              - img [ref=e1396]
+          - group [ref=e1399]:
+            - generic "How accurate are the predictions?" [ref=e1400] [cursor=pointer]:
+              - heading "How accurate are the predictions?" [level=3] [ref=e1401]
+              - img [ref=e1402]
+          - group [ref=e1405]:
+            - generic "What's included in the free plan?" [ref=e1406] [cursor=pointer]:
+              - heading "What's included in the free plan?" [level=3] [ref=e1407]
+              - img [ref=e1408]
+          - group [ref=e1411]:
+            - generic "What's the difference between free and paid plans?" [ref=e1412] [cursor=pointer]:
+              - heading "What's the difference between free and paid plans?" [level=3] [ref=e1413]
+              - img [ref=e1414]
+          - group [ref=e1417]:
+            - generic "How does the AI chat work?" [ref=e1418] [cursor=pointer]:
+              - heading "How does the AI chat work?" [level=3] [ref=e1419]
+              - img [ref=e1420]
+          - group [ref=e1423]:
+            - generic "How many chat messages do I get?" [ref=e1424] [cursor=pointer]:
+              - heading "How many chat messages do I get?" [level=3] [ref=e1425]
+              - img [ref=e1426]
+          - group [ref=e1429]:
+            - generic "Can I try before purchasing?" [ref=e1430] [cursor=pointer]:
+              - heading "Can I try before purchasing?" [level=3] [ref=e1431]
+              - img [ref=e1432]
+        - button "Show All FAQs" [ref=e1435]:
+          - text: Show All FAQs
+          - img [ref=e1436]
+      - paragraph [ref=e1442]: QiAdvisor combines traditional Chinese metaphysics (BaZi, Qi Men Dun Jia) with modern data modeling and AI pattern analysis. Interpretations are for guidance and self-reflection.
+      - navigation "Quick navigation links" [ref=e1446]:
+        - generic [ref=e1447]:
+          - link "Calculate your Bazi chart" [ref=e1449] [cursor=pointer]:
+            - /url: /en/bazi/calculate
+            - text: Bazi Calculator
+          - link "Free Bazi chart generator" [ref=e1451] [cursor=pointer]:
+            - /url: /en/free-tools/bazi-chart
+            - text: Free Bazi Chart Generator
+          - link "Free Qimen Dunjia calculator" [ref=e1453] [cursor=pointer]:
+            - /url: /en/free-tools/qimen-dunjia
+            - text: Qimen Dunjia Chart
+          - link "View subscription plans" [ref=e1455] [cursor=pointer]:
+            - /url: /en/pricing
+            - text: Pricing
+          - link "Read Chinese astrology articles" [ref=e1457] [cursor=pointer]:
+            - /url: /en/blog
+            - text: Articles
+          - link "Chinese zodiac horoscope 2026" [ref=e1459] [cursor=pointer]:
+            - /url: /en/chinese-zodiac-forecast/2026
+            - text: Chinese Zodiac 2026
+  - contentinfo [ref=e1460]:
+    - generic [ref=e1461]:
+      - generic [ref=e1462]:
+        - generic [ref=e1463]:
+          - generic [ref=e1464]:
+            - img "QiAdvisor Logo" [ref=e1466]
+            - generic [ref=e1467]: ADVISOR.AI
+          - paragraph [ref=e1468]: Your trusted companion for Bazi analysis and Chinese metaphysics insights. Discover your destiny through ancient wisdom and modern technology.
+          - generic [ref=e1469]:
+            - link "Follow us on Instagram" [ref=e1470] [cursor=pointer]:
+              - /url: https://www.instagram.com/qiadvisor/
+              - generic [ref=e1471]: 
+            - link "Follow us on Facebook" [ref=e1472] [cursor=pointer]:
+              - /url: https://www.facebook.com/QiAdvisor
+              - generic [ref=e1473]: 
+            - link "Follow us on TikTok" [ref=e1474] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@qiadvisor
+              - generic [ref=e1475]: 
+            - link "Follow us on Pinterest" [ref=e1476] [cursor=pointer]:
+              - /url: https://www.pinterest.com/qiadvisorai/_pins/
+              - generic [ref=e1477]: 
+        - generic [ref=e1478]:
+          - heading "Contact Us" [level=3] [ref=e1479]
+          - list [ref=e1480]:
+            - listitem [ref=e1481]:
+              - link "Send email to info@qiadvisor.ai" [ref=e1482] [cursor=pointer]:
+                - /url: mailto:info@qiadvisor.ai
+                - text: info@qiadvisor.ai
+            - listitem [ref=e1483]: Available 24/7
+        - generic [ref=e1484]:
+          - heading "Legal" [level=3] [ref=e1485]
+          - list [ref=e1486]:
+            - listitem [ref=e1487]:
+              - link "Read privacy policy" [ref=e1488] [cursor=pointer]:
+                - /url: /en/privacy
+                - text: Privacy Policy
+            - listitem [ref=e1489]:
+              - link "Read terms and conditions" [ref=e1490] [cursor=pointer]:
+                - /url: /en/terms
+                - text: Terms & Conditions
+      - generic [ref=e1492]:
+        - paragraph [ref=e1493]: © 2026 QiAdvisor.ai. All rights reserved.
+        - generic [ref=e1494]:
+          - link "Read privacy policy" [ref=e1495] [cursor=pointer]:
+            - /url: /en/privacy
+            - text: Privacy
+          - link "Read terms and conditions" [ref=e1496] [cursor=pointer]:
+            - /url: /en/terms
+            - text: Terms
+  - alert [ref=e1497]

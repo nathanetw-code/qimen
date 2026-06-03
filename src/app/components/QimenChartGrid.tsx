@@ -5,6 +5,17 @@ import { Box, Grid, GridItem, Text, VStack, HStack, Badge } from '@chakra-ui/rea
 import type { EngineChart } from '../palaces/threePalaceCalculator'
 import type { PalaceNumber, GateKey } from '../types'
 import { PALACE_DIR_SHORT, PALACE_TRIGRAM, GATE_INFO } from '../types'
+import { StrengthUtil } from '../../util/StrengthUtil'
+import type { 宮位, 九星, 八門 } from '../../qimen/type'
+
+const PALACE_NAME: Record<PalaceNumber, 宮位> = {
+  1: '坎一宮', 2: '坤二宮', 3: '震三宮', 4: '巽四宮', 5: '中五宮',
+  6: '乾六宮', 7: '兌七宮', 8: '艮八宮', 9: '離九宮',
+}
+
+const STAR_STRENGTH_COLOR: Record<string, string> = {
+  旺: 'green.600', 相: 'teal.500', 休: 'gray.500', 囚: 'orange.500', 廢: 'red.500',
+}
 
 // Luoshu layout: Row1 = SE/S/SW, Row2 = E/C/W, Row3 = NE/N/NW
 const PALACE_ORDER: PalaceNumber[] = [4, 9, 2, 3, 5, 7, 8, 1, 6]
@@ -126,6 +137,9 @@ export function QimenChartGrid({ chart, highlightPalace }: Props) {
             const isHorse    = chart.isHorse[idx]
 
             const gateAuspicious = GATE_INFO[gate as GateKey]?.auspicious ?? false
+            const palaceName = PALACE_NAME[p]
+            const starStr = star ? StrengthUtil.starStrength(star as 九星, palaceName) : null
+            const doorStr = gate ? StrengthUtil.doorStrength(gate as 八門, palaceName) : null
 
             return (
               <GridItem
@@ -184,25 +198,37 @@ export function QimenChartGrid({ chart, highlightPalace }: Props) {
                   地 {earthStem}
                 </Text>
 
-                {/* Nine star */}
-                <Text
-                  fontSize="9px"
-                  lineHeight="1.5"
-                  color={STAR_COLOR[star] ?? 'teal.600'}
-                  fontWeight={star === '天心' ? 'bold' : 'normal'}
-                >
-                  {star}
-                </Text>
+                {/* Nine star + strength */}
+                <HStack justify="center" spacing={0.5}>
+                  <Text
+                    fontSize="9px"
+                    lineHeight="1.5"
+                    color={STAR_COLOR[star] ?? 'teal.600'}
+                    fontWeight={star === '天心' ? 'bold' : 'normal'}
+                  >
+                    {star}
+                  </Text>
+                  {starStr && (
+                    <Text fontSize="7px" color={STAR_STRENGTH_COLOR[starStr] ?? 'gray.400'}>
+                      {starStr}
+                    </Text>
+                  )}
+                </HStack>
 
-                {/* Gate — green if auspicious, red if not */}
-                <Text
-                  fontSize="9px"
-                  lineHeight="1.5"
-                  color={gateAuspicious ? 'green.600' : 'red.500'}
-                  fontWeight={gateAuspicious ? 'bold' : 'normal'}
-                >
-                  {gate}
-                </Text>
+                {/* Gate — green if auspicious, red if not + door strength */}
+                <HStack justify="center" spacing={0.5}>
+                  <Text
+                    fontSize="9px"
+                    lineHeight="1.5"
+                    color={gateAuspicious ? 'green.600' : 'red.500'}
+                    fontWeight={gateAuspicious ? 'bold' : 'normal'}
+                  >
+                    {gate}
+                  </Text>
+                  {doorStr && (
+                    <Text fontSize="7px" color="gray.400">{doorStr}</Text>
+                  )}
+                </HStack>
 
                 {/* Deity */}
                 <Text

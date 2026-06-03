@@ -1,4 +1,7 @@
 import type { ActivityType, AuspiciousHour } from '../types'
+import { AstrologicalTimeUtil } from '../../qimen/AstrologicalTimeUtil'
+import type { TimeType } from '../../qimen/AstrologicalTimeUtil'
+import type { 天干, 地支 } from '../../qimen/type'
 
 export interface PalaceSnapshot {
   gate: string
@@ -7,12 +10,16 @@ export interface PalaceSnapshot {
   heavenStem: string
   earthStem: string
   hasVoid: boolean
+  dayStem?: string
+  hourStem?: string
+  hourBranch?: string
 }
 
 interface ScoreResult {
   total: number
   reasons: string[]
   warnings: string[]
+  timeType: TimeType
 }
 
 const GOOD_GATES_BY_ACTIVITY: Record<ActivityType, string[]> = {
@@ -88,7 +95,27 @@ export function scoreHour(
     warnings.push('วังว่าง (Void) — พลังงานอ่อนแอ')
   }
 
-  return { total, reasons, warnings }
+  // Astrological time quality check
+  let timeType: TimeType = null
+  if (palace.dayStem && palace.hourStem && palace.hourBranch) {
+    timeType = AstrologicalTimeUtil.getType(
+      palace.dayStem as 天干,
+      palace.hourStem as 天干,
+      palace.hourBranch as 地支,
+    )
+    if (timeType === '天顯時格') {
+      total += 3
+      reasons.push('天顯時格 — ชั่วโมงมงคลพิเศษ')
+    } else if (timeType === '五不遇時') {
+      total -= 3
+      warnings.push('五不遇時 — เวลาที่ไม่เป็นมงคล')
+    } else if (timeType === '時干入墓') {
+      total -= 2
+      warnings.push('時干入墓 — พลังงานชั่วโมงถูกกดทับ')
+    }
+  }
+
+  return { total, reasons, warnings, timeType }
 }
 
 export function getLevel(score: number): AuspiciousHour['level'] {
